@@ -26,24 +26,24 @@
 #     "主治医师", "副主任医师", "主任医师", "住院医师", "医联体", "医共体", "分级诊疗", "双向转诊", "家庭医生", "签约医生"
 # ]
 #
-# # 1. 读取文本
+# #读取文本
 # with open('医疗内容.txt', 'r', encoding='utf-8') as f:
 #     text = f.read()
 #
-# # 2. 去除英文数字
+# # 去除英文数字
 # text = re.sub(r'[a-zA-Z0-9]', '', text)
 #
-# # 3. 分词
+# #分词
 # words = jieba.cut(text)
 # words = [w for w in words if len(w) > 1]  # 过滤单字词
 #
-# # 4. 只保留医疗关键词里的词
+# #只保留医疗关键词里的词
 # filtered_words = [w for w in words if w in medical_keywords]
 #
-# # 5. 统计词频
+# # 统计词频
 # word_counts = Counter(filtered_words)
 #
-# # 6. 生成词云
+# # 生成词云
 # wc = WordCloud(
 #     font_path='msyh.ttc',
 #     width=1200,
@@ -52,7 +52,7 @@
 # )
 # wc.generate_from_frequencies(word_counts)
 #
-# # 7. 显示和保存
+# # 显示和保存
 # plt.imshow(wc, interpolation='bilinear')
 # plt.axis('off')
 # plt.show()
@@ -74,29 +74,29 @@ with open('医学关键词.txt', 'r', encoding='utf-8') as f:
         word = line.split('\t')[0].strip()
         if word:
             medical_keywords.append(word)
-# 读取文本
+#读取文本
 with open('医疗内容.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 
-# 去除英文数字
+#去除英文数字
 text = re.sub(r'[a-zA-Z0-9]', '', text)
 
-# 分词，过滤单字词
+#分词，过滤单字词
 import jieba
 words = jieba.cut(text)
 words = [w for w in words if len(w) > 1]
 
-# 过滤医疗关键词
+#过滤医疗关键词
 filtered_words = [w for w in words if w in medical_keywords]
 
-# 统计词频
+#统计词频
 from collections import Counter
 word_counts = Counter(filtered_words)
 
-# 生成词频列表，格式符合ECharts需要
+#生成词频列表，格式符合ECharts需要
 word_freq_list = [{"name": k, "value": v} for k, v in word_counts.items()]
 
-# 导出为JSON文件
+#导出为JSON文件
 with open('word_freq.json', 'w', encoding='utf-8') as f_out:
     json.dump(word_freq_list, f_out, ensure_ascii=False, indent=2)
 
