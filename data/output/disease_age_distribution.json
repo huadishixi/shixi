@@ -1,0 +1,395 @@
+{
+  "total_by_age": {
+    "60–64岁": 17961,
+    "65–69岁": 21996,
+    "70–74岁": 19817,
+    "75–79岁": 14853,
+    "80–84岁": 12126,
+    "85–89岁": 8143,
+    "90–94岁": 2281,
+    "95–99岁": 2383,
+    "100–104岁": 440
+  },
+  "disease_distribution": {
+    "高血压": {
+      "60–64岁": {
+        "count": 3920,
+        "percentage": 21.83
+      },
+      "65–69岁": {
+        "count": 5997,
+        "percentage": 27.26
+      },
+      "70–74岁": {
+        "count": 6398,
+        "percentage": 32.29
+      },
+      "75–79岁": {
+        "count": 5436,
+        "percentage": 36.6
+      },
+      "80–84岁": {
+        "count": 5018,
+        "percentage": 41.38
+      },
+      "85–89岁": {
+        "count": 3851,
+        "percentage": 47.29
+      },
+      "90–94岁": {
+        "count": 1217,
+        "percentage": 53.35
+      },
+      "95–99岁": {
+        "count": 1355,
+        "percentage": 56.86
+      },
+      "100–104岁": {
+        "count": 272,
+        "percentage": 61.82
+      }
+    },
+    "糖尿病": {
+      "60–64岁": {
+        "count": 2041,
+        "percentage": 11.36
+      },
+      "65–69岁": {
+        "count": 3431,
+        "percentage": 15.6
+      },
+      "70–74岁": {
+        "count": 3812,
+        "percentage": 19.24
+      },
+      "75–79岁": {
+        "count": 3476,
+        "percentage": 23.4
+      },
+      "80–84岁": {
+        "count": 3431,
+        "percentage": 28.29
+      },
+      "85–89岁": {
+        "count": 2654,
+        "percentage": 32.59
+      },
+      "90–94岁": {
+        "count": 839,
+        "percentage": 36.78
+      },
+      "95–99岁": {
+        "count": 919,
+        "percentage": 38.56
+      },
+      "100–104岁": {
+        "count": 171,
+        "percentage": 38.86
+      }
+    },
+    "冠心病": {
+      "60–64岁": {
+        "count": 1105,
+        "percentage": 6.15
+      },
+      "65–69岁": {
+        "count": 1908,
+        "percentage": 8.67
+      },
+      "70–74岁": {
+        "count": 2154,
+        "percentage": 10.87
+      },
+      "75–79岁": {
+        "count": 2039,
+        "percentage": 13.73
+      },
+      "80–84岁": {
+        "count": 2000,
+        "percentage": 16.49
+      },
+      "85–89岁": {
+        "count": 1491,
+        "percentage": 18.31
+      },
+      "90–94岁": {
+        "count": 473,
+        "percentage": 20.74
+      },
+      "95–99岁": {
+        "count": 558,
+        "percentage": 23.42
+      },
+      "100–104岁": {
+        "count": 136,
+        "percentage": 30.91
+      }
+    },
+    "脑卒中": {
+      "60–64岁": {
+        "count": 688,
+        "percentage": 3.83
+      },
+      "65–69岁": {
+        "count": 1243,
+        "percentage": 5.65
+      },
+      "70–74岁": {
+        "count": 1522,
+        "percentage": 7.68
+      },
+      "75–79岁": {
+        "count": 1424,
+        "percentage": 9.59
+      },
+      "80–84岁": {
+        "count": 1411,
+        "percentage": 11.64
+      },
+      "85–89岁": {
+        "count": 1116,
+        "percentage": 13.71
+      },
+      "90–94岁": {
+        "count": 350,
+        "percentage": 15.34
+      },
+      "95–99岁": {
+        "count": 409,
+        "percentage": 17.16
+      },
+      "100–104岁": {
+        "count": 82,
+        "percentage": 18.64
+      }
+    },
+    "骨质疏松": {
+      "60–64岁": {
+        "count": 2988,
+        "percentage": 16.64
+      },
+      "65–69岁": {
+        "count": 4782,
+        "percentage": 21.74
+      },
+      "70–74岁": {
+        "count": 5407,
+        "percentage": 27.28
+      },
+      "75–79岁": {
+        "count": 4750,
+        "percentage": 31.98
+      },
+      "80–84岁": {
+        "count": 4602,
+        "percentage": 37.95
+      },
+      "85–89岁": {
+        "count": 3427,
+        "percentage": 42.09
+      },
+      "90–94岁": {
+        "count": 1069,
+        "percentage": 46.87
+      },
+      "95–99岁": {
+        "count": 1248,
+        "percentage": 52.37
+      },
+      "100–104岁": {
+        "count": 271,
+        "percentage": 61.59
+      }
+    },
+    "老年性痴呆": {
+      "60–64岁": {
+        "count": 482,
+        "percentage": 2.68
+      },
+      "65–69岁": {
+        "count": 948,
+        "percentage": 4.31
+      },
+      "70–74岁": {
+        "count": 1137,
+        "percentage": 5.74
+      },
+      "75–79岁": {
+        "count": 1033,
+        "percentage": 6.95
+      },
+      "80–84岁": {
+        "count": 1022,
+        "percentage": 8.43
+      },
+      "85–89岁": {
+        "count": 799,
+        "percentage": 9.81
+      },
+      "90–94岁": {
+        "count": 248,
+        "percentage": 10.87
+      },
+      "95–99岁": {
+        "count": 326,
+        "percentage": 13.68
+      },
+      "100–104岁": {
+        "count": 57,
+        "percentage": 12.95
+      }
+    },
+    "关节炎": {
+      "60–64岁": {
+        "count": 2137,
+        "percentage": 11.9
+      },
+      "65–69岁": {
+        "count": 3428,
+        "percentage": 15.58
+      },
+      "70–74岁": {
+        "count": 3948,
+        "percentage": 19.92
+      },
+      "75–79岁": {
+        "count": 3551,
+        "percentage": 23.91
+      },
+      "80–84岁": {
+        "count": 3363,
+        "percentage": 27.73
+      },
+      "85–89岁": {
+        "count": 2560,
+        "percentage": 31.44
+      },
+      "90–94岁": {
+        "count": 830,
+        "percentage": 36.39
+      },
+      "95–99岁": {
+        "count": 940,
+        "percentage": 39.45
+      },
+      "100–104岁": {
+        "count": 183,
+        "percentage": 41.59
+      }
+    },
+    "颈椎病": {
+      "60–64岁": {
+        "count": 2936,
+        "percentage": 16.35
+      },
+      "65–69岁": {
+        "count": 4335,
+        "percentage": 19.71
+      },
+      "70–74岁": {
+        "count": 4493,
+        "percentage": 22.67
+      },
+      "75–79岁": {
+        "count": 4011,
+        "percentage": 27.0
+      },
+      "80–84岁": {
+        "count": 3676,
+        "percentage": 30.32
+      },
+      "85–89岁": {
+        "count": 2695,
+        "percentage": 33.1
+      },
+      "90–94岁": {
+        "count": 865,
+        "percentage": 37.92
+      },
+      "95–99岁": {
+        "count": 966,
+        "percentage": 40.54
+      },
+      "100–104岁": {
+        "count": 182,
+        "percentage": 41.36
+      }
+    },
+    "腰椎间盘突出症": {
+      "60–64岁": {
+        "count": 2373,
+        "percentage": 13.21
+      },
+      "65–69岁": {
+        "count": 3491,
+        "percentage": 15.87
+      },
+      "70–74岁": {
+        "count": 3809,
+        "percentage": 19.22
+      },
+      "75–79岁": {
+        "count": 3297,
+        "percentage": 22.2
+      },
+      "80–84岁": {
+        "count": 3057,
+        "percentage": 25.21
+      },
+      "85–89岁": {
+        "count": 2218,
+        "percentage": 27.24
+      },
+      "90–94岁": {
+        "count": 691,
+        "percentage": 30.29
+      },
+      "95–99岁": {
+        "count": 814,
+        "percentage": 34.16
+      },
+      "100–104岁": {
+        "count": 155,
+        "percentage": 35.23
+      }
+    },
+    "便秘": {
+      "60–64岁": {
+        "count": 2005,
+        "percentage": 11.16
+      },
+      "65–69岁": {
+        "count": 2965,
+        "percentage": 13.48
+      },
+      "70–74岁": {
+        "count": 3208,
+        "percentage": 16.19
+      },
+      "75–79岁": {
+        "count": 2811,
+        "percentage": 18.93
+      },
+      "80–84岁": {
+        "count": 2572,
+        "percentage": 21.21
+      },
+      "85–89岁": {
+        "count": 1857,
+        "percentage": 22.8
+      },
+      "90–94岁": {
+        "count": 587,
+        "percentage": 25.73
+      },
+      "95–99岁": {
+        "count": 678,
+        "percentage": 28.45
+      },
+      "100–104岁": {
+        "count": 140,
+        "percentage": 31.82
+      }
+    }
+  }
+}
