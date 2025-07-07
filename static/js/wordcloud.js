@@ -2,14 +2,14 @@ const maskImageSrc = '/static/data/wordcloud/yuntu.png';
 const wordFreqJSON = '/static/data/output/word_freq.json';
 
 // ECharts 容器ID
-const containerId = 'wordcloud';  // 对应HTML里的 <div id="wordcloud"></div>
+//const containerId = 'wordcloud';  // 对应HTML里的 <div id="wordcloud"></div>
 
+const t = document.querySelector('#wordcloud');
 // 创建词云图
 function createMedicalWordCloud() {
-  var chart = echarts.init(document.getElementById(containerId));
+  var chart = echarts.init(t);
 
   var maskImage = new Image();
-  maskImage.crossOrigin = 'anonymous';
   maskImage.src = maskImageSrc;
 
   // 等图片加载完再画图
