@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template
 from openai import OpenAI
 from flask_cors import CORS
 
-app = Flask(__name__, template_folder="../web/html")
+app = Flask(__name__, template_folder="../../web/html")
 CORS(app)  # 支持跨域请求（如果前后端分离）
 
 # 初始化 OpenAI 客户端
