@@ -16,10 +16,10 @@ if paging_div:
         total_pages = int(strong_tags[0].text.strip())
         print(f"检测到总页数：{total_pages} 页")
     else:
-        print("没找到 <strong> 标签喵，默认抓取 1 页")
+        print("没找到 <strong> 标签，默认抓取 1 页")
         total_pages = 1
 else:
-    print("没找到分页区域喵，默认抓取 1 页")
+    print("没找到分页区域，默认抓取 1 页")
     total_pages = 1
 
 # 结果保存
@@ -51,11 +51,11 @@ for i in range(1, total_pages + 1):
                 if full_url not in href_list:
                     href_list.append(full_url)
     else:
-        print(f"第 {i} 页没有找到目标内容")
+        print(f"第{i}页没有找到目标内容")
 
 # 保存到文件
 with open('医疗.txt', 'a', encoding='utf-8') as f:
     for link in href_list:
         f.write(link + '\n')
 
-print(f"已保存 {len(href_list)} 条链接到 医疗.txt")
+print(f"已保存{len(href_list)}条链接到医疗.txt")
