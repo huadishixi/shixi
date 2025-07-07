@@ -36,4 +36,4 @@ for idx, url in enumerate(urls, start=1):
     except requests.exceptions.RequestException as e:
         print(f"{url} 连接出问题，跳过 错误原因：{e}")
 
-print("全部抓取完成，已保存到 医疗内容.txt")
+print("全部抓取完成，已保存到医疗内容.txt")
