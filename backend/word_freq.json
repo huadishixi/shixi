@@ -1,0 +1,10178 @@
+[
+  {
+    "name": "诊断",
+    "value": 695
+  },
+  {
+    "name": "视觉",
+    "value": 117
+  },
+  {
+    "name": "诊疗",
+    "value": 884
+  },
+  {
+    "name": "检测",
+    "value": 1034
+  },
+  {
+    "name": "共生",
+    "value": 17
+  },
+  {
+    "name": "病理",
+    "value": 189
+  },
+  {
+    "name": "肿瘤",
+    "value": 632
+  },
+  {
+    "name": "细胞",
+    "value": 543
+  },
+  {
+    "name": "体征",
+    "value": 41
+  },
+  {
+    "name": "外科",
+    "value": 90
+  },
+  {
+    "name": "消毒",
+    "value": 177
+  },
+  {
+    "name": "手术",
+    "value": 1135
+  },
+  {
+    "name": "饱和",
+    "value": 28
+  },
+  {
+    "name": "敏感",
+    "value": 51
+  },
+  {
+    "name": "骨盆",
+    "value": 9
+  },
+  {
+    "name": "髋关节",
+    "value": 13
+  },
+  {
+    "name": "大腿",
+    "value": 16
+  },
+  {
+    "name": "脂肪",
+    "value": 261
+  },
+  {
+    "name": "整形外科",
+    "value": 15
+  },
+  {
+    "name": "骨骼",
+    "value": 58
+  },
+  {
+    "name": "身高",
+    "value": 32
+  },
+  {
+    "name": "依从性",
+    "value": 51
+  },
+  {
+    "name": "康复",
+    "value": 390
+  },
+  {
+    "name": "监测",
+    "value": 379
+  },
+  {
+    "name": "卫生",
+    "value": 611
+  },
+  {
+    "name": "临床",
+    "value": 1436
+  },
+  {
+    "name": "预防",
+    "value": 814
+  },
+  {
+    "name": "中医",
+    "value": 284
+  },
+  {
+    "name": "医学",
+    "value": 619
+  },
+  {
+    "name": "眼科",
+    "value": 346
+  },
+  {
+    "name": "急性",
+    "value": 252
+  },
+  {
+    "name": "胸痛",
+    "value": 41
+  },
+  {
+    "name": "心血管",
+    "value": 227
+  },
+  {
+    "name": "癌症",
+    "value": 383
+  },
+  {
+    "name": "质控",
+    "value": 30
+  },
+  {
+    "name": "营养",
+    "value": 397
+  },
+  {
+    "name": "胶束",
+    "value": 1
+  },
+  {
+    "name": "酪蛋白",
+    "value": 3
+  },
+  {
+    "name": "蛋白质",
+    "value": 168
+  },
+  {
+    "name": "营养不良",
+    "value": 22
+  },
+  {
+    "name": "口服",
+    "value": 217
+  },
+  {
+    "name": "死亡",
+    "value": 401
+  },
+  {
+    "name": "不适",
+    "value": 173
+  },
+  {
+    "name": "耐热性",
+    "value": 4
+  },
+  {
+    "name": "微生物",
+    "value": 76
+  },
+  {
+    "name": "乳糖",
+    "value": 11
+  },
+  {
+    "name": "营养液",
+    "value": 2
+  },
+  {
+    "name": "吞咽困难",
+    "value": 7
+  },
+  {
+    "name": "乳清",
+    "value": 3
+  },
+  {
+    "name": "医药",
+    "value": 911
+  },
+  {
+    "name": "补体",
+    "value": 4
+  },
+  {
+    "name": "抗体",
+    "value": 290
+  },
+  {
+    "name": "生物科技",
+    "value": 71
+  },
+  {
+    "name": "皮肤",
+    "value": 403
+  },
+  {
+    "name": "生物",
+    "value": 672
+  },
+  {
+    "name": "水解",
+    "value": 8
+  },
+  {
+    "name": "二氧化碳",
+    "value": 9
+  },
+  {
+    "name": "吸收",
+    "value": 163
+  },
+  {
+    "name": "一次性",
+    "value": 63
+  },
+  {
+    "name": "公共卫生",
+    "value": 206
+  },
+  {
+    "name": "心电",
+    "value": 77
+  },
+  {
+    "name": "慢病",
+    "value": 148
+  },
+  {
+    "name": "垂体",
+    "value": 10
+  },
+  {
+    "name": "神经",
+    "value": 168
+  },
+  {
+    "name": "内分泌",
+    "value": 102
+  },
+  {
+    "name": "心脑血管",
+    "value": 98
+  },
+  {
+    "name": "慢性",
+    "value": 389
+  },
+  {
+    "name": "呼吸",
+    "value": 216
+  },
+  {
+    "name": "肺病",
+    "value": 20
+  },
+  {
+    "name": "糖尿病",
+    "value": 844
+  },
+  {
+    "name": "慢性病",
+    "value": 151
+  },
+  {
+    "name": "弹性",
+    "value": 38
+  },
+  {
+    "name": "大脑",
+    "value": 151
+  },
+  {
+    "name": "理疗",
+    "value": 26
+  },
+  {
+    "name": "内科",
+    "value": 75
+  },
+  {
+    "name": "处方",
+    "value": 273
+  },
+  {
+    "name": "高压",
+    "value": 19
+  },
+  {
+    "name": "血压",
+    "value": 245
+  },
+  {
+    "name": "高血压",
+    "value": 318
+  },
+  {
+    "name": "辐射",
+    "value": 65
+  },
+  {
+    "name": "数据管理",
+    "value": 8
+  },
+  {
+    "name": "七情",
+    "value": 1
+  },
+  {
+    "name": "精神",
+    "value": 158
+  },
+  {
+    "name": "生命力",
+    "value": 7
+  },
+  {
+    "name": "感染",
+    "value": 1379
+  },
+  {
+    "name": "钛合金",
+    "value": 2
+  },
+  {
+    "name": "交感神经",
+    "value": 14
+  },
+  {
+    "name": "心率",
+    "value": 43
+  },
+  {
+    "name": "变异性",
+    "value": 13
+  },
+  {
+    "name": "卵巢",
+    "value": 50
+  },
+  {
+    "name": "传感器",
+    "value": 31
+  },
+  {
+    "name": "医疗器械",
+    "value": 398
+  },
+  {
+    "name": "房颤",
+    "value": 66
+  },
+  {
+    "name": "心律失常",
+    "value": 21
+  },
+  {
+    "name": "中指",
+    "value": 15
+  },
+  {
+    "name": "错位",
+    "value": 5
+  },
+  {
+    "name": "坏死",
+    "value": 40
+  },
+  {
+    "name": "指甲",
+    "value": 14
+  },
+  {
+    "name": "骨科",
+    "value": 79
+  },
+  {
+    "name": "畸形",
+    "value": 55
+  },
+  {
+    "name": "拇指",
+    "value": 11
+  },
+  {
+    "name": "皮瓣",
+    "value": 1
+  },
+  {
+    "name": "移植",
+    "value": 153
+  },
+  {
+    "name": "损伤",
+    "value": 345
+  },
+  {
+    "name": "关节",
+    "value": 167
+  },
+  {
+    "name": "显微外科",
+    "value": 10
+  },
+  {
+    "name": "恢复",
+    "value": 276
+  },
+  {
+    "name": "中草药",
+    "value": 7
+  },
+  {
+    "name": "疗法",
+    "value": 215
+  },
+  {
+    "name": "基因治疗",
+    "value": 7
+  },
+  {
+    "name": "生物学",
+    "value": 14
+  },
+  {
+    "name": "人体",
+    "value": 529
+  },
+  {
+    "name": "干细胞",
+    "value": 124
+  },
+  {
+    "name": "基因",
+    "value": 206
+  },
+  {
+    "name": "协和医院",
+    "value": 43
+  },
+  {
+    "name": "残疾",
+    "value": 13
+  },
+  {
+    "name": "生长发育",
+    "value": 18
+  },
+  {
+    "name": "乳牙",
+    "value": 5
+  },
+  {
+    "name": "恒牙",
+    "value": 3
+  },
+  {
+    "name": "发育",
+    "value": 106
+  },
+  {
+    "name": "咀嚼",
+    "value": 18
+  },
+  {
+    "name": "自卑感",
+    "value": 2
+  },
+  {
+    "name": "矫正",
+    "value": 66
+  },
+  {
+    "name": "骨片",
+    "value": 1
+  },
+  {
+    "name": "神曲",
+    "value": 13
+  },
+  {
+    "name": "胃病",
+    "value": 39
+  },
+  {
+    "name": "发病率",
+    "value": 208
+  },
+  {
+    "name": "胃炎",
+    "value": 83
+  },
+  {
+    "name": "胃溃疡",
+    "value": 27
+  },
+  {
+    "name": "黏膜",
+    "value": 104
+  },
+  {
+    "name": "无菌",
+    "value": 14
+  },
+  {
+    "name": "溶液剂",
+    "value": 5
+  },
+  {
+    "name": "氨基酸",
+    "value": 29
+  },
+  {
+    "name": "核苷",
+    "value": 11
+  },
+  {
+    "name": "炎症",
+    "value": 174
+  },
+  {
+    "name": "水肿",
+    "value": 81
+  },
+  {
+    "name": "微循环",
+    "value": 12
+  },
+  {
+    "name": "病变",
+    "value": 180
+  },
+  {
+    "name": "发作",
+    "value": 247
+  },
+  {
+    "name": "意识",
+    "value": 144
+  },
+  {
+    "name": "肺炎",
+    "value": 665
+  },
+  {
+    "name": "疫苗",
+    "value": 1707
+  },
+  {
+    "name": "死亡率",
+    "value": 84
+  },
+  {
+    "name": "接种",
+    "value": 980
+  },
+  {
+    "name": "沃森",
+    "value": 12
+  },
+  {
+    "name": "不良反应",
+    "value": 230
+  },
+  {
+    "name": "对照组",
+    "value": 16
+  },
+  {
+    "name": "症状",
+    "value": 1416
+  },
+  {
+    "name": "多糖",
+    "value": 25
+  },
+  {
+    "name": "样本量",
+    "value": 5
+  },
+  {
+    "name": "临床试验",
+    "value": 294
+  },
+  {
+    "name": "免疫",
+    "value": 436
+  },
+  {
+    "name": "发热",
+    "value": 269
+  },
+  {
+    "name": "预防接种",
+    "value": 25
+  },
+  {
+    "name": "乳膏",
+    "value": 32
+  },
+  {
+    "name": "他克莫司",
+    "value": 3
+  },
+  {
+    "name": "软膏",
+    "value": 19
+  },
+  {
+    "name": "皮肤病",
+    "value": 61
+  },
+  {
+    "name": "临床医学",
+    "value": 39
+  },
+  {
+    "name": "皮肤科",
+    "value": 51
+  },
+  {
+    "name": "痤疮",
+    "value": 16
+  },
+  {
+    "name": "角化",
+    "value": 8
+  },
+  {
+    "name": "表皮",
+    "value": 13
+  },
+  {
+    "name": "抑制",
+    "value": 189
+  },
+  {
+    "name": "抗菌",
+    "value": 90
+  },
+  {
+    "name": "手足癣",
+    "value": 4
+  },
+  {
+    "name": "湿疹",
+    "value": 32
+  },
+  {
+    "name": "接触",
+    "value": 265
+  },
+  {
+    "name": "激素",
+    "value": 98
+  },
+  {
+    "name": "间歇性",
+    "value": 9
+  },
+  {
+    "name": "胶囊",
+    "value": 237
+  },
+  {
+    "name": "骨病",
+    "value": 7
+  },
+  {
+    "name": "两面针",
+    "value": 1
+  },
+  {
+    "name": "活血",
+    "value": 8
+  },
+  {
+    "name": "祛瘀",
+    "value": 3
+  },
+  {
+    "name": "扭伤",
+    "value": 10
+  },
+  {
+    "name": "骨折",
+    "value": 74
+  },
+  {
+    "name": "脱位",
+    "value": 2
+  },
+  {
+    "name": "缓解",
+    "value": 442
+  },
+  {
+    "name": "疲劳",
+    "value": 111
+  },
+  {
+    "name": "骨痛",
+    "value": 8
+  },
+  {
+    "name": "制剂",
+    "value": 219
+  },
+  {
+    "name": "祛风",
+    "value": 17
+  },
+  {
+    "name": "瘙痒",
+    "value": 69
+  },
+  {
+    "name": "脱屑",
+    "value": 11
+  },
+  {
+    "name": "抓痕",
+    "value": 1
+  },
+  {
+    "name": "地黄",
+    "value": 8
+  },
+  {
+    "name": "当归",
+    "value": 8
+  },
+  {
+    "name": "丹参",
+    "value": 3
+  },
+  {
+    "name": "苦参",
+    "value": 2
+  },
+  {
+    "name": "蝉蜕",
+    "value": 1
+  },
+  {
+    "name": "补血",
+    "value": 31
+  },
+  {
+    "name": "保健",
+    "value": 119
+  },
+  {
+    "name": "筋骨",
+    "value": 6
+  },
+  {
+    "name": "止痛",
+    "value": 61
+  },
+  {
+    "name": "鸡骨草",
+    "value": 3
+  },
+  {
+    "name": "中药",
+    "value": 331
+  },
+  {
+    "name": "复方",
+    "value": 101
+  },
+  {
+    "name": "葛洪",
+    "value": 12
+  },
+  {
+    "name": "防治",
+    "value": 299
+  },
+  {
+    "name": "解毒",
+    "value": 45
+  },
+  {
+    "name": "咬伤",
+    "value": 6
+  },
+  {
+    "name": "疫情",
+    "value": 1652
+  },
+  {
+    "name": "盐酸",
+    "value": 113
+  },
+  {
+    "name": "氨基",
+    "value": 25
+  },
+  {
+    "name": "葡萄糖",
+    "value": 48
+  },
+  {
+    "name": "一致性",
+    "value": 107
+  },
+  {
+    "name": "膝关节",
+    "value": 72
+  },
+  {
+    "name": "肩关节",
+    "value": 2
+  },
+  {
+    "name": "颈部",
+    "value": 61
+  },
+  {
+    "name": "踝关节",
+    "value": 8
+  },
+  {
+    "name": "部位",
+    "value": 175
+  },
+  {
+    "name": "骨关节炎",
+    "value": 43
+  },
+  {
+    "name": "疗程",
+    "value": 85
+  },
+  {
+    "name": "鼻塞",
+    "value": 65
+  },
+  {
+    "name": "流涕",
+    "value": 29
+  },
+  {
+    "name": "咳痰",
+    "value": 21
+  },
+  {
+    "name": "肌肉",
+    "value": 233
+  },
+  {
+    "name": "酸痛",
+    "value": 45
+  },
+  {
+    "name": "头痛",
+    "value": 113
+  },
+  {
+    "name": "充血",
+    "value": 24
+  },
+  {
+    "name": "肾上腺素",
+    "value": 17
+  },
+  {
+    "name": "鼻咽",
+    "value": 19
+  },
+  {
+    "name": "血管",
+    "value": 343
+  },
+  {
+    "name": "呼吸道",
+    "value": 207
+  },
+  {
+    "name": "对乙酰氨基酚",
+    "value": 24
+  },
+  {
+    "name": "解热",
+    "value": 36
+  },
+  {
+    "name": "抗生素",
+    "value": 83
+  },
+  {
+    "name": "细菌",
+    "value": 157
+  },
+  {
+    "name": "脓疱",
+    "value": 9
+  },
+  {
+    "name": "皮炎",
+    "value": 26
+  },
+  {
+    "name": "毛囊",
+    "value": 38
+  },
+  {
+    "name": "创伤",
+    "value": 37
+  },
+  {
+    "name": "杆菌",
+    "value": 65
+  },
+  {
+    "name": "祛痘",
+    "value": 6
+  },
+  {
+    "name": "感染性",
+    "value": 52
+  },
+  {
+    "name": "银屑病",
+    "value": 56
+  },
+  {
+    "name": "白癜风",
+    "value": 29
+  },
+  {
+    "name": "双黄连",
+    "value": 18
+  },
+  {
+    "name": "口服液",
+    "value": 74
+  },
+  {
+    "name": "药箱",
+    "value": 19
+  },
+  {
+    "name": "黄芩",
+    "value": 4
+  },
+  {
+    "name": "连翘",
+    "value": 15
+  },
+  {
+    "name": "退热",
+    "value": 29
+  },
+  {
+    "name": "咳嗽",
+    "value": 297
+  },
+  {
+    "name": "咽喉",
+    "value": 30
+  },
+  {
+    "name": "肿痛",
+    "value": 8
+  },
+  {
+    "name": "出血热",
+    "value": 3
+  },
+  {
+    "name": "综合征",
+    "value": 135
+  },
+  {
+    "name": "水痘",
+    "value": 37
+  },
+  {
+    "name": "上呼吸道",
+    "value": 39
+  },
+  {
+    "name": "清热解毒",
+    "value": 17
+  },
+  {
+    "name": "降压",
+    "value": 46
+  },
+  {
+    "name": "贫血",
+    "value": 83
+  },
+  {
+    "name": "注射器",
+    "value": 39
+  },
+  {
+    "name": "损害",
+    "value": 145
+  },
+  {
+    "name": "肠道",
+    "value": 293
+  },
+  {
+    "name": "晚期",
+    "value": 105
+  },
+  {
+    "name": "供体",
+    "value": 29
+  },
+  {
+    "name": "黑色素瘤",
+    "value": 21
+  },
+  {
+    "name": "血液",
+    "value": 228
+  },
+  {
+    "name": "放线菌",
+    "value": 1
+  },
+  {
+    "name": "抗原",
+    "value": 88
+  },
+  {
+    "name": "样本",
+    "value": 123
+  },
+  {
+    "name": "耐受性",
+    "value": 40
+  },
+  {
+    "name": "敏感性",
+    "value": 15
+  },
+  {
+    "name": "基因组",
+    "value": 29
+  },
+  {
+    "name": "宿主",
+    "value": 23
+  },
+  {
+    "name": "免疫力",
+    "value": 189
+  },
+  {
+    "name": "抑制剂",
+    "value": 133
+  },
+  {
+    "name": "小肠",
+    "value": 18
+  },
+  {
+    "name": "崩解",
+    "value": 2
+  },
+  {
+    "name": "副反应",
+    "value": 5
+  },
+  {
+    "name": "肺癌",
+    "value": 180
+  },
+  {
+    "name": "肝癌",
+    "value": 77
+  },
+  {
+    "name": "抑郁症",
+    "value": 114
+  },
+  {
+    "name": "抗衰老",
+    "value": 20
+  },
+  {
+    "name": "脐带血",
+    "value": 41
+  },
+  {
+    "name": "血库",
+    "value": 14
+  },
+  {
+    "name": "新生儿",
+    "value": 43
+  },
+  {
+    "name": "脐带",
+    "value": 4
+  },
+  {
+    "name": "结扎",
+    "value": 1
+  },
+  {
+    "name": "胎盘",
+    "value": 6
+  },
+  {
+    "name": "病人",
+    "value": 351
+  },
+  {
+    "name": "免疫系统",
+    "value": 56
+  },
+  {
+    "name": "骨髓",
+    "value": 24
+  },
+  {
+    "name": "再生",
+    "value": 31
+  },
+  {
+    "name": "白血病",
+    "value": 59
+  },
+  {
+    "name": "淋巴瘤",
+    "value": 22
+  },
+  {
+    "name": "骨髓瘤",
+    "value": 9
+  },
+  {
+    "name": "增生",
+    "value": 40
+  },
+  {
+    "name": "世界卫生组织",
+    "value": 75
+  },
+  {
+    "name": "酚妥拉明",
+    "value": 1
+  },
+  {
+    "name": "药理学",
+    "value": 9
+  },
+  {
+    "name": "瞳孔",
+    "value": 6
+  },
+  {
+    "name": "视力",
+    "value": 155
+  },
+  {
+    "name": "畏光",
+    "value": 6
+  },
+  {
+    "name": "肿瘤学",
+    "value": 26
+  },
+  {
+    "name": "血液学",
+    "value": 22
+  },
+  {
+    "name": "伤口",
+    "value": 48
+  },
+  {
+    "name": "鼻腔",
+    "value": 42
+  },
+  {
+    "name": "防护用品",
+    "value": 12
+  },
+  {
+    "name": "高血糖",
+    "value": 45
+  },
+  {
+    "name": "糖耐量",
+    "value": 6
+  },
+  {
+    "name": "体重",
+    "value": 206
+  },
+  {
+    "name": "空腹",
+    "value": 51
+  },
+  {
+    "name": "血糖",
+    "value": 337
+  },
+  {
+    "name": "妊娠期",
+    "value": 9
+  },
+  {
+    "name": "糖化",
+    "value": 15
+  },
+  {
+    "name": "血红蛋白",
+    "value": 35
+  },
+  {
+    "name": "静脉",
+    "value": 70
+  },
+  {
+    "name": "血浆",
+    "value": 21
+  },
+  {
+    "name": "负荷",
+    "value": 24
+  },
+  {
+    "name": "高危",
+    "value": 136
+  },
+  {
+    "name": "胃肠道",
+    "value": 102
+  },
+  {
+    "name": "白求恩",
+    "value": 6
+  },
+  {
+    "name": "器官",
+    "value": 169
+  },
+  {
+    "name": "神经细胞",
+    "value": 11
+  },
+  {
+    "name": "受体",
+    "value": 108
+  },
+  {
+    "name": "神经系统",
+    "value": 74
+  },
+  {
+    "name": "软骨",
+    "value": 36
+  },
+  {
+    "name": "海马",
+    "value": 2
+  },
+  {
+    "name": "皮质",
+    "value": 22
+  },
+  {
+    "name": "尸体解剖",
+    "value": 3
+  },
+  {
+    "name": "斑块",
+    "value": 39
+  },
+  {
+    "name": "心脏",
+    "value": 270
+  },
+  {
+    "name": "酪氨酸",
+    "value": 11
+  },
+  {
+    "name": "激酶",
+    "value": 18
+  },
+  {
+    "name": "特异性",
+    "value": 43
+  },
+  {
+    "name": "血脑屏障",
+    "value": 4
+  },
+  {
+    "name": "舒张",
+    "value": 10
+  },
+  {
+    "name": "咽喉炎",
+    "value": 2
+  },
+  {
+    "name": "口腔",
+    "value": 246
+  },
+  {
+    "name": "溃疡",
+    "value": 53
+  },
+  {
+    "name": "抑菌",
+    "value": 18
+  },
+  {
+    "name": "消炎",
+    "value": 31
+  },
+  {
+    "name": "咽炎",
+    "value": 19
+  },
+  {
+    "name": "专科医院",
+    "value": 41
+  },
+  {
+    "name": "监护",
+    "value": 31
+  },
+  {
+    "name": "急救",
+    "value": 94
+  },
+  {
+    "name": "视网膜",
+    "value": 61
+  },
+  {
+    "name": "并发症",
+    "value": 161
+  },
+  {
+    "name": "紊乱",
+    "value": 105
+  },
+  {
+    "name": "病程",
+    "value": 59
+  },
+  {
+    "name": "血小板",
+    "value": 49
+  },
+  {
+    "name": "低血糖",
+    "value": 80
+  },
+  {
+    "name": "乳酸",
+    "value": 19
+  },
+  {
+    "name": "血症",
+    "value": 45
+  },
+  {
+    "name": "酸中毒",
+    "value": 23
+  },
+  {
+    "name": "动脉硬化",
+    "value": 17
+  },
+  {
+    "name": "剂量",
+    "value": 233
+  },
+  {
+    "name": "肾功能",
+    "value": 57
+  },
+  {
+    "name": "肾脏",
+    "value": 147
+  },
+  {
+    "name": "排泄",
+    "value": 39
+  },
+  {
+    "name": "上段",
+    "value": 1
+  },
+  {
+    "name": "异质",
+    "value": 2
+  },
+  {
+    "name": "苁蓉",
+    "value": 1
+  },
+  {
+    "name": "流行",
+    "value": 210
+  },
+  {
+    "name": "贴面",
+    "value": 2
+  },
+  {
+    "name": "口腔医学",
+    "value": 8
+  },
+  {
+    "name": "临床经验",
+    "value": 21
+  },
+  {
+    "name": "黄柏",
+    "value": 4
+  },
+  {
+    "name": "诱因",
+    "value": 40
+  },
+  {
+    "name": "复发",
+    "value": 81
+  },
+  {
+    "name": "隐性",
+    "value": 7
+  },
+  {
+    "name": "复色",
+    "value": 3
+  },
+  {
+    "name": "胰岛素泵",
+    "value": 6
+  },
+  {
+    "name": "注射",
+    "value": 201
+  },
+  {
+    "name": "胰岛素",
+    "value": 160
+  },
+  {
+    "name": "药学",
+    "value": 35
+  },
+  {
+    "name": "样品",
+    "value": 47
+  },
+  {
+    "name": "轮椅",
+    "value": 3
+  },
+  {
+    "name": "止血带",
+    "value": 1
+  },
+  {
+    "name": "近视",
+    "value": 403
+  },
+  {
+    "name": "角膜",
+    "value": 189
+  },
+  {
+    "name": "急救中心",
+    "value": 10
+  },
+  {
+    "name": "中风",
+    "value": 103
+  },
+  {
+    "name": "华佗",
+    "value": 4
+  },
+  {
+    "name": "医疗保障",
+    "value": 270
+  },
+  {
+    "name": "动脉",
+    "value": 87
+  },
+  {
+    "name": "消化",
+    "value": 185
+  },
+  {
+    "name": "中医学",
+    "value": 6
+  },
+  {
+    "name": "妇科",
+    "value": 91
+  },
+  {
+    "name": "医德",
+    "value": 20
+  },
+  {
+    "name": "冠状动脉",
+    "value": 24
+  },
+  {
+    "name": "植入",
+    "value": 57
+  },
+  {
+    "name": "不育",
+    "value": 43
+  },
+  {
+    "name": "结节",
+    "value": 35
+  },
+  {
+    "name": "活检",
+    "value": 15
+  },
+  {
+    "name": "正畸",
+    "value": 16
+  },
+  {
+    "name": "复苏",
+    "value": 26
+  },
+  {
+    "name": "脉络",
+    "value": 6
+  },
+  {
+    "name": "血压计",
+    "value": 6
+  },
+  {
+    "name": "儿科",
+    "value": 80
+  },
+  {
+    "name": "精神疾病",
+    "value": 17
+  },
+  {
+    "name": "骨关节",
+    "value": 16
+  },
+  {
+    "name": "急诊",
+    "value": 44
+  },
+  {
+    "name": "主任医师",
+    "value": 129
+  },
+  {
+    "name": "肿瘤科",
+    "value": 20
+  },
+  {
+    "name": "消化科",
+    "value": 5
+  },
+  {
+    "name": "产科",
+    "value": 17
+  },
+  {
+    "name": "晕厥",
+    "value": 6
+  },
+  {
+    "name": "地方病",
+    "value": 1
+  },
+  {
+    "name": "职业病",
+    "value": 5
+  },
+  {
+    "name": "失眠",
+    "value": 117
+  },
+  {
+    "name": "颈动脉",
+    "value": 17
+  },
+  {
+    "name": "神经内科",
+    "value": 23
+  },
+  {
+    "name": "脑血管",
+    "value": 27
+  },
+  {
+    "name": "一级预防",
+    "value": 4
+  },
+  {
+    "name": "硬化",
+    "value": 44
+  },
+  {
+    "name": "望闻问切",
+    "value": 2
+  },
+  {
+    "name": "泌尿外科",
+    "value": 20
+  },
+  {
+    "name": "诊治",
+    "value": 96
+  },
+  {
+    "name": "听诊",
+    "value": 4
+  },
+  {
+    "name": "应急",
+    "value": 166
+  },
+  {
+    "name": "乳腺",
+    "value": 84
+  },
+  {
+    "name": "盆腔",
+    "value": 26
+  },
+  {
+    "name": "急腹症",
+    "value": 4
+  },
+  {
+    "name": "病因",
+    "value": 93
+  },
+  {
+    "name": "先天性",
+    "value": 32
+  },
+  {
+    "name": "腭裂",
+    "value": 2
+  },
+  {
+    "name": "矫正术",
+    "value": 2
+  },
+  {
+    "name": "瘢痕",
+    "value": 16
+  },
+  {
+    "name": "复位",
+    "value": 4
+  },
+  {
+    "name": "鼻中隔",
+    "value": 2
+  },
+  {
+    "name": "鼻孔",
+    "value": 5
+  },
+  {
+    "name": "血脂",
+    "value": 82
+  },
+  {
+    "name": "闭环",
+    "value": 54
+  },
+  {
+    "name": "绷带",
+    "value": 3
+  },
+  {
+    "name": "愈合",
+    "value": 17
+  },
+  {
+    "name": "睡眠",
+    "value": 321
+  },
+  {
+    "name": "神经网络",
+    "value": 4
+  },
+  {
+    "name": "发绀",
+    "value": 3
+  },
+  {
+    "name": "体重减轻",
+    "value": 9
+  },
+  {
+    "name": "外科手术",
+    "value": 9
+  },
+  {
+    "name": "内窥镜",
+    "value": 30
+  },
+  {
+    "name": "残疾人",
+    "value": 7
+  },
+  {
+    "name": "解剖",
+    "value": 19
+  },
+  {
+    "name": "假肢",
+    "value": 1
+  },
+  {
+    "name": "牙冠",
+    "value": 7
+  },
+  {
+    "name": "移植物",
+    "value": 3
+  },
+  {
+    "name": "凝胶",
+    "value": 28
+  },
+  {
+    "name": "病毒",
+    "value": 1372
+  },
+  {
+    "name": "重组",
+    "value": 95
+  },
+  {
+    "name": "变异",
+    "value": 327
+  },
+  {
+    "name": "突变",
+    "value": 118
+  },
+  {
+    "name": "位点",
+    "value": 14
+  },
+  {
+    "name": "临床表现",
+    "value": 57
+  },
+  {
+    "name": "矫形外科",
+    "value": 1
+  },
+  {
+    "name": "毛发",
+    "value": 131
+  },
+  {
+    "name": "良性",
+    "value": 45
+  },
+  {
+    "name": "移植术",
+    "value": 5
+  },
+  {
+    "name": "血药浓度",
+    "value": 13
+  },
+  {
+    "name": "抵抗力",
+    "value": 68
+  },
+  {
+    "name": "采血",
+    "value": 8
+  },
+  {
+    "name": "发烧",
+    "value": 91
+  },
+  {
+    "name": "传染病",
+    "value": 150
+  },
+  {
+    "name": "韩启德",
+    "value": 1
+  },
+  {
+    "name": "淋巴",
+    "value": 48
+  },
+  {
+    "name": "显微",
+    "value": 10
+  },
+  {
+    "name": "继发性",
+    "value": 17
+  },
+  {
+    "name": "乳腺癌",
+    "value": 172
+  },
+  {
+    "name": "子宫癌",
+    "value": 2
+  },
+  {
+    "name": "淋巴结",
+    "value": 34
+  },
+  {
+    "name": "淋巴管",
+    "value": 17
+  },
+  {
+    "name": "淋巴液",
+    "value": 4
+  },
+  {
+    "name": "肢体",
+    "value": 21
+  },
+  {
+    "name": "肺栓塞",
+    "value": 9
+  },
+  {
+    "name": "疼痛",
+    "value": 320
+  },
+  {
+    "name": "麻木",
+    "value": 16
+  },
+  {
+    "name": "乏力",
+    "value": 101
+  },
+  {
+    "name": "功能障碍",
+    "value": 41
+  },
+  {
+    "name": "情绪反应",
+    "value": 1
+  },
+  {
+    "name": "生理",
+    "value": 69
+  },
+  {
+    "name": "治愈",
+    "value": 198
+  },
+  {
+    "name": "真皮",
+    "value": 3
+  },
+  {
+    "name": "下肢",
+    "value": 65
+  },
+  {
+    "name": "甲状腺",
+    "value": 108
+  },
+  {
+    "name": "消退",
+    "value": 18
+  },
+  {
+    "name": "放射",
+    "value": 26
+  },
+  {
+    "name": "结核病",
+    "value": 69
+  },
+  {
+    "name": "体内",
+    "value": 340
+  },
+  {
+    "name": "过敏史",
+    "value": 6
+  },
+  {
+    "name": "心电图",
+    "value": 68
+  },
+  {
+    "name": "化验",
+    "value": 23
+  },
+  {
+    "name": "计划生育",
+    "value": 11
+  },
+  {
+    "name": "中枢",
+    "value": 28
+  },
+  {
+    "name": "急性期",
+    "value": 25
+  },
+  {
+    "name": "多发",
+    "value": 23
+  },
+  {
+    "name": "眼外伤",
+    "value": 2
+  },
+  {
+    "name": "血球",
+    "value": 3
+  },
+  {
+    "name": "亚健康",
+    "value": 18
+  },
+  {
+    "name": "中医科",
+    "value": 7
+  },
+  {
+    "name": "生存率",
+    "value": 37
+  },
+  {
+    "name": "过敏",
+    "value": 122
+  },
+  {
+    "name": "标本",
+    "value": 22
+  },
+  {
+    "name": "麻醉",
+    "value": 35
+  },
+  {
+    "name": "脱敏",
+    "value": 11
+  },
+  {
+    "name": "体外",
+    "value": 77
+  },
+  {
+    "name": "甲基化",
+    "value": 4
+  },
+  {
+    "name": "试剂",
+    "value": 63
+  },
+  {
+    "name": "遗传学",
+    "value": 8
+  },
+  {
+    "name": "消化系统",
+    "value": 66
+  },
+  {
+    "name": "泌尿系统",
+    "value": 15
+  },
+  {
+    "name": "肾病",
+    "value": 67
+  },
+  {
+    "name": "肾脏病",
+    "value": 30
+  },
+  {
+    "name": "肾内科",
+    "value": 5
+  },
+  {
+    "name": "传染性",
+    "value": 74
+  },
+  {
+    "name": "流行病学",
+    "value": 89
+  },
+  {
+    "name": "冠状病毒",
+    "value": 311
+  },
+  {
+    "name": "病死率",
+    "value": 16
+  },
+  {
+    "name": "应激",
+    "value": 17
+  },
+  {
+    "name": "视角",
+    "value": 33
+  },
+  {
+    "name": "气管",
+    "value": 17
+  },
+  {
+    "name": "病理学",
+    "value": 21
+  },
+  {
+    "name": "间接推理",
+    "value": 1
+  },
+  {
+    "name": "显微镜",
+    "value": 14
+  },
+  {
+    "name": "肝炎",
+    "value": 101
+  },
+  {
+    "name": "免疫预防",
+    "value": 5
+  },
+  {
+    "name": "预防为主",
+    "value": 5
+  },
+  {
+    "name": "试剂盒",
+    "value": 85
+  },
+  {
+    "name": "脊柱",
+    "value": 32
+  },
+  {
+    "name": "胶原蛋白",
+    "value": 17
+  },
+  {
+    "name": "激光",
+    "value": 58
+  },
+  {
+    "name": "扩张",
+    "value": 83
+  },
+  {
+    "name": "伪影",
+    "value": 2
+  },
+  {
+    "name": "住院部",
+    "value": 18
+  },
+  {
+    "name": "无偿献血",
+    "value": 9
+  },
+  {
+    "name": "细胞因子",
+    "value": 15
+  },
+  {
+    "name": "致病菌",
+    "value": 12
+  },
+  {
+    "name": "耐药",
+    "value": 46
+  },
+  {
+    "name": "寄生虫",
+    "value": 7
+  },
+  {
+    "name": "疾患",
+    "value": 2
+  },
+  {
+    "name": "复诊",
+    "value": 71
+  },
+  {
+    "name": "脱发",
+    "value": 137
+  },
+  {
+    "name": "头皮",
+    "value": 46
+  },
+  {
+    "name": "妇产科",
+    "value": 34
+  },
+  {
+    "name": "性病",
+    "value": 7
+  },
+  {
+    "name": "球囊",
+    "value": 6
+  },
+  {
+    "name": "靶点",
+    "value": 70
+  },
+  {
+    "name": "核酸",
+    "value": 436
+  },
+  {
+    "name": "史克",
+    "value": 13
+  },
+  {
+    "name": "阿斯利康",
+    "value": 96
+  },
+  {
+    "name": "生殖",
+    "value": 87
+  },
+  {
+    "name": "病毒感染",
+    "value": 186
+  },
+  {
+    "name": "多肽",
+    "value": 16
+  },
+  {
+    "name": "适应症",
+    "value": 147
+  },
+  {
+    "name": "主治医师",
+    "value": 25
+  },
+  {
+    "name": "自我保健",
+    "value": 7
+  },
+  {
+    "name": "卫生保健",
+    "value": 3
+  },
+  {
+    "name": "骨伤",
+    "value": 5
+  },
+  {
+    "name": "口腔科",
+    "value": 12
+  },
+  {
+    "name": "感染者",
+    "value": 323
+  },
+  {
+    "name": "软组织",
+    "value": 20
+  },
+  {
+    "name": "心脏病",
+    "value": 107
+  },
+  {
+    "name": "造影",
+    "value": 8
+  },
+  {
+    "name": "支架",
+    "value": 63
+  },
+  {
+    "name": "亲子关系",
+    "value": 2
+  },
+  {
+    "name": "流感疫苗",
+    "value": 25
+  },
+  {
+    "name": "孕妇",
+    "value": 86
+  },
+  {
+    "name": "心律",
+    "value": 5
+  },
+  {
+    "name": "心绞痛",
+    "value": 25
+  },
+  {
+    "name": "食管",
+    "value": 40
+  },
+  {
+    "name": "膀胱",
+    "value": 29
+  },
+  {
+    "name": "宫颈",
+    "value": 64
+  },
+  {
+    "name": "前列腺",
+    "value": 16
+  },
+  {
+    "name": "微量元素",
+    "value": 32
+  },
+  {
+    "name": "迈步",
+    "value": 1
+  },
+  {
+    "name": "胸闷",
+    "value": 54
+  },
+  {
+    "name": "心悸",
+    "value": 32
+  },
+  {
+    "name": "血栓",
+    "value": 100
+  },
+  {
+    "name": "阿司匹林",
+    "value": 96
+  },
+  {
+    "name": "红细胞",
+    "value": 17
+  },
+  {
+    "name": "出血",
+    "value": 187
+  },
+  {
+    "name": "青光眼",
+    "value": 68
+  },
+  {
+    "name": "白内障",
+    "value": 159
+  },
+  {
+    "name": "防疫",
+    "value": 140
+  },
+  {
+    "name": "心电监护",
+    "value": 4
+  },
+  {
+    "name": "输液泵",
+    "value": 1
+  },
+  {
+    "name": "呼吸机",
+    "value": 22
+  },
+  {
+    "name": "静脉血",
+    "value": 9
+  },
+  {
+    "name": "衰竭",
+    "value": 50
+  },
+  {
+    "name": "透析",
+    "value": 29
+  },
+  {
+    "name": "联合疫苗",
+    "value": 2
+  },
+  {
+    "name": "整形手术",
+    "value": 20
+  },
+  {
+    "name": "佩兰",
+    "value": 8
+  },
+  {
+    "name": "感染率",
+    "value": 36
+  },
+  {
+    "name": "后遗症",
+    "value": 41
+  },
+  {
+    "name": "广谱",
+    "value": 23
+  },
+  {
+    "name": "丝氨酸",
+    "value": 1
+  },
+  {
+    "name": "染色体",
+    "value": 17
+  },
+  {
+    "name": "肝脏",
+    "value": 260
+  },
+  {
+    "name": "肝硬化",
+    "value": 76
+  },
+  {
+    "name": "抗病毒",
+    "value": 171
+  },
+  {
+    "name": "遗传",
+    "value": 96
+  },
+  {
+    "name": "动脉瘤",
+    "value": 6
+  },
+  {
+    "name": "白细胞",
+    "value": 11
+  },
+  {
+    "name": "形态学",
+    "value": 12
+  },
+  {
+    "name": "效价",
+    "value": 2
+  },
+  {
+    "name": "喷雾剂",
+    "value": 4
+  },
+  {
+    "name": "林顺潮",
+    "value": 14
+  },
+  {
+    "name": "眼压",
+    "value": 24
+  },
+  {
+    "name": "鉴别",
+    "value": 30
+  },
+  {
+    "name": "处方药",
+    "value": 147
+  },
+  {
+    "name": "麻醉学",
+    "value": 1
+  },
+  {
+    "name": "急诊科",
+    "value": 20
+  },
+  {
+    "name": "分娩",
+    "value": 25
+  },
+  {
+    "name": "胎儿",
+    "value": 49
+  },
+  {
+    "name": "自限性",
+    "value": 20
+  },
+  {
+    "name": "阳性",
+    "value": 227
+  },
+  {
+    "name": "蛋白酶",
+    "value": 12
+  },
+  {
+    "name": "聚合酶",
+    "value": 13
+  },
+  {
+    "name": "锚定",
+    "value": 5
+  },
+  {
+    "name": "生育率",
+    "value": 6
+  },
+  {
+    "name": "体质",
+    "value": 75
+  },
+  {
+    "name": "维生素",
+    "value": 377
+  },
+  {
+    "name": "传统医学",
+    "value": 5
+  },
+  {
+    "name": "三级预防",
+    "value": 1
+  },
+  {
+    "name": "失明",
+    "value": 39
+  },
+  {
+    "name": "结膜",
+    "value": 9
+  },
+  {
+    "name": "卫生统计",
+    "value": 1
+  },
+  {
+    "name": "干咳",
+    "value": 23
+  },
+  {
+    "name": "麻疹",
+    "value": 17
+  },
+  {
+    "name": "呼吸系统",
+    "value": 50
+  },
+  {
+    "name": "支气管炎",
+    "value": 44
+  },
+  {
+    "name": "化痰",
+    "value": 45
+  },
+  {
+    "name": "同源",
+    "value": 26
+  },
+  {
+    "name": "宣肺",
+    "value": 26
+  },
+  {
+    "name": "张仲景",
+    "value": 8
+  },
+  {
+    "name": "伤寒论",
+    "value": 4
+  },
+  {
+    "name": "麻黄",
+    "value": 8
+  },
+  {
+    "name": "桑白皮",
+    "value": 3
+  },
+  {
+    "name": "贝母",
+    "value": 2
+  },
+  {
+    "name": "陈皮",
+    "value": 21
+  },
+  {
+    "name": "半夏",
+    "value": 4
+  },
+  {
+    "name": "牛蒡子",
+    "value": 2
+  },
+  {
+    "name": "祛邪",
+    "value": 5
+  },
+  {
+    "name": "痉挛",
+    "value": 21
+  },
+  {
+    "name": "神经病",
+    "value": 7
+  },
+  {
+    "name": "口渴",
+    "value": 19
+  },
+  {
+    "name": "舌红",
+    "value": 1
+  },
+  {
+    "name": "安慰剂",
+    "value": 98
+  },
+  {
+    "name": "化学试剂",
+    "value": 1
+  },
+  {
+    "name": "伤寒",
+    "value": 6
+  },
+  {
+    "name": "吴鞠通",
+    "value": 2
+  },
+  {
+    "name": "温病条辨",
+    "value": 4
+  },
+  {
+    "name": "银翘散",
+    "value": 4
+  },
+  {
+    "name": "温疫论",
+    "value": 4
+  },
+  {
+    "name": "疫病",
+    "value": 16
+  },
+  {
+    "name": "广藿香",
+    "value": 3
+  },
+  {
+    "name": "红景天",
+    "value": 7
+  },
+  {
+    "name": "方剂",
+    "value": 13
+  },
+  {
+    "name": "气喘",
+    "value": 14
+  },
+  {
+    "name": "体温",
+    "value": 94
+  },
+  {
+    "name": "脾胃",
+    "value": 75
+  },
+  {
+    "name": "氧化应激",
+    "value": 3
+  },
+  {
+    "name": "流行病",
+    "value": 14
+  },
+  {
+    "name": "肠胃",
+    "value": 78
+  },
+  {
+    "name": "血常规",
+    "value": 22
+  },
+  {
+    "name": "血细胞",
+    "value": 6
+  },
+  {
+    "name": "成熟期",
+    "value": 4
+  },
+  {
+    "name": "适者生存",
+    "value": 1
+  },
+  {
+    "name": "主动脉",
+    "value": 26
+  },
+  {
+    "name": "造影术",
+    "value": 1
+  },
+  {
+    "name": "神经外科",
+    "value": 16
+  },
+  {
+    "name": "脑出血",
+    "value": 30
+  },
+  {
+    "name": "小脑",
+    "value": 3
+  },
+  {
+    "name": "脑干",
+    "value": 6
+  },
+  {
+    "name": "枕骨",
+    "value": 1
+  },
+  {
+    "name": "血肿",
+    "value": 6
+  },
+  {
+    "name": "脑室",
+    "value": 1
+  },
+  {
+    "name": "心衰",
+    "value": 27
+  },
+  {
+    "name": "剖宫产",
+    "value": 3
+  },
+  {
+    "name": "窗口期",
+    "value": 7
+  },
+  {
+    "name": "血清",
+    "value": 43
+  },
+  {
+    "name": "接种率",
+    "value": 25
+  },
+  {
+    "name": "抽样调查",
+    "value": 4
+  },
+  {
+    "name": "血清学",
+    "value": 9
+  },
+  {
+    "name": "潜伏期",
+    "value": 29
+  },
+  {
+    "name": "病原学",
+    "value": 10
+  },
+  {
+    "name": "肝病",
+    "value": 71
+  },
+  {
+    "name": "早产",
+    "value": 6
+  },
+  {
+    "name": "流产",
+    "value": 16
+  },
+  {
+    "name": "干扰素",
+    "value": 30
+  },
+  {
+    "name": "疫区",
+    "value": 9
+  },
+  {
+    "name": "大肠",
+    "value": 21
+  },
+  {
+    "name": "免疫原性",
+    "value": 6
+  },
+  {
+    "name": "基因工程",
+    "value": 6
+  },
+  {
+    "name": "传染",
+    "value": 53
+  },
+  {
+    "name": "布洛芬",
+    "value": 72
+  },
+  {
+    "name": "伤风",
+    "value": 14
+  },
+  {
+    "name": "扑热息痛",
+    "value": 5
+  },
+  {
+    "name": "镇咳药",
+    "value": 2
+  },
+  {
+    "name": "右美沙芬",
+    "value": 4
+  },
+  {
+    "name": "半胱氨酸",
+    "value": 5
+  },
+  {
+    "name": "哺乳期",
+    "value": 34
+  },
+  {
+    "name": "阈值",
+    "value": 3
+  },
+  {
+    "name": "鼻涕",
+    "value": 10
+  },
+  {
+    "name": "取样",
+    "value": 5
+  },
+  {
+    "name": "阴性",
+    "value": 95
+  },
+  {
+    "name": "腹泻",
+    "value": 263
+  },
+  {
+    "name": "呕吐",
+    "value": 112
+  },
+  {
+    "name": "头晕",
+    "value": 61
+  },
+  {
+    "name": "憋气",
+    "value": 10
+  },
+  {
+    "name": "腹痛",
+    "value": 88
+  },
+  {
+    "name": "阴道",
+    "value": 50
+  },
+  {
+    "name": "机能",
+    "value": 36
+  },
+  {
+    "name": "控制措施",
+    "value": 11
+  },
+  {
+    "name": "检疫",
+    "value": 10
+  },
+  {
+    "name": "退烧",
+    "value": 29
+  },
+  {
+    "name": "毒力",
+    "value": 12
+  },
+  {
+    "name": "味觉",
+    "value": 16
+  },
+  {
+    "name": "嗅觉",
+    "value": 16
+  },
+  {
+    "name": "皮疹",
+    "value": 26
+  },
+  {
+    "name": "结膜炎",
+    "value": 35
+  },
+  {
+    "name": "失语",
+    "value": 3
+  },
+  {
+    "name": "失能",
+    "value": 9
+  },
+  {
+    "name": "非处方药",
+    "value": 22
+  },
+  {
+    "name": "体温计",
+    "value": 10
+  },
+  {
+    "name": "喷雾",
+    "value": 11
+  },
+  {
+    "name": "麝香",
+    "value": 17
+  },
+  {
+    "name": "温度计",
+    "value": 2
+  },
+  {
+    "name": "免疫抗体",
+    "value": 1
+  },
+  {
+    "name": "气短",
+    "value": 25
+  },
+  {
+    "name": "交叉感染",
+    "value": 28
+  },
+  {
+    "name": "喘息",
+    "value": 12
+  },
+  {
+    "name": "喉炎",
+    "value": 2
+  },
+  {
+    "name": "气管炎",
+    "value": 7
+  },
+  {
+    "name": "惊厥",
+    "value": 59
+  },
+  {
+    "name": "三焦",
+    "value": 1
+  },
+  {
+    "name": "黄帝内经",
+    "value": 8
+  },
+  {
+    "name": "外邪",
+    "value": 4
+  },
+  {
+    "name": "雄黄",
+    "value": 4
+  },
+  {
+    "name": "艾叶",
+    "value": 3
+  },
+  {
+    "name": "苍术",
+    "value": 4
+  },
+  {
+    "name": "白芷",
+    "value": 1
+  },
+  {
+    "name": "木香",
+    "value": 7
+  },
+  {
+    "name": "经脉",
+    "value": 4
+  },
+  {
+    "name": "孙思邈",
+    "value": 3
+  },
+  {
+    "name": "灸法",
+    "value": 3
+  },
+  {
+    "name": "迎香",
+    "value": 1
+  },
+  {
+    "name": "地仓",
+    "value": 1
+  },
+  {
+    "name": "气海",
+    "value": 1
+  },
+  {
+    "name": "关元",
+    "value": 3
+  },
+  {
+    "name": "恶心",
+    "value": 88
+  },
+  {
+    "name": "舌象",
+    "value": 1
+  },
+  {
+    "name": "辨证论治",
+    "value": 5
+  },
+  {
+    "name": "小柴胡",
+    "value": 3
+  },
+  {
+    "name": "口腔疾病",
+    "value": 10
+  },
+  {
+    "name": "口腔卫生",
+    "value": 10
+  },
+  {
+    "name": "黏液",
+    "value": 12
+  },
+  {
+    "name": "粘膜",
+    "value": 29
+  },
+  {
+    "name": "六神丸",
+    "value": 5
+  },
+  {
+    "name": "物理疗法",
+    "value": 3
+  },
+  {
+    "name": "随诊",
+    "value": 3
+  },
+  {
+    "name": "挂号费",
+    "value": 1
+  },
+  {
+    "name": "海星",
+    "value": 14
+  },
+  {
+    "name": "核子",
+    "value": 1
+  },
+  {
+    "name": "生物制剂",
+    "value": 21
+  },
+  {
+    "name": "免疫学",
+    "value": 3
+  },
+  {
+    "name": "结肠炎",
+    "value": 14
+  },
+  {
+    "name": "调节剂",
+    "value": 11
+  },
+  {
+    "name": "输血",
+    "value": 13
+  },
+  {
+    "name": "眼科学",
+    "value": 5
+  },
+  {
+    "name": "牙龈",
+    "value": 29
+  },
+  {
+    "name": "淋巴细胞",
+    "value": 28
+  },
+  {
+    "name": "骨髓移植",
+    "value": 13
+  },
+  {
+    "name": "癫痫",
+    "value": 66
+  },
+  {
+    "name": "肿块",
+    "value": 21
+  },
+  {
+    "name": "疑似病例",
+    "value": 69
+  },
+  {
+    "name": "医学观察",
+    "value": 97
+  },
+  {
+    "name": "竞争性",
+    "value": 3
+  },
+  {
+    "name": "注射剂",
+    "value": 68
+  },
+  {
+    "name": "药剂",
+    "value": 3
+  },
+  {
+    "name": "带状疱疹",
+    "value": 72
+  },
+  {
+    "name": "神经痛",
+    "value": 14
+  },
+  {
+    "name": "神经毒素",
+    "value": 1
+  },
+  {
+    "name": "血站",
+    "value": 2
+  },
+  {
+    "name": "遗传疾病",
+    "value": 4
+  },
+  {
+    "name": "器官移植",
+    "value": 21
+  },
+  {
+    "name": "绝症",
+    "value": 1
+  },
+  {
+    "name": "救护车",
+    "value": 28
+  },
+  {
+    "name": "喉癌",
+    "value": 7
+  },
+  {
+    "name": "鼻咽癌",
+    "value": 64
+  },
+  {
+    "name": "鼻炎",
+    "value": 67
+  },
+  {
+    "name": "复视",
+    "value": 2
+  },
+  {
+    "name": "耳鸣",
+    "value": 29
+  },
+  {
+    "name": "鼻部",
+    "value": 6
+  },
+  {
+    "name": "鼻息肉",
+    "value": 1
+  },
+  {
+    "name": "家族史",
+    "value": 41
+  },
+  {
+    "name": "遗传性",
+    "value": 34
+  },
+  {
+    "name": "唾液",
+    "value": 28
+  },
+  {
+    "name": "阴虚",
+    "value": 11
+  },
+  {
+    "name": "刺五加",
+    "value": 1
+  },
+  {
+    "name": "首乌藤",
+    "value": 1
+  },
+  {
+    "name": "合欢花",
+    "value": 1
+  },
+  {
+    "name": "珍珠母",
+    "value": 1
+  },
+  {
+    "name": "茯苓",
+    "value": 11
+  },
+  {
+    "name": "刺痛",
+    "value": 9
+  },
+  {
+    "name": "筛检",
+    "value": 1
+  },
+  {
+    "name": "分泌",
+    "value": 128
+  },
+  {
+    "name": "眼睑",
+    "value": 18
+  },
+  {
+    "name": "环孢素",
+    "value": 2
+  },
+  {
+    "name": "麦芽",
+    "value": 3
+  },
+  {
+    "name": "党参",
+    "value": 24
+  },
+  {
+    "name": "保和丸",
+    "value": 1
+  },
+  {
+    "name": "四君子汤",
+    "value": 1
+  },
+  {
+    "name": "健脾",
+    "value": 56
+  },
+  {
+    "name": "混悬液",
+    "value": 3
+  },
+  {
+    "name": "儿科学",
+    "value": 4
+  },
+  {
+    "name": "厌食",
+    "value": 12
+  },
+  {
+    "name": "胃痛",
+    "value": 40
+  },
+  {
+    "name": "胃胀",
+    "value": 5
+  },
+  {
+    "name": "川楝子",
+    "value": 2
+  },
+  {
+    "name": "延胡索",
+    "value": 1
+  },
+  {
+    "name": "行气活血",
+    "value": 1
+  },
+  {
+    "name": "气滞",
+    "value": 2
+  },
+  {
+    "name": "血瘀",
+    "value": 5
+  },
+  {
+    "name": "紫苏梗",
+    "value": 1
+  },
+  {
+    "name": "香附",
+    "value": 2
+  },
+  {
+    "name": "香橼",
+    "value": 1
+  },
+  {
+    "name": "佛手",
+    "value": 9
+  },
+  {
+    "name": "主诉",
+    "value": 5
+  },
+  {
+    "name": "嗳气",
+    "value": 4
+  },
+  {
+    "name": "胰腺",
+    "value": 38
+  },
+  {
+    "name": "胆囊炎",
+    "value": 7
+  },
+  {
+    "name": "食欲不振",
+    "value": 25
+  },
+  {
+    "name": "病毒学",
+    "value": 8
+  },
+  {
+    "name": "性状",
+    "value": 18
+  },
+  {
+    "name": "腺病毒",
+    "value": 30
+  },
+  {
+    "name": "抗菌素",
+    "value": 18
+  },
+  {
+    "name": "血液制品",
+    "value": 21
+  },
+  {
+    "name": "格华止",
+    "value": 6
+  },
+  {
+    "name": "关节炎",
+    "value": 77
+  },
+  {
+    "name": "脊柱炎",
+    "value": 16
+  },
+  {
+    "name": "活血化瘀",
+    "value": 6
+  },
+  {
+    "name": "风湿性关节炎",
+    "value": 13
+  },
+  {
+    "name": "腰肌劳损",
+    "value": 5
+  },
+  {
+    "name": "颈椎病",
+    "value": 32
+  },
+  {
+    "name": "伤湿",
+    "value": 3
+  },
+  {
+    "name": "腰痛",
+    "value": 45
+  },
+  {
+    "name": "肉桂",
+    "value": 6
+  },
+  {
+    "name": "贴剂",
+    "value": 4
+  },
+  {
+    "name": "便秘",
+    "value": 108
+  },
+  {
+    "name": "球菌",
+    "value": 15
+  },
+  {
+    "name": "菌株",
+    "value": 17
+  },
+  {
+    "name": "耐药性",
+    "value": 30
+  },
+  {
+    "name": "菌群失调",
+    "value": 6
+  },
+  {
+    "name": "雾化器",
+    "value": 5
+  },
+  {
+    "name": "体液",
+    "value": 13
+  },
+  {
+    "name": "活疫苗",
+    "value": 67
+  },
+  {
+    "name": "肌肉注射",
+    "value": 4
+  },
+  {
+    "name": "粘附",
+    "value": 5
+  },
+  {
+    "name": "散光",
+    "value": 28
+  },
+  {
+    "name": "鼻梁",
+    "value": 8
+  },
+  {
+    "name": "纱布",
+    "value": 11
+  },
+  {
+    "name": "滤过",
+    "value": 11
+  },
+  {
+    "name": "避孕",
+    "value": 30
+  },
+  {
+    "name": "根治",
+    "value": 36
+  },
+  {
+    "name": "放射线",
+    "value": 8
+  },
+  {
+    "name": "放射治疗",
+    "value": 20
+  },
+  {
+    "name": "脊髓",
+    "value": 12
+  },
+  {
+    "name": "生物医学",
+    "value": 6
+  },
+  {
+    "name": "治疗室",
+    "value": 4
+  },
+  {
+    "name": "远视",
+    "value": 4
+  },
+  {
+    "name": "震颤",
+    "value": 1
+  },
+  {
+    "name": "减脂",
+    "value": 49
+  },
+  {
+    "name": "减肥茶",
+    "value": 1
+  },
+  {
+    "name": "紫外线",
+    "value": 38
+  },
+  {
+    "name": "叶黄素",
+    "value": 67
+  },
+  {
+    "name": "黄斑",
+    "value": 25
+  },
+  {
+    "name": "猕猴桃",
+    "value": 9
+  },
+  {
+    "name": "自由基",
+    "value": 30
+  },
+  {
+    "name": "咀嚼片",
+    "value": 3
+  },
+  {
+    "name": "精神障碍",
+    "value": 8
+  },
+  {
+    "name": "泌尿系",
+    "value": 3
+  },
+  {
+    "name": "肾小管",
+    "value": 9
+  },
+  {
+    "name": "胶囊剂",
+    "value": 29
+  },
+  {
+    "name": "混浊",
+    "value": 5
+  },
+  {
+    "name": "中间体",
+    "value": 8
+  },
+  {
+    "name": "放射科",
+    "value": 6
+  },
+  {
+    "name": "肋骨",
+    "value": 12
+  },
+  {
+    "name": "医疗事故",
+    "value": 7
+  },
+  {
+    "name": "肩胛骨",
+    "value": 7
+  },
+  {
+    "name": "锁骨",
+    "value": 3
+  },
+  {
+    "name": "胸骨",
+    "value": 7
+  },
+  {
+    "name": "面罩",
+    "value": 2
+  },
+  {
+    "name": "肿瘤发生",
+    "value": 1
+  },
+  {
+    "name": "内皮",
+    "value": 10
+  },
+  {
+    "name": "胶原",
+    "value": 6
+  },
+  {
+    "name": "睫状体",
+    "value": 3
+  },
+  {
+    "name": "消毒液",
+    "value": 34
+  },
+  {
+    "name": "推拿",
+    "value": 9
+  },
+  {
+    "name": "恶性",
+    "value": 67
+  },
+  {
+    "name": "脑卒中",
+    "value": 72
+  },
+  {
+    "name": "巩膜",
+    "value": 3
+  },
+  {
+    "name": "变性",
+    "value": 26
+  },
+  {
+    "name": "酮症",
+    "value": 17
+  },
+  {
+    "name": "昏迷",
+    "value": 24
+  },
+  {
+    "name": "咳喘",
+    "value": 10
+  },
+  {
+    "name": "电穿孔",
+    "value": 2
+  },
+  {
+    "name": "皮脂",
+    "value": 3
+  },
+  {
+    "name": "异物",
+    "value": 18
+  },
+  {
+    "name": "视神经",
+    "value": 7
+  },
+  {
+    "name": "链球菌",
+    "value": 41
+  },
+  {
+    "name": "脑膜炎",
+    "value": 9
+  },
+  {
+    "name": "菌血症",
+    "value": 2
+  },
+  {
+    "name": "中耳炎",
+    "value": 11
+  },
+  {
+    "name": "婴儿",
+    "value": 63
+  },
+  {
+    "name": "青霉素",
+    "value": 15
+  },
+  {
+    "name": "红霉素",
+    "value": 27
+  },
+  {
+    "name": "糖蛋白",
+    "value": 4
+  },
+  {
+    "name": "复种",
+    "value": 2
+  },
+  {
+    "name": "流泪",
+    "value": 10
+  },
+  {
+    "name": "辐射损伤",
+    "value": 2
+  },
+  {
+    "name": "上皮细胞",
+    "value": 7
+  },
+  {
+    "name": "葡萄膜",
+    "value": 2
+  },
+  {
+    "name": "灼伤",
+    "value": 7
+  },
+  {
+    "name": "冰片",
+    "value": 2
+  },
+  {
+    "name": "体癣",
+    "value": 2
+  },
+  {
+    "name": "硝酸",
+    "value": 2
+  },
+  {
+    "name": "咪康唑",
+    "value": 1
+  },
+  {
+    "name": "真菌",
+    "value": 29
+  },
+  {
+    "name": "新霉素",
+    "value": 2
+  },
+  {
+    "name": "股癣",
+    "value": 1
+  },
+  {
+    "name": "丘疹",
+    "value": 13
+  },
+  {
+    "name": "麻痹",
+    "value": 5
+  },
+  {
+    "name": "心身医学",
+    "value": 1
+  },
+  {
+    "name": "解郁",
+    "value": 5
+  },
+  {
+    "name": "降香",
+    "value": 1
+  },
+  {
+    "name": "鳖甲",
+    "value": 9
+  },
+  {
+    "name": "化瘀",
+    "value": 3
+  },
+  {
+    "name": "纤维化",
+    "value": 64
+  },
+  {
+    "name": "瘀血",
+    "value": 2
+  },
+  {
+    "name": "赤芍",
+    "value": 4
+  },
+  {
+    "name": "体虚",
+    "value": 7
+  },
+  {
+    "name": "冬虫夏草",
+    "value": 5
+  },
+  {
+    "name": "三七",
+    "value": 7
+  },
+  {
+    "name": "病机",
+    "value": 4
+  },
+  {
+    "name": "肝细胞",
+    "value": 33
+  },
+  {
+    "name": "基膜",
+    "value": 1
+  },
+  {
+    "name": "失调",
+    "value": 32
+  },
+  {
+    "name": "裂隙",
+    "value": 3
+  },
+  {
+    "name": "螨虫",
+    "value": 9
+  },
+  {
+    "name": "止痛药",
+    "value": 18
+  },
+  {
+    "name": "接骨",
+    "value": 1
+  },
+  {
+    "name": "冻疮",
+    "value": 2
+  },
+  {
+    "name": "跌打损伤",
+    "value": 11
+  },
+  {
+    "name": "卵磷脂",
+    "value": 10
+  },
+  {
+    "name": "胆固醇",
+    "value": 111
+  },
+  {
+    "name": "甘油三脂",
+    "value": 3
+  },
+  {
+    "name": "磷脂",
+    "value": 5
+  },
+  {
+    "name": "脂蛋白",
+    "value": 40
+  },
+  {
+    "name": "脂肪肝",
+    "value": 70
+  },
+  {
+    "name": "细胞膜",
+    "value": 14
+  },
+  {
+    "name": "心力衰竭",
+    "value": 27
+  },
+  {
+    "name": "预防措施",
+    "value": 47
+  },
+  {
+    "name": "中毒",
+    "value": 40
+  },
+  {
+    "name": "心肌",
+    "value": 28
+  },
+  {
+    "name": "摄取",
+    "value": 26
+  },
+  {
+    "name": "滴度",
+    "value": 11
+  },
+  {
+    "name": "传染源",
+    "value": 25
+  },
+  {
+    "name": "疫点",
+    "value": 1
+  },
+  {
+    "name": "休克",
+    "value": 28
+  },
+  {
+    "name": "网状结构",
+    "value": 2
+  },
+  {
+    "name": "纤维组织",
+    "value": 2
+  },
+  {
+    "name": "血吸虫",
+    "value": 2
+  },
+  {
+    "name": "血吸虫病",
+    "value": 1
+  },
+  {
+    "name": "黑芝麻",
+    "value": 3
+  },
+  {
+    "name": "尿酸",
+    "value": 97
+  },
+  {
+    "name": "帕金森病",
+    "value": 20
+  },
+  {
+    "name": "食指",
+    "value": 9
+  },
+  {
+    "name": "预处理",
+    "value": 1
+  },
+  {
+    "name": "云南白药",
+    "value": 24
+  },
+  {
+    "name": "合剂",
+    "value": 14
+  },
+  {
+    "name": "植入物",
+    "value": 9
+  },
+  {
+    "name": "听觉",
+    "value": 2
+  },
+  {
+    "name": "脱氧核糖核酸",
+    "value": 1
+  },
+  {
+    "name": "左心室",
+    "value": 12
+  },
+  {
+    "name": "循环系统",
+    "value": 3
+  },
+  {
+    "name": "心室",
+    "value": 6
+  },
+  {
+    "name": "皮质激素",
+    "value": 31
+  },
+  {
+    "name": "甲氨蝶呤",
+    "value": 4
+  },
+  {
+    "name": "风湿病",
+    "value": 7
+  },
+  {
+    "name": "文拉法辛",
+    "value": 5
+  },
+  {
+    "name": "围术期",
+    "value": 2
+  },
+  {
+    "name": "综合症",
+    "value": 16
+  },
+  {
+    "name": "泌尿科",
+    "value": 3
+  },
+  {
+    "name": "斑点",
+    "value": 2
+  },
+  {
+    "name": "黑色素",
+    "value": 4
+  },
+  {
+    "name": "基因突变",
+    "value": 28
+  },
+  {
+    "name": "听诊器",
+    "value": 9
+  },
+  {
+    "name": "缝合",
+    "value": 5
+  },
+  {
+    "name": "眼裂",
+    "value": 1
+  },
+  {
+    "name": "基底",
+    "value": 4
+  },
+  {
+    "name": "鼻翼",
+    "value": 3
+  },
+  {
+    "name": "上唇",
+    "value": 2
+  },
+  {
+    "name": "外翻",
+    "value": 3
+  },
+  {
+    "name": "萎缩",
+    "value": 32
+  },
+  {
+    "name": "肋软骨",
+    "value": 6
+  },
+  {
+    "name": "耳廓",
+    "value": 1
+  },
+  {
+    "name": "招风耳",
+    "value": 1
+  },
+  {
+    "name": "苯胺",
+    "value": 1
+  },
+  {
+    "name": "胃癌",
+    "value": 107
+  },
+  {
+    "name": "四肢",
+    "value": 38
+  },
+  {
+    "name": "心肌缺血",
+    "value": 13
+  },
+  {
+    "name": "心痛",
+    "value": 1
+  },
+  {
+    "name": "生殖器",
+    "value": 4
+  },
+  {
+    "name": "初潮",
+    "value": 6
+  },
+  {
+    "name": "月经",
+    "value": 84
+  },
+  {
+    "name": "遗精",
+    "value": 7
+  },
+  {
+    "name": "手杖",
+    "value": 1
+  },
+  {
+    "name": "助行器",
+    "value": 1
+  },
+  {
+    "name": "起病",
+    "value": 14
+  },
+  {
+    "name": "硬化性",
+    "value": 18
+  },
+  {
+    "name": "大拇指",
+    "value": 2
+  },
+  {
+    "name": "血友病",
+    "value": 14
+  },
+  {
+    "name": "硬化症",
+    "value": 3
+  },
+  {
+    "name": "天花",
+    "value": 4
+  },
+  {
+    "name": "栓塞",
+    "value": 23
+  },
+  {
+    "name": "血流",
+    "value": 23
+  },
+  {
+    "name": "光电效应",
+    "value": 1
+  },
+  {
+    "name": "方差",
+    "value": 1
+  },
+  {
+    "name": "灌流",
+    "value": 1
+  },
+  {
+    "name": "人工关节",
+    "value": 5
+  },
+  {
+    "name": "分化",
+    "value": 7
+  },
+  {
+    "name": "致死",
+    "value": 16
+  },
+  {
+    "name": "升麻",
+    "value": 1
+  },
+  {
+    "name": "五味子",
+    "value": 2
+  },
+  {
+    "name": "石菖蒲",
+    "value": 2
+  },
+  {
+    "name": "砂仁",
+    "value": 6
+  },
+  {
+    "name": "黑胡椒",
+    "value": 3
+  },
+  {
+    "name": "海金沙",
+    "value": 1
+  },
+  {
+    "name": "生地",
+    "value": 2
+  },
+  {
+    "name": "熟地黄",
+    "value": 1
+  },
+  {
+    "name": "泽泻",
+    "value": 2
+  },
+  {
+    "name": "碳酸钙",
+    "value": 3
+  },
+  {
+    "name": "颗粒剂",
+    "value": 10
+  },
+  {
+    "name": "骨质疏松症",
+    "value": 21
+  },
+  {
+    "name": "结肠",
+    "value": 30
+  },
+  {
+    "name": "乳房",
+    "value": 47
+  },
+  {
+    "name": "阿莫西林",
+    "value": 11
+  },
+  {
+    "name": "洛贝林",
+    "value": 1
+  },
+  {
+    "name": "卫生局",
+    "value": 7
+  },
+  {
+    "name": "禁忌症",
+    "value": 22
+  },
+  {
+    "name": "过敏反应",
+    "value": 25
+  },
+  {
+    "name": "头孢他啶",
+    "value": 7
+  },
+  {
+    "name": "窒息",
+    "value": 17
+  },
+  {
+    "name": "覆盆子",
+    "value": 6
+  },
+  {
+    "name": "肉桂酸",
+    "value": 1
+  },
+  {
+    "name": "红肿",
+    "value": 20
+  },
+  {
+    "name": "衍生物",
+    "value": 11
+  },
+  {
+    "name": "红斑",
+    "value": 21
+  },
+  {
+    "name": "剥脱",
+    "value": 4
+  },
+  {
+    "name": "颜面",
+    "value": 7
+  },
+  {
+    "name": "抽样",
+    "value": 6
+  },
+  {
+    "name": "矫治",
+    "value": 1
+  },
+  {
+    "name": "矫治器",
+    "value": 3
+  },
+  {
+    "name": "牙槽骨",
+    "value": 7
+  },
+  {
+    "name": "下颌骨",
+    "value": 3
+  },
+  {
+    "name": "颌骨",
+    "value": 8
+  },
+  {
+    "name": "前突",
+    "value": 1
+  },
+  {
+    "name": "矫形",
+    "value": 4
+  },
+  {
+    "name": "牙齿拥挤",
+    "value": 1
+  },
+  {
+    "name": "支气管",
+    "value": 40
+  },
+  {
+    "name": "基因型",
+    "value": 7
+  },
+  {
+    "name": "超负荷",
+    "value": 8
+  },
+  {
+    "name": "外伤",
+    "value": 27
+  },
+  {
+    "name": "破伤风",
+    "value": 11
+  },
+  {
+    "name": "狂犬",
+    "value": 4
+  },
+  {
+    "name": "柴胡",
+    "value": 13
+  },
+  {
+    "name": "喷昔洛韦",
+    "value": 1
+  },
+  {
+    "name": "氯霉素",
+    "value": 2
+  },
+  {
+    "name": "妊娠",
+    "value": 44
+  },
+  {
+    "name": "子痫",
+    "value": 1
+  },
+  {
+    "name": "死产",
+    "value": 1
+  },
+  {
+    "name": "缺血",
+    "value": 32
+  },
+  {
+    "name": "肾移植",
+    "value": 9
+  },
+  {
+    "name": "断血流",
+    "value": 1
+  },
+  {
+    "name": "体外循环",
+    "value": 3
+  },
+  {
+    "name": "心肌病",
+    "value": 4
+  },
+  {
+    "name": "肺动脉",
+    "value": 10
+  },
+  {
+    "name": "心包",
+    "value": 8
+  },
+  {
+    "name": "清开灵",
+    "value": 10
+  },
+  {
+    "name": "泡腾片",
+    "value": 6
+  },
+  {
+    "name": "多奈哌齐",
+    "value": 2
+  },
+  {
+    "name": "酒石酸",
+    "value": 5
+  },
+  {
+    "name": "麦角",
+    "value": 2
+  },
+  {
+    "name": "超声波",
+    "value": 2
+  },
+  {
+    "name": "核糖核酸",
+    "value": 5
+  },
+  {
+    "name": "刺突",
+    "value": 8
+  },
+  {
+    "name": "精液",
+    "value": 10
+  },
+  {
+    "name": "精子",
+    "value": 73
+  },
+  {
+    "name": "子宫",
+    "value": 97
+  },
+  {
+    "name": "受精",
+    "value": 6
+  },
+  {
+    "name": "叶酸",
+    "value": 5
+  },
+  {
+    "name": "羊水",
+    "value": 7
+  },
+  {
+    "name": "产前",
+    "value": 3
+  },
+  {
+    "name": "产前诊断",
+    "value": 9
+  },
+  {
+    "name": "携带者",
+    "value": 14
+  },
+  {
+    "name": "血型",
+    "value": 2
+  },
+  {
+    "name": "细胞培养",
+    "value": 6
+  },
+  {
+    "name": "补肾",
+    "value": 45
+  },
+  {
+    "name": "阳痿",
+    "value": 19
+  },
+  {
+    "name": "性功能",
+    "value": 34
+  },
+  {
+    "name": "兴奋性",
+    "value": 13
+  },
+  {
+    "name": "肝功能",
+    "value": 46
+  },
+  {
+    "name": "雌激素",
+    "value": 64
+  },
+  {
+    "name": "阴茎",
+    "value": 23
+  },
+  {
+    "name": "排泄物",
+    "value": 11
+  },
+  {
+    "name": "髋臼",
+    "value": 1
+  },
+  {
+    "name": "内衬",
+    "value": 1
+  },
+  {
+    "name": "搅拌器",
+    "value": 1
+  },
+  {
+    "name": "冲洗器",
+    "value": 1
+  },
+  {
+    "name": "半月板",
+    "value": 26
+  },
+  {
+    "name": "大学物理",
+    "value": 1
+  },
+  {
+    "name": "生物化学",
+    "value": 3
+  },
+  {
+    "name": "无意识",
+    "value": 1
+  },
+  {
+    "name": "光滑",
+    "value": 15
+  },
+  {
+    "name": "药物滥用",
+    "value": 7
+  },
+  {
+    "name": "片仔癀",
+    "value": 47
+  },
+  {
+    "name": "牛黄",
+    "value": 28
+  },
+  {
+    "name": "蛇胆",
+    "value": 1
+  },
+  {
+    "name": "医学美容",
+    "value": 2
+  },
+  {
+    "name": "遗传物质",
+    "value": 6
+  },
+  {
+    "name": "引物",
+    "value": 4
+  },
+  {
+    "name": "探针",
+    "value": 8
+  },
+  {
+    "name": "猝死",
+    "value": 66
+  },
+  {
+    "name": "线粒体",
+    "value": 2
+  },
+  {
+    "name": "人参",
+    "value": 56
+  },
+  {
+    "name": "凋亡",
+    "value": 4
+  },
+  {
+    "name": "硫黄",
+    "value": 1
+  },
+  {
+    "name": "菟丝子",
+    "value": 2
+  },
+  {
+    "name": "续断",
+    "value": 1
+  },
+  {
+    "name": "巴戟天",
+    "value": 1
+  },
+  {
+    "name": "白术",
+    "value": 9
+  },
+  {
+    "name": "枸杞子",
+    "value": 11
+  },
+  {
+    "name": "分子生物学",
+    "value": 2
+  },
+  {
+    "name": "药盒",
+    "value": 8
+  },
+  {
+    "name": "胰岛",
+    "value": 18
+  },
+  {
+    "name": "献血",
+    "value": 5
+  },
+  {
+    "name": "系统发育",
+    "value": 1
+  },
+  {
+    "name": "自然选择",
+    "value": 2
+  },
+  {
+    "name": "穿山甲",
+    "value": 6
+  },
+  {
+    "name": "易感性",
+    "value": 5
+  },
+  {
+    "name": "假死",
+    "value": 1
+  },
+  {
+    "name": "长生",
+    "value": 2
+  },
+  {
+    "name": "节律",
+    "value": 13
+  },
+  {
+    "name": "缺氧",
+    "value": 38
+  },
+  {
+    "name": "还原酶",
+    "value": 4
+  },
+  {
+    "name": "运动障碍",
+    "value": 6
+  },
+  {
+    "name": "生长激素",
+    "value": 51
+  },
+  {
+    "name": "大肠杆菌",
+    "value": 14
+  },
+  {
+    "name": "粉剂",
+    "value": 3
+  },
+  {
+    "name": "粉针剂",
+    "value": 2
+  },
+  {
+    "name": "聚乙二醇",
+    "value": 2
+  },
+  {
+    "name": "粉针",
+    "value": 1
+  },
+  {
+    "name": "原发性",
+    "value": 16
+  },
+  {
+    "name": "合作医疗",
+    "value": 2
+  },
+  {
+    "name": "股骨头",
+    "value": 1
+  },
+  {
+    "name": "滑脱",
+    "value": 3
+  },
+  {
+    "name": "生长因子",
+    "value": 7
+  },
+  {
+    "name": "肾上腺",
+    "value": 25
+  },
+  {
+    "name": "骨龄",
+    "value": 4
+  },
+  {
+    "name": "表位",
+    "value": 1
+  },
+  {
+    "name": "优生优育",
+    "value": 5
+  },
+  {
+    "name": "桑国卫",
+    "value": 1
+  },
+  {
+    "name": "泌尿",
+    "value": 7
+  },
+  {
+    "name": "免疫监视",
+    "value": 2
+  },
+  {
+    "name": "产热",
+    "value": 6
+  },
+  {
+    "name": "反射",
+    "value": 5
+  },
+  {
+    "name": "心律不齐",
+    "value": 10
+  },
+  {
+    "name": "低血压",
+    "value": 13
+  },
+  {
+    "name": "加温",
+    "value": 2
+  },
+  {
+    "name": "热水袋",
+    "value": 2
+  },
+  {
+    "name": "腋窝",
+    "value": 6
+  },
+  {
+    "name": "腹股沟",
+    "value": 5
+  },
+  {
+    "name": "幻觉",
+    "value": 6
+  },
+  {
+    "name": "涂片",
+    "value": 6
+  },
+  {
+    "name": "光谱",
+    "value": 4
+  },
+  {
+    "name": "异型",
+    "value": 7
+  },
+  {
+    "name": "藏药",
+    "value": 8
+  },
+  {
+    "name": "顺应性",
+    "value": 4
+  },
+  {
+    "name": "霉素",
+    "value": 24
+  },
+  {
+    "name": "透析器",
+    "value": 1
+  },
+  {
+    "name": "凝血因子",
+    "value": 7
+  },
+  {
+    "name": "凝血",
+    "value": 14
+  },
+  {
+    "name": "精神分裂症",
+    "value": 11
+  },
+  {
+    "name": "脑心通",
+    "value": 9
+  },
+  {
+    "name": "食管癌",
+    "value": 41
+  },
+  {
+    "name": "阿胶",
+    "value": 26
+  },
+  {
+    "name": "白药",
+    "value": 2
+  },
+  {
+    "name": "散剂",
+    "value": 1
+  },
+  {
+    "name": "热敷",
+    "value": 40
+  },
+  {
+    "name": "牙线",
+    "value": 6
+  },
+  {
+    "name": "偏瘫",
+    "value": 10
+  },
+  {
+    "name": "六味地黄",
+    "value": 3
+  },
+  {
+    "name": "金匮",
+    "value": 3
+  },
+  {
+    "name": "乌鸡",
+    "value": 21
+  },
+  {
+    "name": "调经",
+    "value": 7
+  },
+  {
+    "name": "轮状病毒",
+    "value": 45
+  },
+  {
+    "name": "脱水",
+    "value": 29
+  },
+  {
+    "name": "补液",
+    "value": 32
+  },
+  {
+    "name": "免疫血清",
+    "value": 1
+  },
+  {
+    "name": "痛经",
+    "value": 26
+  },
+  {
+    "name": "阴道炎",
+    "value": 9
+  },
+  {
+    "name": "栓剂",
+    "value": 11
+  },
+  {
+    "name": "洗剂",
+    "value": 8
+  },
+  {
+    "name": "直肠",
+    "value": 40
+  },
+  {
+    "name": "宫颈炎",
+    "value": 5
+  },
+  {
+    "name": "造影剂",
+    "value": 4
+  },
+  {
+    "name": "奥美拉唑",
+    "value": 13
+  },
+  {
+    "name": "碘克沙醇",
+    "value": 1
+  },
+  {
+    "name": "毒素",
+    "value": 49
+  },
+  {
+    "name": "胶原纤维",
+    "value": 1
+  },
+  {
+    "name": "分类学",
+    "value": 1
+  },
+  {
+    "name": "肝素",
+    "value": 2
+  },
+  {
+    "name": "药丸",
+    "value": 3
+  },
+  {
+    "name": "骨转移",
+    "value": 31
+  },
+  {
+    "name": "高钙血症",
+    "value": 4
+  },
+  {
+    "name": "脾虚",
+    "value": 16
+  },
+  {
+    "name": "氯化钠",
+    "value": 17
+  },
+  {
+    "name": "救心丸",
+    "value": 9
+  },
+  {
+    "name": "银杏叶",
+    "value": 4
+  },
+  {
+    "name": "川芎嗪",
+    "value": 1
+  },
+  {
+    "name": "拮抗",
+    "value": 12
+  },
+  {
+    "name": "脑栓塞",
+    "value": 1
+  },
+  {
+    "name": "高脂血症",
+    "value": 11
+  },
+  {
+    "name": "丹参酮",
+    "value": 2
+  },
+  {
+    "name": "五官科",
+    "value": 2
+  },
+  {
+    "name": "艾滋病",
+    "value": 119
+  },
+  {
+    "name": "畏寒",
+    "value": 13
+  },
+  {
+    "name": "结核",
+    "value": 17
+  },
+  {
+    "name": "脑梗死",
+    "value": 14
+  },
+  {
+    "name": "脑病",
+    "value": 12
+  },
+  {
+    "name": "吞咽",
+    "value": 14
+  },
+  {
+    "name": "西洋参",
+    "value": 15
+  },
+  {
+    "name": "磺酸",
+    "value": 1
+  },
+  {
+    "name": "软胶囊",
+    "value": 14
+  },
+  {
+    "name": "佐剂",
+    "value": 3
+  },
+  {
+    "name": "怀孕",
+    "value": 48
+  },
+  {
+    "name": "乳头",
+    "value": 21
+  },
+  {
+    "name": "狂犬病",
+    "value": 20
+  },
+  {
+    "name": "球蛋白",
+    "value": 8
+  },
+  {
+    "name": "宫颈癌",
+    "value": 66
+  },
+  {
+    "name": "肉瘤",
+    "value": 8
+  },
+  {
+    "name": "急救车",
+    "value": 4
+  },
+  {
+    "name": "肺结核",
+    "value": 18
+  },
+  {
+    "name": "分枝杆菌",
+    "value": 1
+  },
+  {
+    "name": "尿频",
+    "value": 11
+  },
+  {
+    "name": "尿急",
+    "value": 3
+  },
+  {
+    "name": "肺纤维化",
+    "value": 10
+  },
+  {
+    "name": "兴奋剂",
+    "value": 5
+  },
+  {
+    "name": "突变体",
+    "value": 1
+  },
+  {
+    "name": "生殖细胞",
+    "value": 4
+  },
+  {
+    "name": "甲状腺癌",
+    "value": 17
+  },
+  {
+    "name": "胸膜",
+    "value": 33
+  },
+  {
+    "name": "神经纤维",
+    "value": 10
+  },
+  {
+    "name": "组织细胞",
+    "value": 5
+  },
+  {
+    "name": "免疫性",
+    "value": 29
+  },
+  {
+    "name": "沙眼",
+    "value": 23
+  },
+  {
+    "name": "衣原体",
+    "value": 9
+  },
+  {
+    "name": "高钾血症",
+    "value": 2
+  },
+  {
+    "name": "体细胞",
+    "value": 9
+  },
+  {
+    "name": "毒理学",
+    "value": 4
+  },
+  {
+    "name": "白蛋白",
+    "value": 16
+  },
+  {
+    "name": "培养基",
+    "value": 1
+  },
+  {
+    "name": "登革热",
+    "value": 5
+  },
+  {
+    "name": "医风",
+    "value": 4
+  },
+  {
+    "name": "仓鼠",
+    "value": 6
+  },
+  {
+    "name": "腹腔",
+    "value": 24
+  },
+  {
+    "name": "袁国勇",
+    "value": 1
+  },
+  {
+    "name": "卵子",
+    "value": 13
+  },
+  {
+    "name": "利福平",
+    "value": 3
+  },
+  {
+    "name": "上皮",
+    "value": 41
+  },
+  {
+    "name": "胸腺",
+    "value": 3
+  },
+  {
+    "name": "红斑狼疮",
+    "value": 21
+  },
+  {
+    "name": "脊髓灰质炎",
+    "value": 5
+  },
+  {
+    "name": "氨曲南",
+    "value": 1
+  },
+  {
+    "name": "生脉",
+    "value": 1
+  },
+  {
+    "name": "肉豆蔻",
+    "value": 2
+  },
+  {
+    "name": "鱼腥草",
+    "value": 3
+  },
+  {
+    "name": "洛美沙星",
+    "value": 2
+  },
+  {
+    "name": "氨苄",
+    "value": 1
+  },
+  {
+    "name": "分散片",
+    "value": 6
+  },
+  {
+    "name": "氧氟沙星",
+    "value": 21
+  },
+  {
+    "name": "烫伤",
+    "value": 17
+  },
+  {
+    "name": "烧伤",
+    "value": 7
+  },
+  {
+    "name": "冻伤",
+    "value": 2
+  },
+  {
+    "name": "鼠疫",
+    "value": 2
+  },
+  {
+    "name": "霍乱",
+    "value": 2
+  },
+  {
+    "name": "检出率",
+    "value": 18
+  },
+  {
+    "name": "二氧化氯",
+    "value": 4
+  },
+  {
+    "name": "消毒剂",
+    "value": 26
+  },
+  {
+    "name": "葡萄球菌",
+    "value": 7
+  },
+  {
+    "name": "基础医学",
+    "value": 2
+  },
+  {
+    "name": "免疫抑制",
+    "value": 8
+  },
+  {
+    "name": "霍奇金",
+    "value": 9
+  },
+  {
+    "name": "精神病",
+    "value": 12
+  },
+  {
+    "name": "防疫站",
+    "value": 1
+  },
+  {
+    "name": "过氧乙酸",
+    "value": 3
+  },
+  {
+    "name": "甲胺磷",
+    "value": 1
+  },
+  {
+    "name": "根茎",
+    "value": 4
+  },
+  {
+    "name": "免疫原",
+    "value": 1
+  },
+  {
+    "name": "有效氯",
+    "value": 4
+  },
+  {
+    "name": "烧死",
+    "value": 2
+  },
+  {
+    "name": "静脉注射",
+    "value": 16
+  },
+  {
+    "name": "乙状结肠",
+    "value": 10
+  },
+  {
+    "name": "受精卵",
+    "value": 9
+  },
+  {
+    "name": "瓣膜",
+    "value": 10
+  },
+  {
+    "name": "主动脉瓣",
+    "value": 1
+  },
+  {
+    "name": "排卵",
+    "value": 9
+  },
+  {
+    "name": "月经周期",
+    "value": 19
+  },
+  {
+    "name": "穿刺针",
+    "value": 1
+  },
+  {
+    "name": "配子",
+    "value": 1
+  },
+  {
+    "name": "合子",
+    "value": 1
+  },
+  {
+    "name": "头孢西丁",
+    "value": 3
+  },
+  {
+    "name": "氟康唑",
+    "value": 4
+  },
+  {
+    "name": "硫酸钠",
+    "value": 2
+  },
+  {
+    "name": "疟疾",
+    "value": 16
+  },
+  {
+    "name": "皱襞",
+    "value": 2
+  },
+  {
+    "name": "病从口入",
+    "value": 10
+  },
+  {
+    "name": "舌尖",
+    "value": 7
+  },
+  {
+    "name": "食物中毒",
+    "value": 9
+  },
+  {
+    "name": "吞噬细胞",
+    "value": 1
+  },
+  {
+    "name": "硫酸锌",
+    "value": 1
+  },
+  {
+    "name": "丹参片",
+    "value": 2
+  },
+  {
+    "name": "穿心莲",
+    "value": 1
+  },
+  {
+    "name": "竹茹",
+    "value": 1
+  },
+  {
+    "name": "小通草",
+    "value": 1
+  },
+  {
+    "name": "秦艽",
+    "value": 1
+  },
+  {
+    "name": "平贝母",
+    "value": 1
+  },
+  {
+    "name": "偶发",
+    "value": 3
+  },
+  {
+    "name": "塑化剂",
+    "value": 1
+  },
+  {
+    "name": "稀释液",
+    "value": 7
+  },
+  {
+    "name": "甲醇",
+    "value": 14
+  },
+  {
+    "name": "溶血",
+    "value": 6
+  },
+  {
+    "name": "青紫",
+    "value": 2
+  },
+  {
+    "name": "臀肌",
+    "value": 2
+  },
+  {
+    "name": "挛缩",
+    "value": 5
+  },
+  {
+    "name": "乙醇",
+    "value": 11
+  },
+  {
+    "name": "多态性",
+    "value": 1
+  },
+  {
+    "name": "单眼",
+    "value": 2
+  },
+  {
+    "name": "瘫痪",
+    "value": 14
+  },
+  {
+    "name": "有性生殖",
+    "value": 1
+  },
+  {
+    "name": "前列腺癌",
+    "value": 32
+  },
+  {
+    "name": "睾丸癌",
+    "value": 2
+  },
+  {
+    "name": "基质",
+    "value": 6
+  },
+  {
+    "name": "人工流产",
+    "value": 4
+  },
+  {
+    "name": "表面张力",
+    "value": 1
+  },
+  {
+    "name": "子宫颈",
+    "value": 3
+  },
+  {
+    "name": "淋浴",
+    "value": 5
+  },
+  {
+    "name": "气泡",
+    "value": 1
+  },
+  {
+    "name": "假体",
+    "value": 12
+  },
+  {
+    "name": "胸大肌",
+    "value": 1
+  },
+  {
+    "name": "筋膜",
+    "value": 11
+  },
+  {
+    "name": "凹陷",
+    "value": 10
+  },
+  {
+    "name": "灭菌",
+    "value": 3
+  },
+  {
+    "name": "唇裂",
+    "value": 10
+  },
+  {
+    "name": "整形科",
+    "value": 3
+  },
+  {
+    "name": "胃镜",
+    "value": 22
+  },
+  {
+    "name": "静脉曲张",
+    "value": 9
+  },
+  {
+    "name": "皱褶",
+    "value": 4
+  },
+  {
+    "name": "经络",
+    "value": 23
+  },
+  {
+    "name": "寒湿",
+    "value": 5
+  },
+  {
+    "name": "命门",
+    "value": 5
+  },
+  {
+    "name": "神阙穴",
+    "value": 1
+  },
+  {
+    "name": "神阙",
+    "value": 2
+  },
+  {
+    "name": "任脉",
+    "value": 1
+  },
+  {
+    "name": "下丘脑",
+    "value": 11
+  },
+  {
+    "name": "白介素",
+    "value": 3
+  },
+  {
+    "name": "阑尾炎",
+    "value": 8
+  },
+  {
+    "name": "血管炎",
+    "value": 10
+  },
+  {
+    "name": "骨质",
+    "value": 65
+  },
+  {
+    "name": "暴饮暴食",
+    "value": 29
+  },
+  {
+    "name": "细胞毒",
+    "value": 1
+  },
+  {
+    "name": "胆管",
+    "value": 8
+  },
+  {
+    "name": "免疫调节",
+    "value": 9
+  },
+  {
+    "name": "板蓝根",
+    "value": 16
+  },
+  {
+    "name": "条件反射",
+    "value": 1
+  },
+  {
+    "name": "药效学",
+    "value": 5
+  },
+  {
+    "name": "前列腺炎",
+    "value": 22
+  },
+  {
+    "name": "腺炎",
+    "value": 2
+  },
+  {
+    "name": "腺癌",
+    "value": 10
+  },
+  {
+    "name": "雄性激素",
+    "value": 10
+  },
+  {
+    "name": "俞穴",
+    "value": 1
+  },
+  {
+    "name": "太冲",
+    "value": 1
+  },
+  {
+    "name": "尿液",
+    "value": 41
+  },
+  {
+    "name": "芬太尼",
+    "value": 33
+  },
+  {
+    "name": "前体",
+    "value": 3
+  },
+  {
+    "name": "美沙酮",
+    "value": 3
+  },
+  {
+    "name": "杜冷丁",
+    "value": 2
+  },
+  {
+    "name": "末梢神经",
+    "value": 4
+  },
+  {
+    "name": "创可贴",
+    "value": 7
+  },
+  {
+    "name": "伸展",
+    "value": 6
+  },
+  {
+    "name": "劳损",
+    "value": 10
+  },
+  {
+    "name": "腰椎",
+    "value": 39
+  },
+  {
+    "name": "椎间盘",
+    "value": 15
+  },
+  {
+    "name": "脱出",
+    "value": 2
+  },
+  {
+    "name": "移位",
+    "value": 5
+  },
+  {
+    "name": "体格检查",
+    "value": 6
+  },
+  {
+    "name": "按摩",
+    "value": 66
+  },
+  {
+    "name": "海豹",
+    "value": 3
+  },
+  {
+    "name": "半乳糖",
+    "value": 4
+  },
+  {
+    "name": "唾液酸",
+    "value": 4
+  },
+  {
+    "name": "水禽",
+    "value": 1
+  },
+  {
+    "name": "致病性",
+    "value": 9
+  },
+  {
+    "name": "血凝素",
+    "value": 1
+  },
+  {
+    "name": "尿道",
+    "value": 12
+  },
+  {
+    "name": "心理治疗",
+    "value": 7
+  },
+  {
+    "name": "排尿",
+    "value": 42
+  },
+  {
+    "name": "尿痛",
+    "value": 1
+  },
+  {
+    "name": "软化",
+    "value": 10
+  },
+  {
+    "name": "念珠菌",
+    "value": 14
+  },
+  {
+    "name": "制霉菌素",
+    "value": 2
+  },
+  {
+    "name": "孢子",
+    "value": 6
+  },
+  {
+    "name": "真菌病",
+    "value": 2
+  },
+  {
+    "name": "达克宁",
+    "value": 2
+  },
+  {
+    "name": "克霉唑",
+    "value": 2
+  },
+  {
+    "name": "避孕药",
+    "value": 30
+  },
+  {
+    "name": "糖浆",
+    "value": 10
+  },
+  {
+    "name": "针灸",
+    "value": 8
+  },
+  {
+    "name": "羌活",
+    "value": 1
+  },
+  {
+    "name": "眼结膜",
+    "value": 5
+  },
+  {
+    "name": "发际",
+    "value": 3
+  },
+  {
+    "name": "斑疹",
+    "value": 2
+  },
+  {
+    "name": "疱疹",
+    "value": 28
+  },
+  {
+    "name": "结痂",
+    "value": 7
+  },
+  {
+    "name": "皮肤感染",
+    "value": 3
+  },
+  {
+    "name": "脓肿",
+    "value": 6
+  },
+  {
+    "name": "脑炎",
+    "value": 7
+  },
+  {
+    "name": "丙种球蛋白",
+    "value": 1
+  },
+  {
+    "name": "烦躁不安",
+    "value": 4
+  },
+  {
+    "name": "化脓",
+    "value": 2
+  },
+  {
+    "name": "换气",
+    "value": 3
+  },
+  {
+    "name": "压痛",
+    "value": 11
+  },
+  {
+    "name": "癌变",
+    "value": 41
+  },
+  {
+    "name": "肠道病毒",
+    "value": 6
+  },
+  {
+    "name": "漂白粉",
+    "value": 6
+  },
+  {
+    "name": "无汗",
+    "value": 3
+  },
+  {
+    "name": "寒症",
+    "value": 2
+  },
+  {
+    "name": "热症",
+    "value": 3
+  },
+  {
+    "name": "失禁",
+    "value": 5
+  },
+  {
+    "name": "蒙脱石",
+    "value": 55
+  },
+  {
+    "name": "诺氟沙星",
+    "value": 7
+  },
+  {
+    "name": "肠炎",
+    "value": 16
+  },
+  {
+    "name": "痢疾",
+    "value": 3
+  },
+  {
+    "name": "肺气肿",
+    "value": 14
+  },
+  {
+    "name": "心肌炎",
+    "value": 33
+  },
+  {
+    "name": "低氧",
+    "value": 4
+  },
+  {
+    "name": "防御机制",
+    "value": 1
+  },
+  {
+    "name": "环磷酰胺",
+    "value": 8
+  },
+  {
+    "name": "湿敷",
+    "value": 2
+  },
+  {
+    "name": "心内膜",
+    "value": 2
+  },
+  {
+    "name": "感染期",
+    "value": 2
+  },
+  {
+    "name": "物理化学",
+    "value": 2
+  },
+  {
+    "name": "三聚体",
+    "value": 5
+  },
+  {
+    "name": "扁桃体",
+    "value": 2
+  },
+  {
+    "name": "扁桃体炎",
+    "value": 6
+  },
+  {
+    "name": "支原体",
+    "value": 5
+  },
+  {
+    "name": "健忘",
+    "value": 7
+  },
+  {
+    "name": "腰围",
+    "value": 11
+  },
+  {
+    "name": "呼吸衰竭",
+    "value": 4
+  },
+  {
+    "name": "月经过多",
+    "value": 1
+  },
+  {
+    "name": "瘀斑",
+    "value": 2
+  },
+  {
+    "name": "败血症",
+    "value": 7
+  },
+  {
+    "name": "毒血症",
+    "value": 3
+  },
+  {
+    "name": "脑膜",
+    "value": 4
+  },
+  {
+    "name": "骨头",
+    "value": 10
+  },
+  {
+    "name": "蛛网膜",
+    "value": 2
+  },
+  {
+    "name": "静脉炎",
+    "value": 2
+  },
+  {
+    "name": "腱鞘炎",
+    "value": 12
+  },
+  {
+    "name": "腱鞘",
+    "value": 1
+  },
+  {
+    "name": "支具",
+    "value": 2
+  },
+  {
+    "name": "肌腱",
+    "value": 4
+  },
+  {
+    "name": "牙痛",
+    "value": 10
+  },
+  {
+    "name": "钙化",
+    "value": 6
+  },
+  {
+    "name": "带状",
+    "value": 3
+  },
+  {
+    "name": "水疱",
+    "value": 10
+  },
+  {
+    "name": "可待因",
+    "value": 4
+  },
+  {
+    "name": "甘草片",
+    "value": 10
+  },
+  {
+    "name": "枇杷",
+    "value": 3
+  },
+  {
+    "name": "肺热",
+    "value": 2
+  },
+  {
+    "name": "排便",
+    "value": 69
+  },
+  {
+    "name": "性行为",
+    "value": 6
+  },
+  {
+    "name": "血管瘤",
+    "value": 30
+  },
+  {
+    "name": "霉菌",
+    "value": 7
+  },
+  {
+    "name": "茶碱",
+    "value": 71
+  },
+  {
+    "name": "淋病",
+    "value": 26
+  },
+  {
+    "name": "生殖系统",
+    "value": 16
+  },
+  {
+    "name": "四环素",
+    "value": 13
+  },
+  {
+    "name": "新诺明",
+    "value": 1
+  },
+  {
+    "name": "梗阻",
+    "value": 8
+  },
+  {
+    "name": "背部",
+    "value": 17
+  },
+  {
+    "name": "抽搐",
+    "value": 17
+  },
+  {
+    "name": "血量",
+    "value": 5
+  },
+  {
+    "name": "强痛定",
+    "value": 1
+  },
+  {
+    "name": "吗啡",
+    "value": 3
+  },
+  {
+    "name": "泻药",
+    "value": 5
+  },
+  {
+    "name": "灌肠",
+    "value": 2
+  },
+  {
+    "name": "阿托品",
+    "value": 1
+  },
+  {
+    "name": "冷敷",
+    "value": 17
+  },
+  {
+    "name": "毛细血管",
+    "value": 13
+  },
+  {
+    "name": "包扎",
+    "value": 2
+  },
+  {
+    "name": "韧带",
+    "value": 31
+  },
+  {
+    "name": "重吸收",
+    "value": 6
+  },
+  {
+    "name": "坏疽",
+    "value": 11
+  },
+  {
+    "name": "不规则",
+    "value": 15
+  },
+  {
+    "name": "截肢",
+    "value": 14
+  },
+  {
+    "name": "栓子",
+    "value": 7
+  },
+  {
+    "name": "淤血",
+    "value": 6
+  },
+  {
+    "name": "搏动",
+    "value": 2
+  },
+  {
+    "name": "苍白",
+    "value": 2
+  },
+  {
+    "name": "产后",
+    "value": 32
+  },
+  {
+    "name": "亢进",
+    "value": 7
+  },
+  {
+    "name": "间皮瘤",
+    "value": 47
+  },
+  {
+    "name": "胸腔",
+    "value": 10
+  },
+  {
+    "name": "保护膜",
+    "value": 2
+  },
+  {
+    "name": "腹膜",
+    "value": 12
+  },
+  {
+    "name": "电离辐射",
+    "value": 11
+  },
+  {
+    "name": "沸石",
+    "value": 6
+  },
+  {
+    "name": "结节性",
+    "value": 2
+  },
+  {
+    "name": "细胞学",
+    "value": 13
+  },
+  {
+    "name": "组织学",
+    "value": 2
+  },
+  {
+    "name": "外阴",
+    "value": 48
+  },
+  {
+    "name": "苔藓",
+    "value": 6
+  },
+  {
+    "name": "糜烂",
+    "value": 12
+  },
+  {
+    "name": "肿物",
+    "value": 6
+  },
+  {
+    "name": "肾癌",
+    "value": 7
+  },
+  {
+    "name": "皮肤癌",
+    "value": 26
+  },
+  {
+    "name": "二聚体",
+    "value": 3
+  },
+  {
+    "name": "孕激素",
+    "value": 7
+  },
+  {
+    "name": "梗塞",
+    "value": 6
+  },
+  {
+    "name": "右心房",
+    "value": 2
+  },
+  {
+    "name": "胆管癌",
+    "value": 12
+  },
+  {
+    "name": "无热",
+    "value": 1
+  },
+  {
+    "name": "强直",
+    "value": 3
+  },
+  {
+    "name": "阵挛",
+    "value": 1
+  },
+  {
+    "name": "尿路感染",
+    "value": 3
+  },
+  {
+    "name": "误吸",
+    "value": 1
+  },
+  {
+    "name": "低热",
+    "value": 8
+  },
+  {
+    "name": "结缔组织",
+    "value": 4
+  },
+  {
+    "name": "浸润",
+    "value": 19
+  },
+  {
+    "name": "胸肌",
+    "value": 1
+  },
+  {
+    "name": "有丝分裂",
+    "value": 1
+  },
+  {
+    "name": "黄体",
+    "value": 2
+  },
+  {
+    "name": "多毛",
+    "value": 1
+  },
+  {
+    "name": "体毛",
+    "value": 4
+  },
+  {
+    "name": "基础代谢",
+    "value": 5
+  },
+  {
+    "name": "内径",
+    "value": 2
+  },
+  {
+    "name": "肺循环",
+    "value": 2
+  },
+  {
+    "name": "超滑导丝",
+    "value": 1
+  },
+  {
+    "name": "颈椎",
+    "value": 52
+  },
+  {
+    "name": "结肠镜",
+    "value": 10
+  },
+  {
+    "name": "肛门",
+    "value": 35
+  },
+  {
+    "name": "息肉",
+    "value": 92
+  },
+  {
+    "name": "潜血",
+    "value": 7
+  },
+  {
+    "name": "节育器",
+    "value": 1
+  },
+  {
+    "name": "输卵管",
+    "value": 38
+  },
+  {
+    "name": "宫腔",
+    "value": 3
+  },
+  {
+    "name": "卵巢囊肿",
+    "value": 27
+  },
+  {
+    "name": "囊肿",
+    "value": 10
+  },
+  {
+    "name": "产褥期",
+    "value": 1
+  },
+  {
+    "name": "难产",
+    "value": 3
+  },
+  {
+    "name": "阑尾",
+    "value": 4
+  },
+  {
+    "name": "早孕",
+    "value": 1
+  },
+  {
+    "name": "胎位",
+    "value": 1
+  },
+  {
+    "name": "肌瘤",
+    "value": 15
+  },
+  {
+    "name": "输尿管",
+    "value": 1
+  },
+  {
+    "name": "肾积水",
+    "value": 1
+  },
+  {
+    "name": "白带",
+    "value": 9
+  },
+  {
+    "name": "生殖器官",
+    "value": 2
+  },
+  {
+    "name": "良性肿瘤",
+    "value": 1
+  },
+  {
+    "name": "平滑肌",
+    "value": 14
+  },
+  {
+    "name": "腹水",
+    "value": 11
+  },
+  {
+    "name": "原位癌",
+    "value": 2
+  },
+  {
+    "name": "胆汁",
+    "value": 24
+  },
+  {
+    "name": "纤维素",
+    "value": 15
+  },
+  {
+    "name": "牙周病",
+    "value": 4
+  },
+  {
+    "name": "牙周组织",
+    "value": 1
+  },
+  {
+    "name": "牙周膜",
+    "value": 3
+  },
+  {
+    "name": "牙骨质",
+    "value": 3
+  },
+  {
+    "name": "牙周炎",
+    "value": 20
+  },
+  {
+    "name": "牙菌斑",
+    "value": 7
+  },
+  {
+    "name": "牙垢",
+    "value": 1
+  },
+  {
+    "name": "牙结石",
+    "value": 1
+  },
+  {
+    "name": "牙根",
+    "value": 2
+  },
+  {
+    "name": "龋病",
+    "value": 1
+  },
+  {
+    "name": "血块",
+    "value": 1
+  },
+  {
+    "name": "幽门",
+    "value": 172
+  },
+  {
+    "name": "多巴胺",
+    "value": 6
+  },
+  {
+    "name": "血流量",
+    "value": 7
+  },
+  {
+    "name": "肛肠科",
+    "value": 3
+  },
+  {
+    "name": "眩晕",
+    "value": 15
+  },
+  {
+    "name": "盗汗",
+    "value": 10
+  },
+  {
+    "name": "危象",
+    "value": 7
+  },
+  {
+    "name": "性腺",
+    "value": 7
+  },
+  {
+    "name": "尿量",
+    "value": 9
+  },
+  {
+    "name": "精神失常",
+    "value": 2
+  },
+  {
+    "name": "胃酸",
+    "value": 33
+  },
+  {
+    "name": "心音",
+    "value": 1
+  },
+  {
+    "name": "低钠血症",
+    "value": 4
+  },
+  {
+    "name": "闭经",
+    "value": 8
+  },
+  {
+    "name": "低血糖症",
+    "value": 3
+  },
+  {
+    "name": "尿失禁",
+    "value": 3
+  },
+  {
+    "name": "脱垂",
+    "value": 6
+  },
+  {
+    "name": "腹肌",
+    "value": 2
+  },
+  {
+    "name": "屏气",
+    "value": 1
+  },
+  {
+    "name": "疝气",
+    "value": 1
+  },
+  {
+    "name": "漏尿",
+    "value": 1
+  },
+  {
+    "name": "腹壁",
+    "value": 3
+  },
+  {
+    "name": "叩诊",
+    "value": 1
+  },
+  {
+    "name": "十二指肠",
+    "value": 14
+  },
+  {
+    "name": "胰腺炎",
+    "value": 43
+  },
+  {
+    "name": "萘胺",
+    "value": 3
+  },
+  {
+    "name": "腰背痛",
+    "value": 1
+  },
+  {
+    "name": "麦冬",
+    "value": 11
+  },
+  {
+    "name": "黄芪",
+    "value": 31
+  },
+  {
+    "name": "脂肪酶",
+    "value": 3
+  },
+  {
+    "name": "第二性征",
+    "value": 5
+  },
+  {
+    "name": "触诊",
+    "value": 2
+  },
+  {
+    "name": "脾脏",
+    "value": 1
+  },
+  {
+    "name": "性激素",
+    "value": 11
+  },
+  {
+    "name": "化生",
+    "value": 2
+  },
+  {
+    "name": "脏腑",
+    "value": 5
+  },
+  {
+    "name": "肝血",
+    "value": 3
+  },
+  {
+    "name": "白术散",
+    "value": 2
+  },
+  {
+    "name": "良附丸",
+    "value": 1
+  },
+  {
+    "name": "四物汤",
+    "value": 1
+  },
+  {
+    "name": "皮下组织",
+    "value": 3
+  },
+  {
+    "name": "尾椎",
+    "value": 1
+  },
+  {
+    "name": "大椎穴",
+    "value": 1
+  },
+  {
+    "name": "指腹",
+    "value": 2
+  },
+  {
+    "name": "白扁豆",
+    "value": 1
+  },
+  {
+    "name": "薏苡仁",
+    "value": 8
+  },
+  {
+    "name": "中脘",
+    "value": 1
+  },
+  {
+    "name": "足三里",
+    "value": 5
+  },
+  {
+    "name": "经气",
+    "value": 2
+  },
+  {
+    "name": "胆红素",
+    "value": 8
+  },
+  {
+    "name": "黄疸",
+    "value": 16
+  },
+  {
+    "name": "蜘蛛痣",
+    "value": 1
+  },
+  {
+    "name": "腹膜炎",
+    "value": 4
+  },
+  {
+    "name": "低钾血症",
+    "value": 2
+  },
+  {
+    "name": "纹身",
+    "value": 2
+  },
+  {
+    "name": "甲胎蛋白",
+    "value": 7
+  },
+  {
+    "name": "泪腺",
+    "value": 4
+  },
+  {
+    "name": "眼药水",
+    "value": 16
+  },
+  {
+    "name": "紫苏",
+    "value": 2
+  },
+  {
+    "name": "颈静脉",
+    "value": 3
+  },
+  {
+    "name": "跖屈",
+    "value": 3
+  },
+  {
+    "name": "空腔",
+    "value": 1
+  },
+  {
+    "name": "亚科",
+    "value": 1
+  },
+  {
+    "name": "哌嗪",
+    "value": 1
+  },
+  {
+    "name": "唾液腺",
+    "value": 2
+  },
+  {
+    "name": "脑梗塞",
+    "value": 10
+  },
+  {
+    "name": "舌癌",
+    "value": 1
+  },
+  {
+    "name": "裂纹",
+    "value": 2
+  },
+  {
+    "name": "舌苔",
+    "value": 13
+  },
+  {
+    "name": "裂纹舌",
+    "value": 1
+  },
+  {
+    "name": "耳聋",
+    "value": 13
+  },
+  {
+    "name": "泼尼松",
+    "value": 5
+  },
+  {
+    "name": "地塞米松",
+    "value": 7
+  },
+  {
+    "name": "硫辛酸",
+    "value": 2
+  },
+  {
+    "name": "痛风",
+    "value": 78
+  },
+  {
+    "name": "嘌呤",
+    "value": 55
+  },
+  {
+    "name": "生理学",
+    "value": 6
+  },
+  {
+    "name": "肾结石",
+    "value": 7
+  },
+  {
+    "name": "果糖",
+    "value": 28
+  },
+  {
+    "name": "秋水仙碱",
+    "value": 3
+  },
+  {
+    "name": "滴定",
+    "value": 4
+  },
+  {
+    "name": "腹腔镜",
+    "value": 29
+  },
+  {
+    "name": "神经科",
+    "value": 5
+  },
+  {
+    "name": "胃酸过多",
+    "value": 2
+  },
+  {
+    "name": "括约肌",
+    "value": 4
+  },
+  {
+    "name": "食道",
+    "value": 10
+  },
+  {
+    "name": "食管炎",
+    "value": 5
+  },
+  {
+    "name": "胃窦",
+    "value": 1
+  },
+  {
+    "name": "酸碱度",
+    "value": 6
+  },
+  {
+    "name": "撕裂",
+    "value": 4
+  },
+  {
+    "name": "扁平足",
+    "value": 1
+  },
+  {
+    "name": "腓肠肌",
+    "value": 1
+  },
+  {
+    "name": "心包炎",
+    "value": 2
+  },
+  {
+    "name": "四氯化碳",
+    "value": 1
+  },
+  {
+    "name": "梗死",
+    "value": 1
+  },
+  {
+    "name": "肛管",
+    "value": 2
+  },
+  {
+    "name": "回盲部",
+    "value": 1
+  },
+  {
+    "name": "升结肠",
+    "value": 1
+  },
+  {
+    "name": "横结肠",
+    "value": 1
+  },
+  {
+    "name": "神经管",
+    "value": 1
+  },
+  {
+    "name": "风疹病毒",
+    "value": 3
+  },
+  {
+    "name": "不育症",
+    "value": 5
+  },
+  {
+    "name": "肾小球",
+    "value": 15
+  },
+  {
+    "name": "前列腺素",
+    "value": 13
+  },
+  {
+    "name": "肾炎",
+    "value": 10
+  },
+  {
+    "name": "雌二醇",
+    "value": 3
+  },
+  {
+    "name": "腹胀",
+    "value": 38
+  },
+  {
+    "name": "结肠癌",
+    "value": 25
+  },
+  {
+    "name": "催乳素",
+    "value": 3
+  },
+  {
+    "name": "生理盐水",
+    "value": 7
+  },
+  {
+    "name": "杨树花",
+    "value": 7
+  },
+  {
+    "name": "蒲公英",
+    "value": 8
+  },
+  {
+    "name": "虚寒",
+    "value": 13
+  },
+  {
+    "name": "内痔",
+    "value": 25
+  },
+  {
+    "name": "风疹",
+    "value": 14
+  },
+  {
+    "name": "痘病毒",
+    "value": 1
+  },
+  {
+    "name": "腮腺炎",
+    "value": 3
+  },
+  {
+    "name": "自杀",
+    "value": 17
+  },
+  {
+    "name": "心境障碍",
+    "value": 2
+  },
+  {
+    "name": "狂躁",
+    "value": 2
+  },
+  {
+    "name": "畸胎瘤",
+    "value": 2
+  },
+  {
+    "name": "伤疤",
+    "value": 1
+  },
+  {
+    "name": "呕血",
+    "value": 8
+  },
+  {
+    "name": "长骨",
+    "value": 1
+  },
+  {
+    "name": "出血点",
+    "value": 3
+  },
+  {
+    "name": "脑积水",
+    "value": 2
+  },
+  {
+    "name": "脾大",
+    "value": 1
+  },
+  {
+    "name": "胸廓",
+    "value": 2
+  },
+  {
+    "name": "黄热病",
+    "value": 1
+  },
+  {
+    "name": "逆转录",
+    "value": 11
+  },
+  {
+    "name": "鳞屑",
+    "value": 3
+  },
+  {
+    "name": "脾主运化",
+    "value": 1
+  },
+  {
+    "name": "子宫出血",
+    "value": 1
+  },
+  {
+    "name": "卵泡",
+    "value": 4
+  },
+  {
+    "name": "胆囊癌",
+    "value": 2
+  },
+  {
+    "name": "肾盂",
+    "value": 2
+  },
+  {
+    "name": "膝眼",
+    "value": 2
+  },
+  {
+    "name": "胰酶",
+    "value": 1
+  },
+  {
+    "name": "消化腺",
+    "value": 1
+  },
+  {
+    "name": "生长抑素",
+    "value": 1
+  },
+  {
+    "name": "绞痛",
+    "value": 3
+  },
+  {
+    "name": "肝掌",
+    "value": 2
+  },
+  {
+    "name": "鱼际",
+    "value": 1
+  },
+  {
+    "name": "内出血",
+    "value": 5
+  },
+  {
+    "name": "颅腔",
+    "value": 1
+  },
+  {
+    "name": "脑脊液",
+    "value": 1
+  },
+  {
+    "name": "组胺",
+    "value": 9
+  },
+  {
+    "name": "异位",
+    "value": 6
+  },
+  {
+    "name": "卵黄",
+    "value": 1
+  },
+  {
+    "name": "低位",
+    "value": 2
+  },
+  {
+    "name": "便血",
+    "value": 15
+  },
+  {
+    "name": "肠梗阻",
+    "value": 6
+  },
+  {
+    "name": "腺瘤",
+    "value": 6
+  },
+  {
+    "name": "鹦鹉热",
+    "value": 8
+  },
+  {
+    "name": "心内膜炎",
+    "value": 1
+  },
+  {
+    "name": "血性",
+    "value": 2
+  },
+  {
+    "name": "包皮",
+    "value": 1
+  },
+  {
+    "name": "乙肝疫苗",
+    "value": 9
+  },
+  {
+    "name": "避孕套",
+    "value": 1
+  },
+  {
+    "name": "舌根",
+    "value": 2
+  },
+  {
+    "name": "呼气",
+    "value": 14
+  },
+  {
+    "name": "哮鸣音",
+    "value": 2
+  },
+  {
+    "name": "肠穿孔",
+    "value": 2
+  },
+  {
+    "name": "松解",
+    "value": 3
+  },
+  {
+    "name": "甲状腺炎",
+    "value": 12
+  },
+  {
+    "name": "三叉神经痛",
+    "value": 3
+  },
+  {
+    "name": "灼痛",
+    "value": 4
+  },
+  {
+    "name": "拔毒",
+    "value": 1
+  },
+  {
+    "name": "猴头菇",
+    "value": 1
+  },
+  {
+    "name": "前膜",
+    "value": 1
+  },
+  {
+    "name": "脉络膜",
+    "value": 4
+  },
+  {
+    "name": "花粉症",
+    "value": 1
+  },
+  {
+    "name": "肺泡",
+    "value": 8
+  },
+  {
+    "name": "洗液",
+    "value": 14
+  },
+  {
+    "name": "白头翁",
+    "value": 2
+  },
+  {
+    "name": "气囊",
+    "value": 1
+  },
+  {
+    "name": "表型",
+    "value": 3
+  },
+  {
+    "name": "法医学",
+    "value": 1
+  },
+  {
+    "name": "解剖学",
+    "value": 2
+  },
+  {
+    "name": "胸水",
+    "value": 1
+  },
+  {
+    "name": "心外膜",
+    "value": 2
+  },
+  {
+    "name": "串珠",
+    "value": 2
+  },
+  {
+    "name": "脑水肿",
+    "value": 2
+  },
+  {
+    "name": "大脑皮质",
+    "value": 1
+  },
+  {
+    "name": "乙醚",
+    "value": 2
+  },
+  {
+    "name": "指缝",
+    "value": 1
+  },
+  {
+    "name": "湿热",
+    "value": 14
+  },
+  {
+    "name": "药动学",
+    "value": 3
+  },
+  {
+    "name": "重排",
+    "value": 4
+  },
+  {
+    "name": "类固醇",
+    "value": 9
+  },
+  {
+    "name": "丙氨酸",
+    "value": 5
+  },
+  {
+    "name": "野生型",
+    "value": 3
+  },
+  {
+    "name": "外显子",
+    "value": 10
+  },
+  {
+    "name": "残基",
+    "value": 1
+  },
+  {
+    "name": "荨麻疹",
+    "value": 4
+  },
+  {
+    "name": "跳痛",
+    "value": 1
+  },
+  {
+    "name": "角膜炎",
+    "value": 2
+  },
+  {
+    "name": "虹膜",
+    "value": 2
+  },
+  {
+    "name": "霰粒肿",
+    "value": 2
+  },
+  {
+    "name": "擦伤",
+    "value": 6
+  },
+  {
+    "name": "腰腿痛",
+    "value": 1
+  },
+  {
+    "name": "骨化",
+    "value": 1
+  },
+  {
+    "name": "椎体",
+    "value": 3
+  },
+  {
+    "name": "椎板",
+    "value": 1
+  },
+  {
+    "name": "髋部",
+    "value": 5
+  },
+  {
+    "name": "肌松药",
+    "value": 2
+  },
+  {
+    "name": "表面抗原",
+    "value": 6
+  },
+  {
+    "name": "带菌者",
+    "value": 1
+  },
+  {
+    "name": "百日咳",
+    "value": 5
+  },
+  {
+    "name": "肾盂肾炎",
+    "value": 1
+  },
+  {
+    "name": "红眼病",
+    "value": 3
+  },
+  {
+    "name": "西京医院",
+    "value": 8
+  },
+  {
+    "name": "病毒血症",
+    "value": 1
+  },
+  {
+    "name": "肤色",
+    "value": 2
+  },
+  {
+    "name": "基板",
+    "value": 1
+  },
+  {
+    "name": "粒细胞",
+    "value": 11
+  },
+  {
+    "name": "膀胱癌",
+    "value": 10
+  },
+  {
+    "name": "尖锐湿疣",
+    "value": 1
+  },
+  {
+    "name": "内皮细胞",
+    "value": 6
+  },
+  {
+    "name": "均匀分布",
+    "value": 1
+  },
+  {
+    "name": "性比",
+    "value": 1
+  },
+  {
+    "name": "克尔",
+    "value": 1
+  },
+  {
+    "name": "培养皿",
+    "value": 1
+  },
+  {
+    "name": "肠胃病",
+    "value": 1
+  },
+  {
+    "name": "姜黄",
+    "value": 15
+  },
+  {
+    "name": "电子显微镜",
+    "value": 1
+  },
+  {
+    "name": "尿素",
+    "value": 16
+  },
+  {
+    "name": "谷胱甘肽",
+    "value": 3
+  },
+  {
+    "name": "甲硝唑",
+    "value": 3
+  },
+  {
+    "name": "聚糖",
+    "value": 1
+  },
+  {
+    "name": "葫芦巴",
+    "value": 1
+  },
+  {
+    "name": "游离",
+    "value": 10
+  },
+  {
+    "name": "皮下注射",
+    "value": 5
+  },
+  {
+    "name": "伦德",
+    "value": 1
+  },
+  {
+    "name": "半衰期",
+    "value": 12
+  },
+  {
+    "name": "橙皮",
+    "value": 1
+  },
+  {
+    "name": "芬氟拉明",
+    "value": 3
+  },
+  {
+    "name": "胃灼热",
+    "value": 1
+  },
+  {
+    "name": "雷尼替丁",
+    "value": 2
+  },
+  {
+    "name": "副产物",
+    "value": 1
+  },
+  {
+    "name": "脊髓炎",
+    "value": 2
+  },
+  {
+    "name": "浆细胞",
+    "value": 4
+  },
+  {
+    "name": "肌无力",
+    "value": 4
+  },
+  {
+    "name": "配体",
+    "value": 6
+  },
+  {
+    "name": "毁容",
+    "value": 3
+  },
+  {
+    "name": "太阳穴",
+    "value": 12
+  },
+  {
+    "name": "皮层",
+    "value": 1
+  },
+  {
+    "name": "安乃近",
+    "value": 38
+  },
+  {
+    "name": "浸浴",
+    "value": 1
+  },
+  {
+    "name": "病状",
+    "value": 3
+  },
+  {
+    "name": "检定",
+    "value": 1
+  },
+  {
+    "name": "川贝",
+    "value": 2
+  },
+  {
+    "name": "桑叶",
+    "value": 2
+  },
+  {
+    "name": "罂粟壳",
+    "value": 57
+  },
+  {
+    "name": "草果",
+    "value": 2
+  },
+  {
+    "name": "天麻",
+    "value": 2
+  },
+  {
+    "name": "小茴香",
+    "value": 1
+  },
+  {
+    "name": "立普妥",
+    "value": 1
+  },
+  {
+    "name": "成活",
+    "value": 1
+  },
+  {
+    "name": "硬结",
+    "value": 5
+  },
+  {
+    "name": "神经节",
+    "value": 29
+  },
+  {
+    "name": "周围神经",
+    "value": 4
+  },
+  {
+    "name": "弛缓",
+    "value": 2
+  },
+  {
+    "name": "纵隔",
+    "value": 1
+  },
+  {
+    "name": "睑裂",
+    "value": 1
+  },
+  {
+    "name": "鼻尖",
+    "value": 3
+  },
+  {
+    "name": "睑下垂",
+    "value": 1
+  },
+  {
+    "name": "颧骨",
+    "value": 3
+  },
+  {
+    "name": "丙泊酚",
+    "value": 3
+  },
+  {
+    "name": "癌胚抗原",
+    "value": 1
+  },
+  {
+    "name": "隆鼻术",
+    "value": 1
+  },
+  {
+    "name": "脚臭",
+    "value": 14
+  },
+  {
+    "name": "落枕",
+    "value": 1
+  },
+  {
+    "name": "利多卡因",
+    "value": 3
+  },
+  {
+    "name": "丁丙诺啡",
+    "value": 1
+  },
+  {
+    "name": "纳洛酮",
+    "value": 1
+  },
+  {
+    "name": "麻黄碱",
+    "value": 4
+  },
+  {
+    "name": "氟桂利嗪",
+    "value": 10
+  },
+  {
+    "name": "偏头痛",
+    "value": 19
+  },
+  {
+    "name": "前庭",
+    "value": 10
+  },
+  {
+    "name": "麦角胺",
+    "value": 1
+  },
+  {
+    "name": "锥体外系",
+    "value": 5
+  },
+  {
+    "name": "自主运动",
+    "value": 1
+  },
+  {
+    "name": "血清型",
+    "value": 3
+  },
+  {
+    "name": "军团菌",
+    "value": 1
+  },
+  {
+    "name": "空肠",
+    "value": 1
+  },
+  {
+    "name": "成瘾性",
+    "value": 8
+  },
+  {
+    "name": "酚酞",
+    "value": 23
+  },
+  {
+    "name": "八角茴香",
+    "value": 13
+  },
+  {
+    "name": "过滤器",
+    "value": 1
+  },
+  {
+    "name": "早泄",
+    "value": 35
+  },
+  {
+    "name": "射精",
+    "value": 17
+  },
+  {
+    "name": "阴囊",
+    "value": 6
+  },
+  {
+    "name": "医家",
+    "value": 2
+  },
+  {
+    "name": "表证",
+    "value": 1
+  },
+  {
+    "name": "卫气",
+    "value": 5
+  },
+  {
+    "name": "肌酐",
+    "value": 8
+  },
+  {
+    "name": "尿素氮",
+    "value": 1
+  },
+  {
+    "name": "泰诺",
+    "value": 3
+  },
+  {
+    "name": "百部",
+    "value": 2
+  },
+  {
+    "name": "肺活量",
+    "value": 2
+  },
+  {
+    "name": "川芎",
+    "value": 3
+  },
+  {
+    "name": "枳壳",
+    "value": 1
+  },
+  {
+    "name": "鸡眼",
+    "value": 1
+  },
+  {
+    "name": "紫菀",
+    "value": 1
+  },
+  {
+    "name": "枇杷叶",
+    "value": 1
+  },
+  {
+    "name": "苦杏仁",
+    "value": 4
+  },
+  {
+    "name": "桔梗",
+    "value": 2
+  },
+  {
+    "name": "黄金搭档",
+    "value": 2
+  },
+  {
+    "name": "薄膜",
+    "value": 3
+  },
+  {
+    "name": "何首乌",
+    "value": 8
+  },
+  {
+    "name": "决明子",
+    "value": 3
+  },
+  {
+    "name": "枳实",
+    "value": 1
+  },
+  {
+    "name": "氨氯地平",
+    "value": 9
+  },
+  {
+    "name": "卡托普利",
+    "value": 3
+  },
+  {
+    "name": "依那普利",
+    "value": 3
+  },
+  {
+    "name": "拮抗剂",
+    "value": 11
+  },
+  {
+    "name": "氯沙坦",
+    "value": 1
+  },
+  {
+    "name": "硝苯地平",
+    "value": 5
+  },
+  {
+    "name": "百白破",
+    "value": 1
+  },
+  {
+    "name": "酵母",
+    "value": 4
+  },
+  {
+    "name": "青蒿",
+    "value": 2
+  },
+  {
+    "name": "质子泵",
+    "value": 3
+  },
+  {
+    "name": "琥珀酸",
+    "value": 3
+  },
+  {
+    "name": "非洛地平",
+    "value": 1
+  },
+  {
+    "name": "鱼尾纹",
+    "value": 1
+  },
+  {
+    "name": "转染",
+    "value": 2
+  },
+  {
+    "name": "转录",
+    "value": 2
+  },
+  {
+    "name": "透析液",
+    "value": 5
+  },
+  {
+    "name": "安乐死",
+    "value": 1
+  },
+  {
+    "name": "氨苯砜",
+    "value": 18
+  },
+  {
+    "name": "天疱疮",
+    "value": 3
+  },
+  {
+    "name": "正常值",
+    "value": 5
+  },
+  {
+    "name": "酯酶",
+    "value": 1
+  },
+  {
+    "name": "柠檬酸",
+    "value": 3
+  },
+  {
+    "name": "美罗培南",
+    "value": 2
+  },
+  {
+    "name": "舒巴坦",
+    "value": 3
+  },
+  {
+    "name": "替硝唑",
+    "value": 1
+  },
+  {
+    "name": "神威",
+    "value": 27
+  },
+  {
+    "name": "胆酸",
+    "value": 1
+  },
+  {
+    "name": "葡萄糖酸钙",
+    "value": 1
+  },
+  {
+    "name": "催眠",
+    "value": 4
+  },
+  {
+    "name": "催眠药",
+    "value": 2
+  },
+  {
+    "name": "稳态",
+    "value": 2
+  },
+  {
+    "name": "附子",
+    "value": 2
+  },
+  {
+    "name": "痰饮",
+    "value": 1
+  },
+  {
+    "name": "赤石脂",
+    "value": 1
+  },
+  {
+    "name": "氯喹",
+    "value": 2
+  },
+  {
+    "name": "硫唑嘌呤",
+    "value": 2
+  },
+  {
+    "name": "青蒿素",
+    "value": 14
+  },
+  {
+    "name": "催产素",
+    "value": 2
+  },
+  {
+    "name": "收缩压",
+    "value": 1
+  },
+  {
+    "name": "舒张压",
+    "value": 1
+  },
+  {
+    "name": "亚类",
+    "value": 1
+  },
+  {
+    "name": "外感",
+    "value": 4
+  },
+  {
+    "name": "桑枝",
+    "value": 1
+  },
+  {
+    "name": "异烟肼",
+    "value": 1
+  },
+  {
+    "name": "磺胺",
+    "value": 5
+  },
+  {
+    "name": "嘧啶",
+    "value": 6
+  },
+  {
+    "name": "淋球菌",
+    "value": 3
+  },
+  {
+    "name": "疟原虫",
+    "value": 1
+  },
+  {
+    "name": "尿道炎",
+    "value": 1
+  },
+  {
+    "name": "脂肪乳",
+    "value": 1
+  },
+  {
+    "name": "营养学",
+    "value": 7
+  },
+  {
+    "name": "橄榄油",
+    "value": 9
+  },
+  {
+    "name": "伪麻黄碱",
+    "value": 1
+  },
+  {
+    "name": "大扶康",
+    "value": 1
+  },
+  {
+    "name": "生石膏",
+    "value": 2
+  },
+  {
+    "name": "冠状沟",
+    "value": 1
+  },
+  {
+    "name": "微丸",
+    "value": 3
+  },
+  {
+    "name": "薄荷脑",
+    "value": 3
+  },
+  {
+    "name": "睛明穴",
+    "value": 1
+  },
+  {
+    "name": "阳虚",
+    "value": 10
+  },
+  {
+    "name": "鱼肝油",
+    "value": 2
+  },
+  {
+    "name": "折射率",
+    "value": 1
+  },
+  {
+    "name": "麻风病",
+    "value": 1
+  },
+  {
+    "name": "厌氧菌",
+    "value": 2
+  },
+  {
+    "name": "拜复乐",
+    "value": 1
+  },
+  {
+    "name": "环丙沙星",
+    "value": 3
+  },
+  {
+    "name": "菌体",
+    "value": 1
+  },
+  {
+    "name": "顺铂",
+    "value": 5
+  },
+  {
+    "name": "免疫化学",
+    "value": 1
+  },
+  {
+    "name": "卡介苗",
+    "value": 1
+  },
+  {
+    "name": "转氨酶",
+    "value": 3
+  },
+  {
+    "name": "核苷酸",
+    "value": 1
+  },
+  {
+    "name": "视网膜炎",
+    "value": 1
+  },
+  {
+    "name": "学名",
+    "value": 2
+  },
+  {
+    "name": "脂质体",
+    "value": 1
+  },
+  {
+    "name": "显性",
+    "value": 2
+  },
+  {
+    "name": "转化酶",
+    "value": 7
+  },
+  {
+    "name": "洋地黄",
+    "value": 1
+  },
+  {
+    "name": "趋化因子",
+    "value": 1
+  },
+  {
+    "name": "异丙嗪",
+    "value": 1
+  },
+  {
+    "name": "主动免疫",
+    "value": 1
+  },
+  {
+    "name": "白喉",
+    "value": 3
+  },
+  {
+    "name": "骨细胞",
+    "value": 3
+  },
+  {
+    "name": "谷氨酸",
+    "value": 4
+  },
+  {
+    "name": "神经递质",
+    "value": 6
+  },
+  {
+    "name": "突触",
+    "value": 4
+  },
+  {
+    "name": "砷中毒",
+    "value": 4
+  },
+  {
+    "name": "纤维细胞",
+    "value": 1
+  },
+  {
+    "name": "氯胺酮",
+    "value": 11
+  },
+  {
+    "name": "树突",
+    "value": 13
+  },
+  {
+    "name": "没药",
+    "value": 1
+  },
+  {
+    "name": "旋覆花",
+    "value": 9
+  },
+  {
+    "name": "薄片",
+    "value": 5
+  },
+  {
+    "name": "食糜",
+    "value": 1
+  },
+  {
+    "name": "摄食中枢",
+    "value": 1
+  },
+  {
+    "name": "夜尿",
+    "value": 4
+  },
+  {
+    "name": "李东垣",
+    "value": 1
+  },
+  {
+    "name": "牙釉质",
+    "value": 4
+  },
+  {
+    "name": "结石",
+    "value": 16
+  },
+  {
+    "name": "抗凝剂",
+    "value": 1
+  },
+  {
+    "name": "滤泡",
+    "value": 1
+  },
+  {
+    "name": "白霜",
+    "value": 1
+  },
+  {
+    "name": "甘露醇",
+    "value": 3
+  },
+  {
+    "name": "绿脓杆菌",
+    "value": 1
+  },
+  {
+    "name": "内毒素",
+    "value": 1
+  },
+  {
+    "name": "亚油酸",
+    "value": 6
+  },
+  {
+    "name": "赖氨酸",
+    "value": 3
+  },
+  {
+    "name": "儿茶素",
+    "value": 4
+  },
+  {
+    "name": "左归丸",
+    "value": 1
+  },
+  {
+    "name": "鹿茸",
+    "value": 1
+  },
+  {
+    "name": "右归丸",
+    "value": 1
+  },
+  {
+    "name": "烟酸",
+    "value": 5
+  },
+  {
+    "name": "黑豆",
+    "value": 12
+  },
+  {
+    "name": "积热",
+    "value": 1
+  },
+  {
+    "name": "水中毒",
+    "value": 1
+  },
+  {
+    "name": "安神",
+    "value": 15
+  },
+  {
+    "name": "神经衰弱",
+    "value": 11
+  },
+  {
+    "name": "放射性物质",
+    "value": 3
+  },
+  {
+    "name": "神经炎",
+    "value": 2
+  },
+  {
+    "name": "电离",
+    "value": 1
+  },
+  {
+    "name": "卵细胞",
+    "value": 1
+  },
+  {
+    "name": "交叉点",
+    "value": 1
+  },
+  {
+    "name": "醛固酮",
+    "value": 1
+  },
+  {
+    "name": "髓质",
+    "value": 1
+  },
+  {
+    "name": "果胶",
+    "value": 7
+  },
+  {
+    "name": "基础代谢率",
+    "value": 1
+  },
+  {
+    "name": "能量代谢",
+    "value": 5
+  },
+  {
+    "name": "胸椎",
+    "value": 2
+  },
+  {
+    "name": "骨性",
+    "value": 12
+  },
+  {
+    "name": "前臂",
+    "value": 2
+  },
+  {
+    "name": "痔疮膏",
+    "value": 1
+  },
+  {
+    "name": "眼眶",
+    "value": 1
+  },
+  {
+    "name": "谷维素",
+    "value": 1
+  },
+  {
+    "name": "骶椎",
+    "value": 1
+  },
+  {
+    "name": "肠系膜",
+    "value": 11
+  },
+  {
+    "name": "肾门",
+    "value": 2
+  },
+  {
+    "name": "盲肠",
+    "value": 1
+  },
+  {
+    "name": "造口",
+    "value": 4
+  },
+  {
+    "name": "脂肪组织",
+    "value": 4
+  },
+  {
+    "name": "喷嚏",
+    "value": 4
+  },
+  {
+    "name": "蛋白激酶",
+    "value": 1
+  },
+  {
+    "name": "横断面",
+    "value": 2
+  },
+  {
+    "name": "盆浴",
+    "value": 1
+  },
+  {
+    "name": "海水浴",
+    "value": 1
+  },
+  {
+    "name": "甘油三酯",
+    "value": 4
+  },
+  {
+    "name": "五行",
+    "value": 13
+  },
+  {
+    "name": "五脏",
+    "value": 15
+  },
+  {
+    "name": "消渴",
+    "value": 11
+  },
+  {
+    "name": "泄泻",
+    "value": 1
+  },
+  {
+    "name": "脊椎炎",
+    "value": 1
+  },
+  {
+    "name": "硫化物",
+    "value": 6
+  },
+  {
+    "name": "色氨酸",
+    "value": 5
+  },
+  {
+    "name": "硫化氢",
+    "value": 2
+  },
+  {
+    "name": "反胃",
+    "value": 4
+  },
+  {
+    "name": "腺苷",
+    "value": 7
+  },
+  {
+    "name": "小动脉",
+    "value": 3
+  },
+  {
+    "name": "放松疗法",
+    "value": 1
+  },
+  {
+    "name": "神农本草经",
+    "value": 4
+  },
+  {
+    "name": "燥湿",
+    "value": 2
+  },
+  {
+    "name": "淀粉酶",
+    "value": 6
+  },
+  {
+    "name": "碳酸氢钠",
+    "value": 1
+  },
+  {
+    "name": "过冷",
+    "value": 2
+  },
+  {
+    "name": "视锥",
+    "value": 2
+  },
+  {
+    "name": "视杆细胞",
+    "value": 2
+  },
+  {
+    "name": "亚麻酸",
+    "value": 3
+  },
+  {
+    "name": "鱼油",
+    "value": 4
+  },
+  {
+    "name": "淋巴腺",
+    "value": 1
+  },
+  {
+    "name": "红花油",
+    "value": 1
+  },
+  {
+    "name": "辅酶",
+    "value": 5
+  },
+  {
+    "name": "没食子酸",
+    "value": 1
+  },
+  {
+    "name": "翅果",
+    "value": 1
+  },
+  {
+    "name": "生长期",
+    "value": 2
+  },
+  {
+    "name": "酮康唑",
+    "value": 1
+  },
+  {
+    "name": "肛裂",
+    "value": 2
+  },
+  {
+    "name": "外展",
+    "value": 2
+  },
+  {
+    "name": "麦芽糖",
+    "value": 8
+  },
+  {
+    "name": "北沙参",
+    "value": 3
+  },
+  {
+    "name": "白芨",
+    "value": 1
+  },
+  {
+    "name": "咯血",
+    "value": 3
+  },
+  {
+    "name": "防风",
+    "value": 2
+  },
+  {
+    "name": "内伤",
+    "value": 2
+  },
+  {
+    "name": "遗传病",
+    "value": 2
+  },
+  {
+    "name": "味蕾",
+    "value": 2
+  },
+  {
+    "name": "磷酸钙",
+    "value": 1
+  },
+  {
+    "name": "降钙素",
+    "value": 3
+  },
+  {
+    "name": "甲状旁腺",
+    "value": 3
+  },
+  {
+    "name": "静脉滴注",
+    "value": 5
+  },
+  {
+    "name": "寒证",
+    "value": 1
+  },
+  {
+    "name": "实热",
+    "value": 1
+  },
+  {
+    "name": "自汗",
+    "value": 3
+  },
+  {
+    "name": "补血药",
+    "value": 1
+  },
+  {
+    "name": "黄精",
+    "value": 19
+  },
+  {
+    "name": "甜菜碱",
+    "value": 1
+  },
+  {
+    "name": "番茄汁",
+    "value": 1
+  },
+  {
+    "name": "葡萄籽",
+    "value": 5
+  },
+  {
+    "name": "黄褐斑",
+    "value": 2
+  },
+  {
+    "name": "肩部",
+    "value": 3
+  },
+  {
+    "name": "气胀",
+    "value": 5
+  },
+  {
+    "name": "蛔虫",
+    "value": 2
+  },
+  {
+    "name": "蛔虫病",
+    "value": 1
+  },
+  {
+    "name": "挥发性",
+    "value": 1
+  },
+  {
+    "name": "论治",
+    "value": 2
+  },
+  {
+    "name": "槲皮素",
+    "value": 1
+  },
+  {
+    "name": "蒽醌",
+    "value": 1
+  },
+  {
+    "name": "四气",
+    "value": 1
+  },
+  {
+    "name": "杜仲",
+    "value": 1
+  },
+  {
+    "name": "雄花",
+    "value": 1
+  },
+  {
+    "name": "柏子仁",
+    "value": 2
+  },
+  {
+    "name": "萱草根",
+    "value": 2
+  },
+  {
+    "name": "癃闭",
+    "value": 1
+  },
+  {
+    "name": "猩红热",
+    "value": 1
+  },
+  {
+    "name": "急性病",
+    "value": 2
+  },
+  {
+    "name": "大青叶",
+    "value": 1
+  },
+  {
+    "name": "牛膝",
+    "value": 1
+  },
+  {
+    "name": "茵陈",
+    "value": 1
+  },
+  {
+    "name": "王焘",
+    "value": 1
+  },
+  {
+    "name": "外台秘要",
+    "value": 2
+  },
+  {
+    "name": "李时珍",
+    "value": 3
+  },
+  {
+    "name": "血尿",
+    "value": 4
+  },
+  {
+    "name": "张璐",
+    "value": 1
+  },
+  {
+    "name": "喉结",
+    "value": 3
+  },
+  {
+    "name": "腹围",
+    "value": 2
+  },
+  {
+    "name": "臀围",
+    "value": 1
+  },
+  {
+    "name": "肝火",
+    "value": 16
+  },
+  {
+    "name": "细胞骨架",
+    "value": 3
+  },
+  {
+    "name": "白质",
+    "value": 3
+  },
+  {
+    "name": "口臭",
+    "value": 28
+  },
+  {
+    "name": "口眼歪斜",
+    "value": 8
+  },
+  {
+    "name": "牙龈炎",
+    "value": 5
+  },
+  {
+    "name": "长牙",
+    "value": 1
+  },
+  {
+    "name": "纤溶酶",
+    "value": 12
+  },
+  {
+    "name": "连接蛋白",
+    "value": 1
+  },
+  {
+    "name": "超种",
+    "value": 1
+  },
+  {
+    "name": "土霉素",
+    "value": 1
+  },
+  {
+    "name": "咪唑",
+    "value": 1
+  },
+  {
+    "name": "蛋白粉",
+    "value": 1
+  },
+  {
+    "name": "浙贝母",
+    "value": 1
+  },
+  {
+    "name": "银黄",
+    "value": 1
+  },
+  {
+    "name": "过继免疫",
+    "value": 1
+  },
+  {
+    "name": "阻遏",
+    "value": 1
+  },
+  {
+    "name": "驱虫",
+    "value": 1
+  },
+  {
+    "name": "细胞系",
+    "value": 1
+  },
+  {
+    "name": "左旋多巴",
+    "value": 3
+  },
+  {
+    "name": "洁尔阴",
+    "value": 6
+  },
+  {
+    "name": "冲剂",
+    "value": 1
+  },
+  {
+    "name": "眼药",
+    "value": 17
+  },
+  {
+    "name": "曲焕章",
+    "value": 1
+  },
+  {
+    "name": "止血",
+    "value": 7
+  },
+  {
+    "name": "肛肠",
+    "value": 13
+  },
+  {
+    "name": "滑膜炎",
+    "value": 3
+  },
+  {
+    "name": "血塞通",
+    "value": 1
+  },
+  {
+    "name": "螺旋藻",
+    "value": 2
+  },
+  {
+    "name": "华佗再造丸",
+    "value": 1
+  },
+  {
+    "name": "唇炎",
+    "value": 7
+  },
+  {
+    "name": "巨噬细胞",
+    "value": 2
+  },
+  {
+    "name": "滑石粉",
+    "value": 5
+  },
+  {
+    "name": "医案",
+    "value": 2
+  },
+  {
+    "name": "补牙",
+    "value": 1
+  },
+  {
+    "name": "趾甲",
+    "value": 2
+  },
+  {
+    "name": "肝门",
+    "value": 1
+  },
+  {
+    "name": "精神科",
+    "value": 2
+  },
+  {
+    "name": "拉米夫定",
+    "value": 4
+  },
+  {
+    "name": "哌唑嗪",
+    "value": 1
+  },
+  {
+    "name": "缬沙坦",
+    "value": 2
+  },
+  {
+    "name": "芦根",
+    "value": 2
+  },
+  {
+    "name": "生地黄",
+    "value": 2
+  },
+  {
+    "name": "双球菌",
+    "value": 3
+  },
+  {
+    "name": "呋塞米片",
+    "value": 1
+  },
+  {
+    "name": "肌苷",
+    "value": 1
+  },
+  {
+    "name": "阿昔洛韦",
+    "value": 1
+  },
+  {
+    "name": "骨骼肌",
+    "value": 2
+  },
+  {
+    "name": "次氯酸钠",
+    "value": 5
+  },
+  {
+    "name": "氢氧化钙",
+    "value": 1
+  },
+  {
+    "name": "氯化钙",
+    "value": 1
+  },
+  {
+    "name": "异丙醇",
+    "value": 2
+  },
+  {
+    "name": "尿糖",
+    "value": 4
+  },
+  {
+    "name": "肾衰",
+    "value": 2
+  },
+  {
+    "name": "肠溃疡",
+    "value": 1
+  },
+  {
+    "name": "诊断学",
+    "value": 1
+  },
+  {
+    "name": "紫癜",
+    "value": 2
+  },
+  {
+    "name": "肉芽肿",
+    "value": 5
+  },
+  {
+    "name": "大动脉炎",
+    "value": 2
+  },
+  {
+    "name": "肌炎",
+    "value": 3
+  },
+  {
+    "name": "皮肌炎",
+    "value": 4
+  },
+  {
+    "name": "胸膜炎",
+    "value": 1
+  },
+  {
+    "name": "硬皮病",
+    "value": 3
+  },
+  {
+    "name": "冲击疗法",
+    "value": 3
+  },
+  {
+    "name": "膀胱炎",
+    "value": 4
+  },
+  {
+    "name": "灌洗",
+    "value": 4
+  },
+  {
+    "name": "积水",
+    "value": 5
+  },
+  {
+    "name": "卵母细胞",
+    "value": 2
+  },
+  {
+    "name": "氨茶碱",
+    "value": 20
+  },
+  {
+    "name": "甲氧",
+    "value": 5
+  },
+  {
+    "name": "心动过速",
+    "value": 8
+  },
+  {
+    "name": "肺水肿",
+    "value": 1
+  },
+  {
+    "name": "黄嘌呤",
+    "value": 4
+  },
+  {
+    "name": "喘定",
+    "value": 1
+  },
+  {
+    "name": "炎琥宁",
+    "value": 1
+  },
+  {
+    "name": "呋塞米",
+    "value": 3
+  },
+  {
+    "name": "美西律",
+    "value": 1
+  },
+  {
+    "name": "罗红霉素",
+    "value": 18
+  },
+  {
+    "name": "林可霉素",
+    "value": 1
+  },
+  {
+    "name": "苯巴比妥",
+    "value": 1
+  },
+  {
+    "name": "磷霉素",
+    "value": 1
+  },
+  {
+    "name": "法莫替丁",
+    "value": 1
+  },
+  {
+    "name": "那可丁",
+    "value": 1
+  },
+  {
+    "name": "聋哑",
+    "value": 1
+  },
+  {
+    "name": "链霉素",
+    "value": 5
+  },
+  {
+    "name": "脑神经",
+    "value": 1
+  },
+  {
+    "name": "步态",
+    "value": 1
+  },
+  {
+    "name": "卡那霉素",
+    "value": 1
+  },
+  {
+    "name": "庆大霉素",
+    "value": 17
+  },
+  {
+    "name": "神经末梢",
+    "value": 1
+  },
+  {
+    "name": "通透性",
+    "value": 2
+  },
+  {
+    "name": "乙酰螺旋霉素",
+    "value": 2
+  },
+  {
+    "name": "万古霉素",
+    "value": 11
+  },
+  {
+    "name": "氨苄西林",
+    "value": 1
+  },
+  {
+    "name": "丁胺卡那霉素",
+    "value": 1
+  },
+  {
+    "name": "肝大",
+    "value": 1
+  },
+  {
+    "name": "黄药子",
+    "value": 1
+  },
+  {
+    "name": "雷公藤",
+    "value": 1
+  },
+  {
+    "name": "蜈蚣",
+    "value": 1
+  },
+  {
+    "name": "组织胺",
+    "value": 1
+  },
+  {
+    "name": "烦渴",
+    "value": 1
+  },
+  {
+    "name": "硅酸盐",
+    "value": 1
+  },
+  {
+    "name": "糜蛋白酶",
+    "value": 17
+  },
+  {
+    "name": "失活",
+    "value": 1
+  },
+  {
+    "name": "亚硫酸盐",
+    "value": 1
+  },
+  {
+    "name": "外科学",
+    "value": 2
+  },
+  {
+    "name": "血沉",
+    "value": 1
+  },
+  {
+    "name": "尿蛋白",
+    "value": 8
+  },
+  {
+    "name": "斑秃",
+    "value": 27
+  },
+  {
+    "name": "水杨酸",
+    "value": 4
+  },
+  {
+    "name": "病毒唑",
+    "value": 2
+  },
+  {
+    "name": "气雾剂",
+    "value": 3
+  },
+  {
+    "name": "滴鼻剂",
+    "value": 1
+  },
+  {
+    "name": "金刚烷胺",
+    "value": 1
+  },
+  {
+    "name": "子代",
+    "value": 1
+  },
+  {
+    "name": "快克",
+    "value": 1
+  },
+  {
+    "name": "口干",
+    "value": 2
+  },
+  {
+    "name": "希舒美",
+    "value": 1
+  },
+  {
+    "name": "利尿药",
+    "value": 3
+  },
+  {
+    "name": "虚脱",
+    "value": 3
+  },
+  {
+    "name": "肠绒毛",
+    "value": 1
+  },
+  {
+    "name": "苯海拉明",
+    "value": 1
+  },
+  {
+    "name": "硼酸",
+    "value": 2
+  },
+  {
+    "name": "高锰酸钾",
+    "value": 5
+  },
+  {
+    "name": "利凡诺",
+    "value": 1
+  },
+  {
+    "name": "炉甘石",
+    "value": 4
+  },
+  {
+    "name": "脱皮",
+    "value": 7
+  },
+  {
+    "name": "羊毛脂",
+    "value": 1
+  },
+  {
+    "name": "凡士林",
+    "value": 2
+  },
+  {
+    "name": "苯甲酸",
+    "value": 1
+  },
+  {
+    "name": "渗湿",
+    "value": 1
+  },
+  {
+    "name": "湿重",
+    "value": 1
+  },
+  {
+    "name": "昼夜节律",
+    "value": 4
+  },
+  {
+    "name": "普鲁卡因",
+    "value": 2
+  },
+  {
+    "name": "毛囊炎",
+    "value": 3
+  },
+  {
+    "name": "马齿苋",
+    "value": 5
+  },
+  {
+    "name": "扁豆",
+    "value": 2
+  },
+  {
+    "name": "凝集素",
+    "value": 2
+  },
+  {
+    "name": "凝集",
+    "value": 3
+  },
+  {
+    "name": "胰蛋白酶",
+    "value": 1
+  },
+  {
+    "name": "类毒素",
+    "value": 2
+  },
+  {
+    "name": "褪黑素",
+    "value": 6
+  },
+  {
+    "name": "胸腺肽",
+    "value": 2
+  },
+  {
+    "name": "艾草",
+    "value": 2
+  },
+  {
+    "name": "谵妄",
+    "value": 1
+  },
+  {
+    "name": "辣椒素",
+    "value": 11
+  },
+  {
+    "name": "超敏反应",
+    "value": 7
+  },
+  {
+    "name": "洛索洛芬",
+    "value": 1
+  },
+  {
+    "name": "两对半",
+    "value": 1
+  },
+  {
+    "name": "镜检",
+    "value": 3
+  },
+  {
+    "name": "脚汗",
+    "value": 1
+  },
+  {
+    "name": "足癣",
+    "value": 4
+  },
+  {
+    "name": "亚急性",
+    "value": 3
+  },
+  {
+    "name": "呃逆",
+    "value": 1
+  },
+  {
+    "name": "气胸",
+    "value": 1
+  },
+  {
+    "name": "降气",
+    "value": 1
+  },
+  {
+    "name": "知母",
+    "value": 2
+  },
+  {
+    "name": "茯神",
+    "value": 1
+  },
+  {
+    "name": "八段锦",
+    "value": 1
+  },
+  {
+    "name": "少尿",
+    "value": 2
+  },
+  {
+    "name": "无尿",
+    "value": 2
+  },
+  {
+    "name": "类病毒",
+    "value": 2
+  },
+  {
+    "name": "睾丸炎",
+    "value": 2
+  },
+  {
+    "name": "督脉",
+    "value": 1
+  },
+  {
+    "name": "苏子",
+    "value": 2
+  },
+  {
+    "name": "沙参",
+    "value": 5
+  },
+  {
+    "name": "开裂",
+    "value": 8
+  },
+  {
+    "name": "手癣",
+    "value": 1
+  },
+  {
+    "name": "汗腺",
+    "value": 3
+  },
+  {
+    "name": "角质层",
+    "value": 3
+  },
+  {
+    "name": "皮脂腺",
+    "value": 5
+  },
+  {
+    "name": "氯化钾",
+    "value": 1
+  },
+  {
+    "name": "多指",
+    "value": 1
+  },
+  {
+    "name": "泰诺林",
+    "value": 1
+  },
+  {
+    "name": "酒精中毒",
+    "value": 6
+  },
+  {
+    "name": "椎动脉",
+    "value": 7
+  },
+  {
+    "name": "大动脉",
+    "value": 1
+  },
+  {
+    "name": "走行",
+    "value": 1
+  },
+  {
+    "name": "肌纤维",
+    "value": 1
+  },
+  {
+    "name": "滑囊",
+    "value": 1
+  },
+  {
+    "name": "黑蒙",
+    "value": 2
+  },
+  {
+    "name": "多尿",
+    "value": 4
+  },
+  {
+    "name": "肺静脉",
+    "value": 1
+  },
+  {
+    "name": "庄辉",
+    "value": 1
+  },
+  {
+    "name": "黑麦",
+    "value": 1
+  },
+  {
+    "name": "端粒",
+    "value": 1
+  },
+  {
+    "name": "蛋白尿",
+    "value": 2
+  },
+  {
+    "name": "牙弓",
+    "value": 3
+  },
+  {
+    "name": "细毛",
+    "value": 1
+  },
+  {
+    "name": "牙龈退缩",
+    "value": 1
+  },
+  {
+    "name": "晒伤",
+    "value": 4
+  },
+  {
+    "name": "益母草",
+    "value": 3
+  },
+  {
+    "name": "祛斑",
+    "value": 2
+  },
+  {
+    "name": "沙门氏菌",
+    "value": 1
+  },
+  {
+    "name": "后脑",
+    "value": 2
+  },
+  {
+    "name": "颅骨",
+    "value": 1
+  },
+  {
+    "name": "挫伤",
+    "value": 2
+  },
+  {
+    "name": "滑膜",
+    "value": 1
+  },
+  {
+    "name": "碘酊",
+    "value": 3
+  },
+  {
+    "name": "碘伏",
+    "value": 4
+  },
+  {
+    "name": "甲紫",
+    "value": 1
+  },
+  {
+    "name": "红药水",
+    "value": 1
+  },
+  {
+    "name": "窦房结",
+    "value": 3
+  },
+  {
+    "name": "迷走神经",
+    "value": 1
+  },
+  {
+    "name": "甲状腺素",
+    "value": 14
+  },
+  {
+    "name": "优甲乐",
+    "value": 2
+  },
+  {
+    "name": "五禽戏",
+    "value": 1
+  },
+  {
+    "name": "椎管",
+    "value": 2
+  },
+  {
+    "name": "坐骨",
+    "value": 3
+  },
+  {
+    "name": "环跳",
+    "value": 1
+  },
+  {
+    "name": "股骨",
+    "value": 1
+  },
+  {
+    "name": "转子",
+    "value": 1
+  },
+  {
+    "name": "委中",
+    "value": 1
+  },
+  {
+    "name": "承山",
+    "value": 1
+  },
+  {
+    "name": "内踝",
+    "value": 1
+  },
+  {
+    "name": "太溪",
+    "value": 1
+  },
+  {
+    "name": "太子参",
+    "value": 1
+  },
+  {
+    "name": "玉屏风散",
+    "value": 2
+  },
+  {
+    "name": "丹溪心法",
+    "value": 1
+  },
+  {
+    "name": "玄参",
+    "value": 1
+  },
+  {
+    "name": "目病",
+    "value": 4
+  },
+  {
+    "name": "刘完素",
+    "value": 1
+  },
+  {
+    "name": "滋肾",
+    "value": 1
+  },
+  {
+    "name": "应激反应",
+    "value": 1
+  },
+  {
+    "name": "膜片钳",
+    "value": 1
+  },
+  {
+    "name": "丘脑",
+    "value": 1
+  },
+  {
+    "name": "食物嵌塞",
+    "value": 1
+  },
+  {
+    "name": "牙周袋",
+    "value": 6
+  },
+  {
+    "name": "过氧化氢",
+    "value": 1
+  },
+  {
+    "name": "螺旋霉素",
+    "value": 1
+  },
+  {
+    "name": "夹板",
+    "value": 1
+  },
+  {
+    "name": "牙周脓肿",
+    "value": 2
+  },
+  {
+    "name": "碘甘油",
+    "value": 1
+  },
+  {
+    "name": "毛根",
+    "value": 1
+  },
+  {
+    "name": "核素",
+    "value": 1
+  },
+  {
+    "name": "放射性核素",
+    "value": 2
+  },
+  {
+    "name": "乌梅",
+    "value": 3
+  },
+  {
+    "name": "濒死",
+    "value": 1
+  },
+  {
+    "name": "应激状态",
+    "value": 3
+  },
+  {
+    "name": "胫骨",
+    "value": 4
+  },
+  {
+    "name": "变态反应",
+    "value": 4
+  },
+  {
+    "name": "槐米",
+    "value": 1
+  },
+  {
+    "name": "精神病学",
+    "value": 1
+  },
+  {
+    "name": "麦粉",
+    "value": 10
+  },
+  {
+    "name": "神志不清",
+    "value": 3
+  },
+  {
+    "name": "半身不遂",
+    "value": 3
+  },
+  {
+    "name": "逍遥丸",
+    "value": 1
+  },
+  {
+    "name": "羚羊角",
+    "value": 3
+  },
+  {
+    "name": "水牛角",
+    "value": 3
+  },
+  {
+    "name": "不寐",
+    "value": 1
+  },
+  {
+    "name": "胆囊",
+    "value": 3
+  },
+  {
+    "name": "牡蛎",
+    "value": 9
+  },
+  {
+    "name": "行为障碍",
+    "value": 2
+  },
+  {
+    "name": "核型",
+    "value": 1
+  },
+  {
+    "name": "隐睾",
+    "value": 1
+  },
+  {
+    "name": "精索",
+    "value": 1
+  },
+  {
+    "name": "精子形成",
+    "value": 1
+  },
+  {
+    "name": "溶菌酶",
+    "value": 1
+  },
+  {
+    "name": "伤寒杆菌",
+    "value": 1
+  },
+  {
+    "name": "腮腺",
+    "value": 1
+  },
+  {
+    "name": "鸡胸",
+    "value": 1
+  },
+  {
+    "name": "潜意识",
+    "value": 1
+  },
+  {
+    "name": "菌落",
+    "value": 1
+  },
+  {
+    "name": "肌细胞",
+    "value": 2
+  },
+  {
+    "name": "肌酸激酶",
+    "value": 3
+  },
+  {
+    "name": "皮质醇",
+    "value": 5
+  },
+  {
+    "name": "丙烯酰胺",
+    "value": 1
+  },
+  {
+    "name": "发汗",
+    "value": 1
+  },
+  {
+    "name": "合成酶",
+    "value": 1
+  },
+  {
+    "name": "隔代遗传",
+    "value": 1
+  },
+  {
+    "name": "多生牙",
+    "value": 1
+  },
+  {
+    "name": "舌系带",
+    "value": 1
+  },
+  {
+    "name": "深覆合",
+    "value": 1
+  },
+  {
+    "name": "打哈欠",
+    "value": 2
+  },
+  {
+    "name": "生物转化",
+    "value": 3
+  },
+  {
+    "name": "擦烂",
+    "value": 3
+  },
+  {
+    "name": "淋巴结炎",
+    "value": 1
+  },
+  {
+    "name": "浸渍",
+    "value": 5
+  },
+  {
+    "name": "滴眼剂",
+    "value": 1
+  },
+  {
+    "name": "白芥子",
+    "value": 1
+  },
+  {
+    "name": "细辛",
+    "value": 2
+  },
+  {
+    "name": "贪食",
+    "value": 1
+  },
+  {
+    "name": "肩周炎",
+    "value": 3
+  },
+  {
+    "name": "大杼",
+    "value": 1
+  },
+  {
+    "name": "身柱",
+    "value": 1
+  },
+  {
+    "name": "阳陵泉",
+    "value": 1
+  },
+  {
+    "name": "手三里",
+    "value": 1
+  },
+  {
+    "name": "刮痧",
+    "value": 5
+  },
+  {
+    "name": "拔火罐",
+    "value": 3
+  },
+  {
+    "name": "酒窝",
+    "value": 1
+  },
+  {
+    "name": "甘氨酸",
+    "value": 3
+  },
+  {
+    "name": "清热泻火",
+    "value": 1
+  },
+  {
+    "name": "鼠李糖",
+    "value": 1
+  },
+  {
+    "name": "葛根",
+    "value": 1
+  },
+  {
+    "name": "脑萎缩",
+    "value": 2
+  },
+  {
+    "name": "湿邪",
+    "value": 1
+  },
+  {
+    "name": "丰隆",
+    "value": 1
+  },
+  {
+    "name": "三阴交",
+    "value": 1
+  },
+  {
+    "name": "梁丘",
+    "value": 1
+  },
+  {
+    "name": "后溪",
+    "value": 1
+  },
+  {
+    "name": "劳宫",
+    "value": 1
+  },
+  {
+    "name": "合谷",
+    "value": 1
+  },
+  {
+    "name": "天枢",
+    "value": 1
+  },
+  {
+    "name": "上巨虚",
+    "value": 1
+  },
+  {
+    "name": "肾动脉",
+    "value": 1
+  },
+  {
+    "name": "视盘",
+    "value": 1
+  },
+  {
+    "name": "虚汗",
+    "value": 1
+  },
+  {
+    "name": "斑片",
+    "value": 1
+  },
+  {
+    "name": "全秃",
+    "value": 3
+  },
+  {
+    "name": "普秃",
+    "value": 3
+  },
+  {
+    "name": "油性皮肤",
+    "value": 2
+  },
+  {
+    "name": "残障",
+    "value": 1
+  },
+  {
+    "name": "消化器官",
+    "value": 2
+  },
+  {
+    "name": "感受器",
+    "value": 1
+  },
+  {
+    "name": "鞭毛",
+    "value": 1
+  },
+  {
+    "name": "胃蛋白酶",
+    "value": 2
+  },
+  {
+    "name": "水解酶",
+    "value": 1
+  },
+  {
+    "name": "抗力",
+    "value": 1
+  },
+  {
+    "name": "二氧化钛",
+    "value": 1
+  },
+  {
+    "name": "氧化锌",
+    "value": 2
+  },
+  {
+    "name": "耳痛",
+    "value": 1
+  },
+  {
+    "name": "外耳道",
+    "value": 2
+  },
+  {
+    "name": "鼓膜",
+    "value": 5
+  },
+  {
+    "name": "五脏六腑",
+    "value": 5
+  },
+  {
+    "name": "人口学",
+    "value": 1
+  },
+  {
+    "name": "生长素",
+    "value": 1
+  },
+  {
+    "name": "鞣酸",
+    "value": 1
+  },
+  {
+    "name": "细胞组织",
+    "value": 1
+  },
+  {
+    "name": "白藜芦醇",
+    "value": 2
+  },
+  {
+    "name": "凝血酶原",
+    "value": 1
+  },
+  {
+    "name": "憩室",
+    "value": 2
+  },
+  {
+    "name": "蜂胶",
+    "value": 1
+  },
+  {
+    "name": "近亲结婚",
+    "value": 2
+  },
+  {
+    "name": "二甲苯",
+    "value": 1
+  },
+  {
+    "name": "甲醛",
+    "value": 2
+  },
+  {
+    "name": "血清蛋白",
+    "value": 1
+  },
+  {
+    "name": "有机化学",
+    "value": 1
+  },
+  {
+    "name": "联苯",
+    "value": 1
+  },
+  {
+    "name": "甲状腺肿",
+    "value": 3
+  },
+  {
+    "name": "黑素细胞",
+    "value": 2
+  },
+  {
+    "name": "色素痣",
+    "value": 2
+  },
+  {
+    "name": "反射光",
+    "value": 1
+  },
+  {
+    "name": "面神经",
+    "value": 1
+  },
+  {
+    "name": "系带",
+    "value": 1
+  },
+  {
+    "name": "卫生法",
+    "value": 1
+  },
+  {
+    "name": "粘弹性",
+    "value": 1
+  },
+  {
+    "name": "木糖醇",
+    "value": 2
+  },
+  {
+    "name": "木糖",
+    "value": 1
+  },
+  {
+    "name": "菊粉",
+    "value": 1
+  },
+  {
+    "name": "甜叶菊",
+    "value": 1
+  },
+  {
+    "name": "罗汉果",
+    "value": 3
+  },
+  {
+    "name": "苯甲酸钠",
+    "value": 1
+  },
+  {
+    "name": "苯丙氨酸",
+    "value": 4
+  },
+  {
+    "name": "龙眼肉",
+    "value": 1
+  },
+  {
+    "name": "栀子",
+    "value": 1
+  },
+  {
+    "name": "白腻",
+    "value": 1
+  },
+  {
+    "name": "利水渗湿",
+    "value": 1
+  },
+  {
+    "name": "赤小豆",
+    "value": 4
+  },
+  {
+    "name": "载脂蛋白",
+    "value": 3
+  },
+  {
+    "name": "尿血",
+    "value": 1
+  },
+  {
+    "name": "痒疹",
+    "value": 22
+  },
+  {
+    "name": "肘窝",
+    "value": 1
+  },
+  {
+    "name": "阴阜",
+    "value": 1
+  },
+  {
+    "name": "饮食疗法",
+    "value": 2
+  },
+  {
+    "name": "药膏",
+    "value": 3
+  },
+  {
+    "name": "摩擦音",
+    "value": 1
+  },
+  {
+    "name": "骨赘",
+    "value": 1
+  },
+  {
+    "name": "碘盐",
+    "value": 4
+  },
+  {
+    "name": "碘缺乏病",
+    "value": 2
+  },
+  {
+    "name": "加碘盐",
+    "value": 2
+  },
+  {
+    "name": "安眠药",
+    "value": 23
+  },
+  {
+    "name": "梦游",
+    "value": 1
+  },
+  {
+    "name": "神经酰胺",
+    "value": 1
+  },
+  {
+    "name": "女贞子",
+    "value": 1
+  },
+  {
+    "name": "滑精",
+    "value": 1
+  },
+  {
+    "name": "甲床",
+    "value": 2
+  },
+  {
+    "name": "脓皮病",
+    "value": 2
+  },
+  {
+    "name": "甲癣",
+    "value": 1
+  },
+  {
+    "name": "金匮要略",
+    "value": 1
+  },
+  {
+    "name": "甜茶",
+    "value": 1
+  },
+  {
+    "name": "华盖",
+    "value": 2
+  },
+  {
+    "name": "胖大海",
+    "value": 1
+  },
+  {
+    "name": "中耳",
+    "value": 5
+  },
+  {
+    "name": "油酸",
+    "value": 1
+  },
+  {
+    "name": "乳剂",
+    "value": 1
+  },
+  {
+    "name": "细胞核",
+    "value": 1
+  },
+  {
+    "name": "郁结",
+    "value": 1
+  },
+  {
+    "name": "干姜",
+    "value": 6
+  },
+  {
+    "name": "脾阳",
+    "value": 1
+  },
+  {
+    "name": "玉竹",
+    "value": 1
+  },
+  {
+    "name": "五指毛桃",
+    "value": 6
+  },
+  {
+    "name": "六腑",
+    "value": 3
+  },
+  {
+    "name": "刺伤",
+    "value": 2
+  },
+  {
+    "name": "樟脑",
+    "value": 1
+  },
+  {
+    "name": "麝香草",
+    "value": 1
+  },
+  {
+    "name": "松节油",
+    "value": 1
+  },
+  {
+    "name": "黄连",
+    "value": 1
+  },
+  {
+    "name": "咽峡炎",
+    "value": 7
+  },
+  {
+    "name": "流涎",
+    "value": 1
+  },
+  {
+    "name": "秃发",
+    "value": 1
+  },
+  {
+    "name": "扁平苔藓",
+    "value": 1
+  },
+  {
+    "name": "三角肌",
+    "value": 1
+  },
+  {
+    "name": "黄体酮",
+    "value": 1
+  },
+  {
+    "name": "肩带",
+    "value": 1
+  },
+  {
+    "name": "髋骨",
+    "value": 1
+  },
+  {
+    "name": "螺旋体",
+    "value": 1
+  },
+  {
+    "name": "参茸",
+    "value": 1
+  },
+  {
+    "name": "林巧稚",
+    "value": 1
+  },
+  {
+    "name": "王振义",
+    "value": 2
+  },
+  {
+    "name": "挥发物",
+    "value": 1
+  },
+  {
+    "name": "穿透性",
+    "value": 1
+  },
+  {
+    "name": "肠瘘",
+    "value": 1
+  },
+  {
+    "name": "亲子鉴定",
+    "value": 30
+  },
+  {
+    "name": "外痔",
+    "value": 1
+  },
+  {
+    "name": "疗养院",
+    "value": 1
+  },
+  {
+    "name": "低压",
+    "value": 1
+  },
+  {
+    "name": "接触点",
+    "value": 2
+  },
+  {
+    "name": "结扎术",
+    "value": 2
+  },
+  {
+    "name": "放射医学",
+    "value": 2
+  }
+]
