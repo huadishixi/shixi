@@ -27,7 +27,7 @@ for idx, url in enumerate(urls, start=1):
         else:
             content = "未找到内容"
 
-        with open('医疗内容.txt', 'a', encoding='utf-8') as f_out:
+        with open('../../data/wordcloud/医疗内容.txt', 'a', encoding='utf-8') as f_out:
             f_out.write(f"【标题】{title}\n")
             f_out.write(f"【链接】{url}\n")
             f_out.write(f"【内容】\n{content}\n")

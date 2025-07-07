@@ -1,8 +1,8 @@
-const maskImageSrc = 'yuntu.png';     // 词云形状图片
-const wordFreqJSON = 'word_freq.json'; // 词频数据（前端只需要30个高频词）
+const maskImageSrc = '../../data/wordcloud/yuntu.png';     // 词云形状图片
+const wordFreqJSON = '../../data/output/word_freq.json';   // 词频数据（前端只需要30个高频词）
 
 // ECharts 容器ID
-const containerId = 'main';  // 对应HTML里的 <div id="main"></div>
+const containerId = 'wordcloud';  // 对应HTML里的 <div id="wordcloud"></div>
 
 // 创建词云图
 function createMedicalWordCloud() {

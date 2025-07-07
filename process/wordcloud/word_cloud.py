@@ -68,14 +68,14 @@ import re
 
 medical_keywords = []
 
-with open('医学关键词.txt', 'r', encoding='utf-8') as f:
+with open('../../data/wordcloud/医学关键词.txt', 'r', encoding='utf-8') as f:
     for line in f:
         # 按制表符拆分，取第一个字段，去除首尾空白
         word = line.split('\t')[0].strip()
         if word:
             medical_keywords.append(word)
 #读取文本
-with open('医疗内容.txt', 'r', encoding='utf-8') as f:
+with open('../../data/wordcloud/医学关键词.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 
 #去除英文数字
@@ -97,7 +97,7 @@ word_counts = Counter(filtered_words)
 word_freq_list = [{"name": k, "value": v} for k, v in word_counts.items()]
 
 #导出为JSON文件
-with open('word_freq.json', 'w', encoding='utf-8') as f_out:
+with open('../../data/output/word_freq.json', 'w', encoding='utf-8') as f_out:
     json.dump(word_freq_list, f_out, ensure_ascii=False, indent=2)
 
 print("词频数据已保存到 word_freq.json")

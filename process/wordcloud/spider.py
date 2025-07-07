@@ -54,7 +54,7 @@ for i in range(1, total_pages + 1):
         print(f"第{i}页没有找到目标内容")
 
 # 保存到文件
-with open('医疗.txt', 'a', encoding='utf-8') as f:
+with open('../../data/wordcloud/医疗url.txt', 'a', encoding='utf-8') as f:
     for link in href_list:
         f.write(link + '\n')
 
