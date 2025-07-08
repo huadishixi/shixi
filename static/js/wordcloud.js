@@ -2,6 +2,7 @@ const maskImageSrc = "/static/data/wordcloud/yuntu.png";
 const wordFreqJSON = "/static/data/output/word_freq.json";
 
 const t = document.querySelector("#wordcloud");
+
 // 创建词云图
 function createMedicalWordCloud() {
   var chart = echarts.init(t);
@@ -26,9 +27,9 @@ function createMedicalWordCloud() {
               maskImage: maskImage,
               left: "center",
               top: "center",
-              width: "90%",
-              height: "90%",
-              sizeRange: [20, 60],
+              width: "95%",
+              height: "95%",
+              sizeRange: [20, 40],
               rotationRange: [0, 0], // 固定方向，性能高
               gridSize: 1,
               drawOutOfBound: false,
@@ -37,9 +38,9 @@ function createMedicalWordCloud() {
                   return (
                     "rgb(" +
                     [
-                      Math.round(Math.random() * 100),
-                      Math.round(Math.random() * 100),
-                      Math.round(Math.random() * 100),
+                      Math.round(Math.random() * 55 + 200),
+                      Math.round(Math.random() * 55 + 200),
+                      Math.round(Math.random() * 55 + 200),
                     ].join(",") +
                     ")"
                   );
