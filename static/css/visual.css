@@ -64,6 +64,7 @@ form {
   overflow: hidden;
   position: relative;
   z-index: -2;
+  min-width: 1200px; /* 添加最小宽度限制 */
 }
 
 /* 加载旋转动画 */
@@ -519,3 +520,5 @@ form {
     button:hover {
         background-color: #003f80;
     }
+
+
