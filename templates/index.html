@@ -14,9 +14,12 @@
     <script src="../static/js/jquery.min.js"></script>
     <script src="../static/js/bootstrap.min.js"></script>
     <script src="../static/js/echarts.min.js"></script>
+    <script src="../static/js/echarts-wordcloud.min.js"></script>
     <script src="../static/js/swiper.min.js"></script>
     <script src="../static/js/china.js"></script>
     <script src="../static/js/chartMap.js"></script>
+    <script src="../static/js/wordcloud.js"></script>
+    <script src="../static/js/aiChat.js"></script>
 </head>
 
 <body class="ksh">
@@ -134,27 +137,36 @@
         </div>
 
         <div class="visual_right">
-            <div class="visual_box">
+            <div class="visual_box visual_box_wordcloud">
                 <div class="visual_title">
                     <span>词云图</span>
                     <img src="../static/images/ksh33.png">
                 </div>
                 <div class="swiper-container visual_swiper1 visual_chart">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide" id="main3"></div>
-                        <div class="swiper-slide" id="main31"></div>
+                        <div class="swiper-slide" id="wordcloud"></div>
                     </div>
                 </div>
             </div>
 
-            <div class="visual_box">
+            <div class="visual_box visual_box_ai">
                 <div class="visual_title">
                     <span>AI 对话</span>
                     <img src="../static/images/ksh33.png">
                 </div>
                 <div class="swiper-container visual_swiper2 visual_chart">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide" id="main4"></div>
+                        <div class="swiper-slide" id="main4">
+                            <!-- 对话框位置 -->
+                            <div id="chat-container">
+                                <div id="chat-box" class="chat-box"></div>
+                                <div class="chat-input-area">
+                                    <input type="text" id="user-input" placeholder="请输入问题..." />
+                                    <button onclick="sendMessage()">发送</button>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="swiper-slide" id="main41"></div>
                     </div>
                 </div>
