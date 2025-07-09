@@ -59,5 +59,5 @@ for item in medical_data:
                 'title': title,
                 'url': url
             })
-with open("static/json/word_news.json",'w',encoding='utf-8') as f:
+with open("../../data/output/word_news.json",'w',encoding='utf-8') as f:
     json.dump(word_news_map, f, ensure_ascii=False, indent=2)
