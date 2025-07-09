@@ -18,6 +18,8 @@
     <script src="../static/js/swiper.min.js"></script>
     <script src="../static/js/china.js"></script>
     <script src="../static/js/chartMap.js"></script>
+
+    <script src="../static/js/aiChat.js"></script>
 </head>
 
 <body class="ksh">
@@ -83,15 +85,17 @@
                 <div class="visual_chart" id="main8"></div>
             </div>
 
-            <div class="visual_conTop" style="margin-top: 2%; background-color: rgba(16, 54, 87, 0.5); height: 10rem;">
+            <div class="visual_conTop" style="margin-top: 2%; background-color: rgba(16, 54, 87, 0.5);">
                 <div class="visual_conBot_bot">
                     <div class="visualSssf_left">
-                        <h3>医学资讯</h3>
+                        <h3>待定</h3>
+                    </div>
+                    <div class="visualSssf_right">
+                        <div class="visualSssf_right_box" id="main5"></div>
+                        <div class="visualSssf_right_box" id="main6"></div>
+                        <div class="visualSssf_right_box" id="main7"></div>
                     </div>
                     <div class="clear"></div>
-                </div>
-                <div class="visualSssf_content">
-                    <div class="news-list"></div>
                 </div>
             </div>
         </div>
@@ -120,8 +124,7 @@
                             <!-- 对话框位置 -->
                             <div id="chat-container">
                                 <div id="chat-box" class="chat-box">
-                                    <div class="chat-message ai">AI：您好，我是老年人健康智能助手，致力于解读体检数据、分析慢病风险、提供个性化健康建议。有什么可以帮您？
-                                    </div>
+                                    <div class="chat-message ai">AI：您好，我是老年人健康智能助手，致力于解读体检数据、分析慢病风险、提供个性化健康建议。有什么可以帮您？</div>
                                 </div>
                                 <div class="chat-input-area">
                                     <input type="text" id="user-input" placeholder="请输入问题..." />
@@ -168,7 +171,5 @@
 </script>
 
 <script src="../static/js/wordcloud.js"></script>
-<script src="../static/js/aiChat.js"></script>
-<script src="../static/js/news.js"></script>
 
 </html>
