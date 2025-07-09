@@ -1,5 +1,6 @@
 const maskImageSrc = "/static/data/wordcloud/yuntu.png";
 const wordFreqJSON = "/static/data/output/word_freq.json";
+const wordNewsJSON = '/static/data/output/word_news.json';
 
 const t = document.querySelector("#wordcloud");
 let chart;
