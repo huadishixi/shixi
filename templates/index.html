@@ -16,8 +16,6 @@
     <script src="../static/js/echarts.min.js"></script>
     <script src="../static/js/echarts-wordcloud.min.js"></script>
     <script src="../static/js/swiper.min.js"></script>
-    <script src="../static/js/china.js"></script>
-    <script src="../static/js/chartMap.js"></script>
 </head>
 
 <body class="ksh">
@@ -83,7 +81,7 @@
                 <div class="visual_chart" id="main8"></div>
             </div>
 
-            <div class="visual_conTop" style="margin-top: 2%; background-color: rgba(16, 54, 87, 0.5); height: 10rem;">
+            <div class="visual_conTop" style="margin-top: 1%; background-color: rgba(16, 54, 87, 0.5); height: 10vw;">
                 <div class="visual_conBot_bot">
                     <div class="visualSssf_left">
                         <h3>医学资讯</h3>
@@ -138,50 +136,25 @@
 
         <div class="clear"></div>
     </div>
-    
-<!--    &lt;!&ndash; 新闻列表弹窗 &ndash;&gt;-->
-<!--    <div class="modal fade" id="word-news-modal" tabindex="-1" aria-labelledby="resultLabel" aria-hidden="true">-->
-<!--      <div class="modal-dialog modal-lg modal-dialog-centered">-->
-<!--        <div class="modal-content">-->
-<!--          <div class="modal-header">-->
-<!--            <h4 class="modal-title" id="resultLabel">相关新闻</h4>-->
-<!--            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>-->
-<!--          </div>-->
-<!--          <div class="modal-body" id="word-news-body">-->
-<!--            &lt;!&ndash; 这里放预测结果表格 &ndash;&gt;-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
+
+    <!--    &lt;!&ndash; 新闻列表弹窗 &ndash;&gt;-->
+    <!--    <div class="modal fade" id="word-news-modal" tabindex="-1" aria-labelledby="resultLabel" aria-hidden="true">-->
+    <!--      <div class="modal-dialog modal-lg modal-dialog-centered">-->
+    <!--        <div class="modal-content">-->
+    <!--          <div class="modal-header">-->
+    <!--            <h4 class="modal-title" id="resultLabel">相关新闻</h4>-->
+    <!--            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>-->
+    <!--          </div>-->
+    <!--          <div class="modal-body" id="word-news-body">-->
+    <!--            &lt;!&ndash; 这里放预测结果表格 &ndash;&gt;-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </div>-->
 
 </body>
-<script type="text/javascript">
-    $(function () {
-        var a = $('.visualSssf_left a')
-        for (var i = 0; i < a.length; i++) {
-            a[i].index = i;
-            a[i].onclick = function () {
-                for (var i = 0; i < a.length; i++) {
-                    a[i].className = ''
-                }
-                this.className = 'active'
-            }
-        }
 
-        var sfzcllH = $('.sfzcll_box').height()
-        var sfzcllHtwo = sfzcllH - 2
-        $('.sfzcll_box').css('line-height', sfzcllH + 'px')
-        $('.sfzcll_smallBk>div').css('line-height', sfzcllHtwo + 'px')
-
-        //删除加载动画
-        $('#load').fadeOut(1000)
-        setTimeout(function () {
-            $('#load').remove()
-        }
-            , 1100);
-    })
-</script>
-
+<script src="../static/js/load.js"></script>
 <script src="../static/js/wordcloud.js"></script>
 <script src="../static/js/aiChat.js"></script>
 <script src="../static/js/news.js"></script>
