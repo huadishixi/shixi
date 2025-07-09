@@ -3,7 +3,7 @@ const wordFreqJSON = "/static/data/output/word_freq.json";
 
 
 // ECharts 容器ID
-const containerId = 'main';  // 对应HTML里的 <div id="main"></div>
+const containerId = 'wordcloud';  // 对应HTML里的 <div id="wordcloud"></div>
 
 // 创建词云图
 function createMedicalWordCloud() {
