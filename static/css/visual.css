@@ -335,7 +335,7 @@ form {
 }
 
 .visual_con .visual_conBot {
-  height: calc(100% - 8.5rem);
+  height: calc(100% - 10rem);
   background: url(../images/ksh41.png) no-repeat;
   background-size: 100% 100%;
   position: relative;
@@ -417,15 +417,37 @@ form {
 .visualSssf_left a.active {
   color: #01f0ff;
 }
-.visualSssf_right {
-  width: 60%;
-  height: 100%;
-  float: left;
+
+.visualSssf_content {
+  margin: 0 0.5rem 0 0.5rem;
+  overflow-y: hidden;
+  height: 70%;
+  position: relative;
 }
-.visualSssf_right .visualSssf_right_box {
-  width: 33%;
-  float: left;
-  height: 100%;
+.news-list {
+  position: absolute;
+}
+.news-list:hover {
+  animation-play-state: paused;
+}
+.news-item {
+  padding: 0.6rem;
+}
+.news-item a {
+  color: #0066cc;
+  text-decoration: none;
+  display: block;
+}
+.news-item a:hover {
+  color: #91f7ff;
+}
+@keyframes scrollUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
 }
 
 .visualSfzsfl {
