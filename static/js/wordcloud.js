@@ -4,10 +4,14 @@ const wordFreqJSON = "/static/data/output/word_freq.json";
 
 // ECharts 容器ID
 const containerId = 'wordcloud';  // 对应HTML里的 <div id="wordcloud"></div>
+let chart;
+const wcObserver = new ResizeObserver(() => {
+  chart.resize();
+});
 
 // 创建词云图
 function createMedicalWordCloud() {
-  var chart = echarts.init(document.getElementById(containerId));
+  chart = echarts.init(document.getElementById(containerId));
 
   var maskImage = new Image();
   maskImage.src = maskImageSrc;
@@ -28,7 +32,7 @@ function createMedicalWordCloud() {
             maskImage: maskImage,
             left: 'center',
             top: 'center',
-            width: '90%',
+            width: '85%',
             height: '90%',
             sizeRange: [20, 60],
             rotationRange: [0, 0],  // 固定方向，性能高
@@ -37,9 +41,9 @@ function createMedicalWordCloud() {
             textStyle: {
               color: function () {
                 return 'rgb(' + [
-                  Math.round(Math.random() * 100),
-                  Math.round(Math.random() * 100),
-                  Math.round(Math.random() * 100)
+                  Math.round(Math.random() * 55 + 200),
+                  Math.round(Math.random() * 55 + 200),
+                  Math.round(Math.random() * 55 + 200)
                 ].join(',') + ')';
               }
             },
@@ -53,6 +57,8 @@ function createMedicalWordCloud() {
             data: topWords
           }]
         };
+
+        wcObserver.observe(document.getElementById(containerId));
 
         chart.setOption(option);
       })
