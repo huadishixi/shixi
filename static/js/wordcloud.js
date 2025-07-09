@@ -1,6 +1,6 @@
 const maskImageSrc = "/static/data/wordcloud/yuntu.png";
 const wordFreqJSON = "/static/data/output/word_freq.json";
-const wordNewsJSON = '/static/data/output/word_news.json';
+
 
 // ECharts 容器ID
 const containerId = 'main';  // 对应HTML里的 <div id="main"></div>
@@ -14,10 +14,9 @@ function createMedicalWordCloud() {
 
   // 等图片加载完再画图
   maskImage.onload = function () {
-  Promise.all([
-    fetch(wordFreqJSON).then(r => r.json()),
-    fetch(wordNewsJSON).then(r => r.json())
-  ]).then(([wordsList,wordNews]) => {
+    fetch(wordFreqJSON)
+      .then(response => response.json())
+      .then(wordsList => {
         // 按词频降序
         wordsList.sort((a, b) => b.value - a.value);
         var topWords = wordsList.slice(0, 35);
@@ -56,31 +55,6 @@ function createMedicalWordCloud() {
         };
 
         chart.setOption(option);
-        chart.on('click',function(params){
-            var word = params.name;
-            var newlist = wordNews[word] || [];
-
-            var html = '';
-            if (newlist.length === 0){
-                html = `<p>暂无相关新</p>`;
-            }
-            else {
-                html = '<div class="list-group">';
-                newlist.forEach(item => {
-                  html += `
-                    <a href="${item.url}" target="_blank" class="list-group-item list-group-item-action">
-                      ${item.title}
-                    </a>
-                  `;
-                });
-                html += '</div>';
-            }
-
-            document.getElementById('word-news-body').innerHTML = html;
-
-            var modal = new bootstrap.Modal(document.getElementById('word-news-modal'));
-            modal.show();
-        })
       })
       .catch(error => {
         console.error('加载词频数据失败:', error);
