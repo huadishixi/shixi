@@ -52,11 +52,15 @@
 
             <div class="visual_box">
                 <div class="visual_title">
-                    <span>待定</span>
+                    <span>健康预测</span>
                     <img src="../static/images/ksh33.png">
                 </div>
                 <div class="visual_chart sfzcll">
                     <div class="sfzcll_pos_box">
+                        <div class="text-center p-3">
+                          <button class="btn btn-outline-info" onclick="renderHealthPredictUI()">健康风险预测</button>
+                        </div>
+
                         <!-- 方框 -->
                         <!-- <div class="sfzcll_box">
                             <img class="sfzcll_bkJk" src="../static/images/ksh34.png">
@@ -72,6 +76,8 @@
 
         <div class="visual_con">
             <div class="visual_conBot">
+
+
                 <img class="visual_conBot_l" src="../static/images/ksh42.png">
                 <img class="visual_conBot_2" src="../static/images/ksh43.png">
                 <img class="visual_conBot_3" src="../static/images/ksh44.png">
@@ -79,6 +85,9 @@
                 <div class="visual_chart_text">
                     <h1>地图</h1>
                     <div class="visual_map" id="mapContainer"></div>
+                </div>
+                <div id="healthPredictContainer" class="p-4" style="background-color:#0d1b2a; color:#fff; border-radius:10px;">
+                <!-- 点击后动态填充内容 -->
                 </div>
             </div>
 
@@ -160,5 +169,6 @@
 <script src="../static/js/aiChat.js"></script>
 <script src="../static/js/news.js"></script>
 <script src="../static/js/map.js"></script>
+<script src="../static/js/healthPredict.js"></script>
 
 </html>
