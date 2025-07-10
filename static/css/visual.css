@@ -335,7 +335,7 @@ form {
 }
 
 .visual_con .visual_conBot {
-  height: calc(100% - 10vw);
+  height: calc(100% - 11vw);
   background: url(../images/ksh41.png) no-repeat;
   background-size: 100% 100%;
   position: relative;
@@ -381,8 +381,9 @@ form {
   font-size: 1.625vw;
   margin-bottom: 0.375vw;
 }
-.visual_con .visual_conBot .visual_chart_text h2 {
-  font-size: 1.25vw;
+.visual_map {
+  width: 45vw;
+  height: 28vw;
 }
 .visual_con .visual_conBot .visual_conBot_bot {
   width: calc(100% - 0.5vw);
@@ -480,7 +481,7 @@ form {
 
 /*右边词云和ai高度比例1比2*/
 .visual_right .visual_box_ai {
-  height: 66.6%;
+  height: 66%;
 }
 
 /*ai聊天框样式*/
@@ -488,7 +489,7 @@ form {
   background-color: #0c1e3d;
   color: #ffffff;
   border-radius: 0.625vw;
-  padding: 0.9375vw;
+  padding: 0.8vw;
   width: 100%;
   height: 100%;
   max-width: 37.5vw;
@@ -503,8 +504,8 @@ form {
   border-radius: 0.5vw;
   height: 90%;
   overflow-y: auto;
-  padding: 0.625vw;
-  margin-bottom: 0.625vw;
+  padding: 0.6vw;
+  margin-bottom: 0.4vw;
 }
 
 .chat-message {

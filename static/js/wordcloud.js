@@ -1,5 +1,5 @@
-const maskImageSrc = "/static/images/yuntu.png";
-const wordFreqJSON = "/static/dataset/word_freq.json";
+const maskImageSrc = "static/images/yuntu.png";
+const wordFreqJSON = "static/dataset/word_freq.json";
 
 // ECharts 容器ID
 const containerId = "wordcloud"; // 对应HTML里的 <div id="wordcloud"></div>

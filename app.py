@@ -54,7 +54,7 @@ def health_page():
 
 @app.route("/data/<path:filename>")
 def serve_data(filename):
-    data_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), 'data'))
+    data_dir = os.path.abspath(os.path.join(os.path.dirname(__file__)))
     return send_from_directory(data_dir, filename)
 
 @app.route("/chat", methods=["POST"])

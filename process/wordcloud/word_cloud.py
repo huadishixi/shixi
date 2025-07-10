@@ -31,7 +31,6 @@ words = [w for w in words if len(w) > 1]
 filtered_words = [w for w in words if w in medical_keywords]
 
 #统计词频
-from collections import Counter
 word_counts = Counter(filtered_words)
 
 #生成词频列表，格式符合ECharts需要
@@ -44,6 +43,11 @@ with open(os.path.join(static_dir, "dataset", "word_freq.json"), 'w', encoding='
 print("词频数据已保存到 word_freq.json")
 
 word_news_map = {}
+medical_data = []
+
+# 读取文本
+with open(os.path.join(script_dir, "data", "医疗内容.json"), 'r', encoding='utf-8') as f:
+    medical_data = json.load(f)
 
 for item in medical_data:
     title = item["标题"]

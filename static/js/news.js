@@ -1,4 +1,4 @@
-const news = "/static/dataset/news.json";
+const news = "static/dataset/news.json";
 const container = document.querySelector(".visualSssf_content");
 const newsList = document.querySelector(".news-list");
 
