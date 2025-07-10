@@ -101,6 +101,8 @@ def predict():
 
     result = []
     for tag, label in zip(Y_cols, pred):
+        if close_summary[tag] == 0:
+            continue
         status = "有风险" if label == 1 else "健康"
         result.append({
             "疾病": tag,
