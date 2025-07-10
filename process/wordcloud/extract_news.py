@@ -1,9 +1,11 @@
+import os
 import json
 
-# 原始文件路径
-input_file = r'D:/hwadee/shixi/static/data/wordcloud/医疗内容.txt'
-# 输出JSON文件路径
-output_file = r'D:/hwadee/shixi/static/data/output/news.json'
+# 获取当前脚本所在目录
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+input_file = os.path.join(script_dir, "data", "医疗内容.txt")
+output_file = os.path.join(script_dir, "data", "news.json")
 
 def convert_to_json(input_path, output_path):
     articles = []

@@ -1,5 +1,5 @@
-const maskImageSrc = "/static/data/wordcloud/yuntu.png";
-const wordFreqJSON = "/static/data/output/word_freq.json";
+const maskImageSrc = "/static/images/yuntu.png";
+const wordFreqJSON = "/static/dataset/word_freq.json";
 
 // ECharts 容器ID
 const containerId = "wordcloud"; // 对应HTML里的 <div id="wordcloud"></div>
@@ -19,7 +19,7 @@ function createMedicalWordCloud() {
   maskImage.onload = function () {
     Promise.all([
       fetch(wordFreqJSON).then((res) => res.json()),
-      fetch("/static/data/wordcloud/word_news.json").then((res) => res.json()),
+      fetch("/static/dataset/word_news.json").then((res) => res.json()),
     ])
       .then(([wordsList, newsData]) => {
         // 按词频降序
@@ -36,7 +36,7 @@ function createMedicalWordCloud() {
               top: "center",
               width: "90%",
               height: "85%",
-              sizeRange: [20, 60],
+              sizeRange: [20, 45],
               rotationRange: [0, 0], // 固定方向，性能高
               gridSize: 1,
               drawOutOfBound: false,

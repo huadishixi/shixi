@@ -9,6 +9,10 @@ from openai import OpenAI
 app = Flask(__name__)
 CORS(app)
 
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+process_dir = os.path.join(script_dir, "process")
+
 # === 初始化 OpenAI 客户端 ===
 client = OpenAI(
     base_url="https://ark.cn-beijing.volces.com/api/v3",
@@ -34,7 +38,7 @@ Y_cols = [
 ]
 
 # 加载数据
-df = pd.read_csv("data/data3.0.csv")
+df = pd.read_csv(os.path.join(process_dir, "dataproject/data/data3.0.csv"))
 X = df[X_cols].apply(pd.to_numeric, errors='coerce').fillna(df[X_cols].mean())
 Y = df[Y_cols]
 X_scaled = scaler.transform(X)
