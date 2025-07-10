@@ -58,7 +58,7 @@
                 <div class="visual_chart sfzcll">
                     <div class="sfzcll_pos_box">
                         <div class="text-center p-3">
-                          <button class="btn btn-outline-info" onclick="renderHealthPredictUI()">健康风险预测</button>
+                          <button id="openHealthPredictBtn" class="btn btn-outline-info" onclick="renderHealthPredictUI()">健康风险预测</button>
                         </div>
 
                         <!-- 方框 -->
@@ -75,14 +75,14 @@
         </div>
 
         <div class="visual_con">
-            <div class="visual_conBot">
+            <div class="visual_conBot" >
 
 
                 <img class="visual_conBot_l" src="../static/images/ksh42.png">
                 <img class="visual_conBot_2" src="../static/images/ksh43.png">
                 <img class="visual_conBot_3" src="../static/images/ksh44.png">
                 <img class="visual_conBot_4" src="../static/images/ksh45.png">
-                <div class="visual_chart_text">
+                <div class="visual_chart_text" id="defaultContent">
                     <h1>地图</h1>
                     <div class="visual_map" id="mapContainer"></div>
                 </div>
