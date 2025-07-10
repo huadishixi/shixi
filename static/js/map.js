@@ -73,6 +73,9 @@ const mapObserver = new ResizeObserver(() => {
           left: "left",
           bottom: "5%",
           text: ["高", "低"],
+          textStyle: {
+            color: "#fff",
+          },
           calculable: false,
           inRange: { color: ["#e0f7ff", "#006edd"] },
         },

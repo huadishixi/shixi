@@ -37,6 +37,18 @@ form {
   overflow-y: auto;
   height: 100%;
 }
+button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 0.625vw 1vw;
+  border-radius: 0.3125vw;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003f80;
+}
 /* 滚动条样式 */
 ::-webkit-scrollbar {
   width: 0.0625vw;
@@ -397,7 +409,7 @@ form {
 }
 
 .visualSssf_left {
-  width: 40%;
+  width: 100%;
   float: left;
   color: #fff;
   padding: 0.625vw 1.25vw 0 1.25vw;
@@ -408,15 +420,13 @@ form {
   font-weight: 600;
   margin-bottom: 0.625vw;
 }
-.visualSssf_left a {
-  width: 32%;
-  color: #fff;
-  display: inline-block;
-  margin-bottom: 0.625vw;
-  cursor: pointer;
-}
-.visualSssf_left a.active {
-  color: #01f0ff;
+.news-reply {
+  padding: 0;
+  background: transparent;
+  float: right;
+  width: 3vw;
+  height: 2vw;
+  color: white;
 }
 
 .visualSssf_content {
@@ -532,17 +542,4 @@ form {
   border-radius: 0.3125vw;
   border: none;
   font-size: 1vw;
-}
-
-button {
-  background-color: #0056b3;
-  color: white;
-  border: none;
-  padding: 0.625vw 1vw;
-  border-radius: 0.3125vw;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #003f80;
 }
