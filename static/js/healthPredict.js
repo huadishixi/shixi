@@ -26,13 +26,13 @@ const X_COLS = [
 
 // 前端字段别名 → 后端字段映射
 const aliasToXcols = {
-  "收缩压 (SBP, mmHg)": "收缩压(mmHg)",
-  "舒张压 (DBP, mmHg)": "舒张压(mmHg)",
-  "空腹血糖 (FBG, mmol/L)": "血糖(mmol/L)",
-  "总胆固醇 (TC, mmol/L)": "总胆固醇(TC)",
-  "低密度脂蛋白 (LDL, mmol/L)": "低密度脂蛋白(LDL)",
-  "高密度脂蛋白 (HDL, mmol/L)": "高密度脂蛋白(HDL)",
-  "甘油三酯 (TG, mmol/L)": "甘油三酯(TG)",
+  "收缩压 (mmHg)": "收缩压(mmHg)",
+  "舒张压 (mmHg)": "舒张压(mmHg)",
+  "血糖 (mmol/L)": "血糖(mmol/L)",
+  "总胆固醇 (TC)": "总胆固醇(TC)",
+  "低密度脂蛋白 (LDL)": "低密度脂蛋白(LDL)",
+  "高密度脂蛋白 (HDL)": "高密度脂蛋白(HDL)",
+  "甘油三酯 (TG)": "甘油三酯(TG)",
   "肌钙蛋白 I (cTnI, ng/mL)": "肌钙蛋白I(cTnI)",
   NIHSS: "NIHSS",
   mRS: "mRS",
@@ -42,17 +42,13 @@ const aliasToXcols = {
   "骨密度 T 值": "骨密度T值",
   "BMI (kg/m²)": "BMI",
   MMSE: "MMSE",
-  "疼痛 VAS (0–10)": "", // 特殊处理：可根据疾病类型映射到不同字段
   "颈椎活动角度 (°)": "颈椎活动角度(°)",
-  "SLR 直腿抬高角度 (°)": "SLR角度(°)",
+  "SLR 角度 (°)": "SLR角度(°)",
   "排便频率 (次/周)": "排便频率(次/周)",
   "睡眠评分 (1–5)": "睡眠质量(1-5)",
-};
-
-const painVASDiseaseMap = {
-  关节炎: "VAS_关节炎",
-  颈椎病: "VAS_颈椎",
-  腰椎间盘突出症: "VAS_腰椎",
+  "VAS_关节炎 (0–10)": "VAS_关节炎",
+  "VAS_颈椎 (0–10)": "VAS_颈椎",
+  "VAS_腰椎 (0–10)": "VAS_腰椎",
 };
 
 let zhibiaoMap = {};
@@ -155,11 +151,6 @@ function updateHealthInputForm() {
     for (const [param, levels] of Object.entries(indicators)) {
       let mappedKey = aliasToXcols[param] || param;
 
-      // 特殊处理疼痛VAS字段
-      if (param === "疼痛 VAS (0–10)" && painVASDiseaseMap[disease]) {
-        mappedKey = painVASDiseaseMap[disease];
-      }
-
       if (!mappedKey || added.has(mappedKey)) continue;
       added.add(mappedKey);
 
@@ -215,7 +206,7 @@ function submitDynamicPrediction() {
 // 收集表单数据
 function collectFormData() {
   const form = document.getElementById("dynamicHealthForm");
-  const data = {};
+  let data = {};
   const allowNegative = "骨密度T值";
   let hasNegative = false;
 
@@ -242,33 +233,65 @@ function collectFormData() {
 
 // 填充缺失值
 function fillMissingValues(data) {
-  const selectedDiseases = Array.from(
-    document.querySelectorAll("#diseaseCheckboxes input:checked")
-  ).map((cb) => cb.value);
-
-  selectedDiseases.forEach((disease) => {
-    const indicators = zhibiaoMap[disease];
-    for (const [param, levels] of Object.entries(indicators)) {
-      let mappedKey = aliasToXcols[param] || param;
-      if (param === "疼痛 VAS (0–10)" && painVASDiseaseMap[disease]) {
-        mappedKey = painVASDiseaseMap[disease];
-      }
-      if (!mappedKey || mappedKey in data) continue;
-
-      const normalRange = findNormalRange(levels);
-      const numMatch = normalRange.match(/[\d\.\-]+/g);
-      if (numMatch) {
-        data[mappedKey] = parseFloat(numMatch[0]);
-      }
-    }
-  });
-
-  // 填补完整 X_COLS 所需字段
   X_COLS.forEach((col) => {
-    if (!(col in data)) {
-      data[col] = 0;
-    }
+    // 如果该字段已有用户输入的值，则跳过
+    if (col in data) return;
+
+    // 查找该字段对应的正常值
+    const normalValue = findNormalValueForColumn(col);
+    data[col] = normalValue;
   });
+}
+
+// 为特定字段查找正常值
+function findNormalValueForColumn(columnName) {
+  // 在所有疾病指标中查找该字段的正常范围
+  for (const disease in zhibiaoMap) {
+    const indicators = zhibiaoMap[disease];
+    for (const [indicatorParam, levels] of Object.entries(indicators)) {
+      let mappedKey = aliasToXcols[indicatorParam] || indicatorParam;
+
+      if (mappedKey === columnName) {
+        const normalRange = findNormalRange(levels);
+        const defaultValue = getDefaultValueFromRange(normalRange);
+        if (defaultValue !== null) {
+          return defaultValue;
+        }
+      }
+    }
+  }
+
+  return 0;
+}
+
+// 从范围字符串中提取默认值
+function getDefaultValueFromRange(rangeStr) {
+  if (!rangeStr) return null;
+
+  // 尝试匹配各种范围格式
+  const matches = rangeStr.match(/([\d\.\-]+)\s*[-~至]\s*([\d\.\-]+)/);
+  if (matches && matches.length >= 3) {
+    const min = parseFloat(matches[1]);
+    const max = parseFloat(matches[2]);
+    return (min + max) / 2; // 取中间值
+  }
+
+  // 匹配单值
+  const singleMatch = rangeStr.match(/[\d\.\-]+/);
+  if (singleMatch) {
+    return parseFloat(singleMatch[0]);
+  }
+
+  return null;
+}
+
+function findNormalRange(levels) {
+  for (const [label, val] of Object.entries(levels)) {
+    if (label.includes("正常")) {
+      return val;
+    }
+  }
+  return "";
 }
 
 // 显示加载状态
@@ -303,13 +326,28 @@ function renderPredictionResults(result) {
     `;
 
   filtered.forEach((r) => {
-    const riskLevel = r.状态 === "有风险" ? "high-risk" : "low-risk";
     const percentage = (r.相似人群患病率 * 100).toFixed(1);
+    let status = "";
+    let riskLevel = "";
+
+    if (percentage >= 0 && percentage < 20) {
+      status = "概率极低";
+      riskLevel = "healthy";
+    } else if (percentage >= 20 && percentage < 50) {
+      status = "概率低";
+      riskLevel = "low";
+    } else if (percentage >= 50 && percentage < 80) {
+      status = "概率高";
+      riskLevel = "high";
+    } else if (percentage >= 80 && percentage <= 100) {
+      status = "概率极高";
+      riskLevel = "bad";
+    }
 
     html += `
         <div class="result-card ${riskLevel}">
           <div class="disease-name">${r.疾病}</div>
-          <div class="risk-status">${r.状态}</div>
+          <div class="risk-status">${status}</div>
           <div class="risk-meter">
             <div class="meter-bar" style="width: ${percentage}%"></div>
             <div class="meter-text">${percentage}%</div>

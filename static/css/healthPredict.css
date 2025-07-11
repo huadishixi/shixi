@@ -260,12 +260,20 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.result-card.high-risk {
-  border-left: 4px solid #ff5252;
+.result-card.healthy {
+  border-left: 4px solid #2196f3;
 }
 
-.result-card.low-risk {
+.result-card.low {
   border-left: 4px solid #4caf50;
+}
+
+.result-card.high {
+  border-left: 4px solid #ff9800;
+}
+
+.result-card.bad {
+  border-left: 4px solid #f44336;
 }
 
 .disease-name {
@@ -286,14 +294,28 @@
   overflow: hidden;
 }
 
-.meter-bar {
+.bad .meter-bar {
   height: 100%;
   background: linear-gradient(to right, #ff5252, #ff8a80);
   border-radius: 10px;
 }
 
-.low-risk .meter-bar {
+.high .meter-bar {
+  height: 100%;
+  background: linear-gradient(to right, #ff9800, #ffb74d);
+  border-radius: 10px;
+}
+
+.low .meter-bar {
+  height: 100%;
   background: linear-gradient(to right, #4caf50, #8bc34a);
+  border-radius: 10px;
+}
+
+.healthy .meter-bar {
+  height: 100%;
+  background: linear-gradient(to right, #2196f3, #64b5f6);
+  border-radius: 10px;
 }
 
 .meter-text {
