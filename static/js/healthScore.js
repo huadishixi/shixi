@@ -27,9 +27,7 @@ fetch("static/dataset/health_scores.json")
         },
       },
       grid: {
-        left: "5%",
-        right: "5%",
-        bottom: "10%",
+        right: "3%",
         containLabel: true,
       },
       xAxis: {
@@ -147,8 +145,8 @@ fetch("static/dataset/health_scores.json")
           },
           { name: "标准差", max: 10, color: "white" },
         ],
-        center: ["50%", "60%"],
-        radius: "90%",
+        center: ["50%", "55%"],
+        radius: "80%",
       },
       series: [
         {
