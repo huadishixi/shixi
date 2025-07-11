@@ -356,8 +356,68 @@ function renderPredictionResults(result) {
       `;
   });
 
-  html += `</div></div>`;
+    html += `
+      </div>
+      <div style="margin-top: 15px;">
+        <button id="generateAdviceBtn" class="btn btn-primary">使用AI生成个性化建议</button>
+      </div>
+    </div>
+  `;
   resultDiv.innerHTML = html;
+
+// === 按钮事件 ===
+  document.getElementById("generateAdviceBtn").onclick = async function () {
+  const formData = collectFormData();
+  if (!formData) return;
+
+  const userInputStr = Object.entries(formData)
+    .map(([key, val]) => `${key}: ${val}`)
+    .join("\n");
+
+  const resultStr = filtered
+    .map(r => `疾病：${r.疾病}，状态：${r.状态}，相似人群患病率：${(r.相似人群患病率 * 100).toFixed(1)}%`)
+    .join("\n");
+
+  const message = `用户输入：\n${userInputStr}\n\n预测结果：\n${resultStr}\n\n请你用户输入的健康指标和平台分析出来的疾病风险，给出个性化建议`;
+
+  try {
+    const response = await fetch("/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message })
+    });
+
+    const data = await response.json();
+
+    const messageBox = document.evaluate(
+      "/html/body/div[2]/div[3]/div[2]/div[2]/div/div/div/div[1]",
+      document,
+      null,
+      XPathResult.FIRST_ORDERED_NODE_TYPE,
+      null
+    ).singleNodeValue;
+
+    if (messageBox) {
+      // 1. 添加“数据已发送”
+      const sentNotice = document.createElement("div");
+      sentNotice.innerText = "数据已发送";
+      sentNotice.style.marginTop = "10px";
+      sentNotice.style.color = "#00cc66";
+      messageBox.appendChild(sentNotice);
+
+      // 2. 添加 AI 回复（如果存在）
+       if (data.reply) {
+         const replyDiv = document.createElement("div");
+         replyDiv.className = "chat-message ai";
+         replyDiv.innerHTML = `<strong>AI：</strong>${data.reply.replace(/\n/g, "<br>")}`;
+         messageBox.appendChild(replyDiv);
+       }
+    }
+  } catch (error) {
+    alert("发送失败：" + error.message);
+  }
+};
+
 }
 
 // 初始化应用

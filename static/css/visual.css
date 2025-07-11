@@ -644,3 +644,8 @@ position: absolute;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(0.1vw);
 }
+
+/*"使用AI生成个性化建议“按钮位置居中*/
+.btn-primary{
+margin-left:36%;
+}
