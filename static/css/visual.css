@@ -162,13 +162,26 @@ button:hover {
   height: 33.3%;
 }
 .left-top {
-  height: 35%;
+  height: 38%;
 }
 .left-middle {
-  height: 35%;
+  height: 38%;
 }
 .health {
-  height: 30%;
+  height: 24%;
+}
+.btn-outline-info{
+position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.p-3 img{
+padding-top:0.8vw;
+position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .visual_box .visual_title {
   position: relative;
