@@ -354,7 +354,6 @@ button:hover {
   padding: 1.5625vw 1.25vw 0 1.25vw;
 }
 .visual_con .visual_conTop {
-  height: 8.125vw;
   margin-bottom: 0.625vw;
 }
 .visual_con .visual_conTop .visual_conTop_box {
@@ -431,7 +430,8 @@ button:hover {
 }
 
 .visual_con .visual_conBot {
-  height: calc(100% - 11vw);
+  width: 100%;
+  height: calc(100% - 14vw);
   background: url(../images/ksh41.png) no-repeat;
   background-size: 100% 100%;
   position: relative;
@@ -479,7 +479,7 @@ button:hover {
 }
 .visual_map {
   width: 45vw;
-  height: 28vw;
+  height: 25vw;
 }
 .visual_con .visual_conBot .visual_conBot_bot {
   width: calc(100% - 0.5vw);
@@ -644,9 +644,4 @@ button:hover {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(0.1vw);
-}
-
-/*"使用AI生成个性化建议“按钮位置居中*/
-.btn-primary {
-  margin-left: 36%;
 }
