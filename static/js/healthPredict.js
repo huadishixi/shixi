@@ -326,7 +326,12 @@ function renderPredictionResults(result) {
     document.querySelectorAll("#diseaseCheckboxes input:checked")
   ).map((cb) => cb.value);
 
-  const filtered = result.filter((r) => selectedDiseases.includes(r.疾病));
+//  const filtered = result.filter((r) => selectedDiseases.includes(r.疾病));
+  // === 强制构建所有用户勾选疾病的显示内容 ===
+  const filtered = selectedDiseases.map((disease) => {
+    const found = result.find((r) => r.疾病 === disease);
+    return found || { 疾病: disease, 相似人群患病率: 0, 状态: "未知" };
+  });
 
   const resultDiv = document.getElementById("predictionResult");
 
