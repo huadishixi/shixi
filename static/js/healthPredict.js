@@ -204,7 +204,7 @@ function submitDynamicPrediction() {
 }
 
 // 收集表单数据
-function collectFormData() {
+function collectFormData(onlyUserInput = false) {
   const form = document.getElementById("dynamicHealthForm");
   let data = {};
   const allowNegative = "骨密度T值";
@@ -227,7 +227,13 @@ function collectFormData() {
     return null;
   }
 
-  fillMissingValues(data);
+  //  fillMissingValues(data);
+  //  return data;
+
+  if (!onlyUserInput) {
+    fillMissingValues(data);
+  }
+
   return data;
 }
 
@@ -316,7 +322,12 @@ function handleError(error) {
 
 // 渲染预测结果
 function renderPredictionResults(result) {
-  const filtered = result.filter((r) => r["相似人群患病率"] > 0);
+  const selectedDiseases = Array.from(
+    document.querySelectorAll("#diseaseCheckboxes input:checked")
+  ).map((cb) => cb.value);
+
+  const filtered = result.filter((r) => selectedDiseases.includes(r.疾病));
+
   const resultDiv = document.getElementById("predictionResult");
 
   let html = `
@@ -367,10 +378,10 @@ function renderPredictionResults(result) {
 
   // === 按钮事件 ===
   document.getElementById("generateAdviceBtn").onclick = async function () {
-    const formData = collectFormData();
-    if (!formData) return;
+    const userFormData = collectFormData(true); // 只取用户实际输入
+    if (!userFormData) return;
 
-    const userInputStr = Object.entries(formData)
+    const userInputStr = Object.entries(userFormData)
       .map(([key, val]) => `${key}: ${val}`)
       .join("\n");
 
@@ -383,8 +394,26 @@ function renderPredictionResults(result) {
       )
       .join("\n");
 
-    const message = `用户输入：\n${userInputStr}\n\n预测结果：\n${resultStr}\n\n请你用户输入的健康指标和平台分析出来的疾病风险，给出个性化建议`;
+    const message = `用户输入：\n${userInputStr}\n\n预测结果：\n${resultStr}\n\n请根据用户输入的健康指标和平台分析出来的疾病风险，给出个性化建议`;
 
+    const messageBox = document.evaluate(
+      "/html/body/div[2]/div[3]/div[2]/div[2]/div/div/div/div[1]",
+      document,
+      null,
+      XPathResult.FIRST_ORDERED_NODE_TYPE,
+      null
+    ).singleNodeValue;
+
+    // === ✅ 第一步：立即显示“数据已发送”提示 ===
+    if (messageBox) {
+      const sentNotice = document.createElement("div");
+      sentNotice.innerText = "数据已发送";
+      sentNotice.style.marginTop = "10px";
+      sentNotice.style.color = "#00cc66";
+      messageBox.appendChild(sentNotice);
+    }
+
+    // === 第二步：发送请求，并等候 AI 回复 ===
     try {
       const response = await fetch("/chat", {
         method: "POST",
@@ -394,32 +423,14 @@ function renderPredictionResults(result) {
 
       const data = await response.json();
 
-      const messageBox = document.evaluate(
-        "/html/body/div[2]/div[3]/div[2]/div[2]/div/div/div/div[1]",
-        document,
-        null,
-        XPathResult.FIRST_ORDERED_NODE_TYPE,
-        null
-      ).singleNodeValue;
-
-      if (messageBox) {
-        // 1. 添加“数据已发送”
-        const sentNotice = document.createElement("div");
-        sentNotice.innerText = "数据已发送";
-        sentNotice.style.marginTop = "10px";
-        sentNotice.style.color = "#00cc66";
-        messageBox.appendChild(sentNotice);
-
-        // 2. 添加 AI 回复（如果存在）
-        if (data.reply) {
-          const replyDiv = document.createElement("div");
-          replyDiv.className = "chat-message ai";
-          replyDiv.innerHTML = `<strong>AI：</strong>${data.reply.replace(
-            /\n/g,
-            "<br>"
-          )}`;
-          messageBox.appendChild(replyDiv);
-        }
+      if (messageBox && data.reply) {
+        const replyDiv = document.createElement("div");
+        replyDiv.className = "chat-message ai";
+        replyDiv.innerHTML = `<strong>AI：</strong>${data.reply.replace(
+          /\n/g,
+          "<br>"
+        )}`;
+        messageBox.appendChild(replyDiv);
       }
     } catch (error) {
       alert("发送失败：" + error.message);
