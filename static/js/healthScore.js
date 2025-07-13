@@ -27,7 +27,8 @@ fetch("static/dataset/health_scores.json")
         },
       },
       grid: {
-        right: "3%",
+        right: "5%",
+        bottom: "10%",
         containLabel: true,
       },
       xAxis: {

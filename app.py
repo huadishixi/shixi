@@ -20,8 +20,8 @@ client = OpenAI(
 )
 
 # === 模型和数据加载 ===
-model = joblib.load('model/multilabel_rf_model.pkl')  # 放在 model 目录下
-scaler = joblib.load('model/scaler.pkl')
+model = joblib.load(os.path.join(script_dir, "model/multilabel_rf_model.pkl"))  # 放在 model 目录下
+scaler = joblib.load(os.path.join(script_dir, "model/scaler.pkl"))
 
 # 预测输入和输出列
 X_cols = [

@@ -1,0 +1,973 @@
+{
+  "nodes": [
+    {
+      "id": "高血压",
+      "group": "disease"
+    },
+    {
+      "id": "糖尿病",
+      "group": "disease"
+    },
+    {
+      "id": "冠心病",
+      "group": "disease"
+    },
+    {
+      "id": "脑卒中",
+      "group": "disease"
+    },
+    {
+      "id": "骨质疏松",
+      "group": "disease"
+    },
+    {
+      "id": "老年性痴呆",
+      "group": "disease"
+    },
+    {
+      "id": "关节炎",
+      "group": "disease"
+    },
+    {
+      "id": "颈椎病",
+      "group": "disease"
+    },
+    {
+      "id": "腰椎间盘突出",
+      "group": "disease"
+    },
+    {
+      "id": "便秘",
+      "group": "disease"
+    },
+    {
+      "id": "60-64",
+      "group": "age"
+    },
+    {
+      "id": "65-69",
+      "group": "age"
+    },
+    {
+      "id": "70-74",
+      "group": "age"
+    },
+    {
+      "id": "75-79",
+      "group": "age"
+    },
+    {
+      "id": "80-84",
+      "group": "age"
+    },
+    {
+      "id": "85-89",
+      "group": "age"
+    },
+    {
+      "id": "90-94",
+      "group": "age"
+    },
+    {
+      "id": "95-99",
+      "group": "age"
+    },
+    {
+      "id": "100-104",
+      "group": "age"
+    },
+    {
+      "id": "F",
+      "group": "gender"
+    },
+    {
+      "id": "M",
+      "group": "gender"
+    },
+    {
+      "id": "urban",
+      "group": "region"
+    },
+    {
+      "id": "rural",
+      "group": "region"
+    }
+  ],
+  "links": [
+    {
+      "source": "高血压",
+      "target": "糖尿病",
+      "value": 22327
+    },
+    {
+      "source": "高血压",
+      "target": "冠心病",
+      "value": 5602
+    },
+    {
+      "source": "高血压",
+      "target": "脑卒中",
+      "value": 5193
+    },
+    {
+      "source": "高血压",
+      "target": "骨质疏松",
+      "value": 31296
+    },
+    {
+      "source": "高血压",
+      "target": "老年性痴呆",
+      "value": 4955
+    },
+    {
+      "source": "高血压",
+      "target": "关节炎",
+      "value": 14157
+    },
+    {
+      "source": "高血压",
+      "target": "颈椎病",
+      "value": 34751
+    },
+    {
+      "source": "高血压",
+      "target": "腰椎间盘突出",
+      "value": 14278
+    },
+    {
+      "source": "高血压",
+      "target": "便秘",
+      "value": 12102
+    },
+    {
+      "source": "糖尿病",
+      "target": "冠心病",
+      "value": 3460
+    },
+    {
+      "source": "糖尿病",
+      "target": "脑卒中",
+      "value": 3176
+    },
+    {
+      "source": "糖尿病",
+      "target": "骨质疏松",
+      "value": 18160
+    },
+    {
+      "source": "糖尿病",
+      "target": "老年性痴呆",
+      "value": 2916
+    },
+    {
+      "source": "糖尿病",
+      "target": "关节炎",
+      "value": 8279
+    },
+    {
+      "source": "糖尿病",
+      "target": "颈椎病",
+      "value": 20122
+    },
+    {
+      "source": "糖尿病",
+      "target": "腰椎间盘突出",
+      "value": 8288
+    },
+    {
+      "source": "糖尿病",
+      "target": "便秘",
+      "value": 7034
+    },
+    {
+      "source": "冠心病",
+      "target": "脑卒中",
+      "value": 1051
+    },
+    {
+      "source": "冠心病",
+      "target": "骨质疏松",
+      "value": 3928
+    },
+    {
+      "source": "冠心病",
+      "target": "老年性痴呆",
+      "value": 683
+    },
+    {
+      "source": "冠心病",
+      "target": "关节炎",
+      "value": 1803
+    },
+    {
+      "source": "冠心病",
+      "target": "颈椎病",
+      "value": 4360
+    },
+    {
+      "source": "冠心病",
+      "target": "腰椎间盘突出",
+      "value": 1786
+    },
+    {
+      "source": "冠心病",
+      "target": "便秘",
+      "value": 1502
+    },
+    {
+      "source": "脑卒中",
+      "target": "骨质疏松",
+      "value": 4010
+    },
+    {
+      "source": "脑卒中",
+      "target": "老年性痴呆",
+      "value": 1439
+    },
+    {
+      "source": "脑卒中",
+      "target": "关节炎",
+      "value": 1885
+    },
+    {
+      "source": "脑卒中",
+      "target": "颈椎病",
+      "value": 4406
+    },
+    {
+      "source": "脑卒中",
+      "target": "腰椎间盘突出",
+      "value": 1835
+    },
+    {
+      "source": "脑卒中",
+      "target": "便秘",
+      "value": 1461
+    },
+    {
+      "source": "骨质疏松",
+      "target": "老年性痴呆",
+      "value": 5214
+    },
+    {
+      "source": "骨质疏松",
+      "target": "关节炎",
+      "value": 17668
+    },
+    {
+      "source": "骨质疏松",
+      "target": "颈椎病",
+      "value": 36527
+    },
+    {
+      "source": "骨质疏松",
+      "target": "腰椎间盘突出",
+      "value": 17085
+    },
+    {
+      "source": "骨质疏松",
+      "target": "便秘",
+      "value": 12437
+    },
+    {
+      "source": "老年性痴呆",
+      "target": "关节炎",
+      "value": 2802
+    },
+    {
+      "source": "老年性痴呆",
+      "target": "颈椎病",
+      "value": 4947
+    },
+    {
+      "source": "老年性痴呆",
+      "target": "腰椎间盘突出",
+      "value": 2125
+    },
+    {
+      "source": "老年性痴呆",
+      "target": "便秘",
+      "value": 1809
+    },
+    {
+      "source": "关节炎",
+      "target": "颈椎病",
+      "value": 18076
+    },
+    {
+      "source": "关节炎",
+      "target": "腰椎间盘突出",
+      "value": 9098
+    },
+    {
+      "source": "关节炎",
+      "target": "便秘",
+      "value": 5937
+    },
+    {
+      "source": "颈椎病",
+      "target": "腰椎间盘突出",
+      "value": 20008
+    },
+    {
+      "source": "颈椎病",
+      "target": "便秘",
+      "value": 13877
+    },
+    {
+      "source": "腰椎间盘突出",
+      "target": "便秘",
+      "value": 5843
+    },
+    {
+      "source": "60-64",
+      "target": "高血压",
+      "value": 14419
+    },
+    {
+      "source": "60-64",
+      "target": "糖尿病",
+      "value": 8106
+    },
+    {
+      "source": "60-64",
+      "target": "冠心病",
+      "value": 1358
+    },
+    {
+      "source": "60-64",
+      "target": "脑卒中",
+      "value": 1377
+    },
+    {
+      "source": "60-64",
+      "target": "骨质疏松",
+      "value": 14115
+    },
+    {
+      "source": "60-64",
+      "target": "老年性痴呆",
+      "value": 1515
+    },
+    {
+      "source": "60-64",
+      "target": "关节炎",
+      "value": 5901
+    },
+    {
+      "source": "60-64",
+      "target": "颈椎病",
+      "value": 16223
+    },
+    {
+      "source": "60-64",
+      "target": "腰椎间盘突出",
+      "value": 6164
+    },
+    {
+      "source": "60-64",
+      "target": "便秘",
+      "value": 5392
+    },
+    {
+      "source": "65-69",
+      "target": "高血压",
+      "value": 14792
+    },
+    {
+      "source": "65-69",
+      "target": "糖尿病",
+      "value": 8417
+    },
+    {
+      "source": "65-69",
+      "target": "冠心病",
+      "value": 1386
+    },
+    {
+      "source": "65-69",
+      "target": "脑卒中",
+      "value": 1413
+    },
+    {
+      "source": "65-69",
+      "target": "骨质疏松",
+      "value": 14540
+    },
+    {
+      "source": "65-69",
+      "target": "老年性痴呆",
+      "value": 1700
+    },
+    {
+      "source": "65-69",
+      "target": "关节炎",
+      "value": 6133
+    },
+    {
+      "source": "65-69",
+      "target": "颈椎病",
+      "value": 16696
+    },
+    {
+      "source": "65-69",
+      "target": "腰椎间盘突出",
+      "value": 6341
+    },
+    {
+      "source": "65-69",
+      "target": "便秘",
+      "value": 5501
+    },
+    {
+      "source": "70-74",
+      "target": "高血压",
+      "value": 10825
+    },
+    {
+      "source": "70-74",
+      "target": "糖尿病",
+      "value": 6189
+    },
+    {
+      "source": "70-74",
+      "target": "冠心病",
+      "value": 1663
+    },
+    {
+      "source": "70-74",
+      "target": "脑卒中",
+      "value": 1532
+    },
+    {
+      "source": "70-74",
+      "target": "骨质疏松",
+      "value": 10661
+    },
+    {
+      "source": "70-74",
+      "target": "老年性痴呆",
+      "value": 1690
+    },
+    {
+      "source": "70-74",
+      "target": "关节炎",
+      "value": 4831
+    },
+    {
+      "source": "70-74",
+      "target": "颈椎病",
+      "value": 12013
+    },
+    {
+      "source": "70-74",
+      "target": "腰椎间盘突出",
+      "value": 4979
+    },
+    {
+      "source": "70-74",
+      "target": "便秘",
+      "value": 4356
+    },
+    {
+      "source": "75-79",
+      "target": "高血压",
+      "value": 6277
+    },
+    {
+      "source": "75-79",
+      "target": "糖尿病",
+      "value": 3698
+    },
+    {
+      "source": "75-79",
+      "target": "冠心病",
+      "value": 901
+    },
+    {
+      "source": "75-79",
+      "target": "脑卒中",
+      "value": 905
+    },
+    {
+      "source": "75-79",
+      "target": "骨质疏松",
+      "value": 6225
+    },
+    {
+      "source": "75-79",
+      "target": "老年性痴呆",
+      "value": 1007
+    },
+    {
+      "source": "75-79",
+      "target": "关节炎",
+      "value": 2787
+    },
+    {
+      "source": "75-79",
+      "target": "颈椎病",
+      "value": 6987
+    },
+    {
+      "source": "75-79",
+      "target": "腰椎间盘突出",
+      "value": 2892
+    },
+    {
+      "source": "75-79",
+      "target": "便秘",
+      "value": 2555
+    },
+    {
+      "source": "80-84",
+      "target": "高血压",
+      "value": 5723
+    },
+    {
+      "source": "80-84",
+      "target": "糖尿病",
+      "value": 3440
+    },
+    {
+      "source": "80-84",
+      "target": "冠心病",
+      "value": 988
+    },
+    {
+      "source": "80-84",
+      "target": "脑卒中",
+      "value": 983
+    },
+    {
+      "source": "80-84",
+      "target": "骨质疏松",
+      "value": 5869
+    },
+    {
+      "source": "80-84",
+      "target": "老年性痴呆",
+      "value": 1083
+    },
+    {
+      "source": "80-84",
+      "target": "关节炎",
+      "value": 2686
+    },
+    {
+      "source": "80-84",
+      "target": "颈椎病",
+      "value": 6496
+    },
+    {
+      "source": "80-84",
+      "target": "腰椎间盘突出",
+      "value": 2845
+    },
+    {
+      "source": "80-84",
+      "target": "便秘",
+      "value": 2521
+    },
+    {
+      "source": "85-89",
+      "target": "高血压",
+      "value": 1664
+    },
+    {
+      "source": "85-89",
+      "target": "糖尿病",
+      "value": 958
+    },
+    {
+      "source": "85-89",
+      "target": "冠心病",
+      "value": 291
+    },
+    {
+      "source": "85-89",
+      "target": "脑卒中",
+      "value": 285
+    },
+    {
+      "source": "85-89",
+      "target": "骨质疏松",
+      "value": 1722
+    },
+    {
+      "source": "85-89",
+      "target": "老年性痴呆",
+      "value": 320
+    },
+    {
+      "source": "85-89",
+      "target": "关节炎",
+      "value": 787
+    },
+    {
+      "source": "85-89",
+      "target": "颈椎病",
+      "value": 1932
+    },
+    {
+      "source": "85-89",
+      "target": "腰椎间盘突出",
+      "value": 860
+    },
+    {
+      "source": "85-89",
+      "target": "便秘",
+      "value": 736
+    },
+    {
+      "source": "90-94",
+      "target": "高血压",
+      "value": 608
+    },
+    {
+      "source": "90-94",
+      "target": "糖尿病",
+      "value": 370
+    },
+    {
+      "source": "90-94",
+      "target": "冠心病",
+      "value": 111
+    },
+    {
+      "source": "90-94",
+      "target": "脑卒中",
+      "value": 117
+    },
+    {
+      "source": "90-94",
+      "target": "骨质疏松",
+      "value": 591
+    },
+    {
+      "source": "90-94",
+      "target": "老年性痴呆",
+      "value": 108
+    },
+    {
+      "source": "90-94",
+      "target": "关节炎",
+      "value": 277
+    },
+    {
+      "source": "90-94",
+      "target": "颈椎病",
+      "value": 661
+    },
+    {
+      "source": "90-94",
+      "target": "腰椎间盘突出",
+      "value": 317
+    },
+    {
+      "source": "90-94",
+      "target": "便秘",
+      "value": 259
+    },
+    {
+      "source": "95-99",
+      "target": "高血压",
+      "value": 540
+    },
+    {
+      "source": "95-99",
+      "target": "糖尿病",
+      "value": 319
+    },
+    {
+      "source": "95-99",
+      "target": "冠心病",
+      "value": 79
+    },
+    {
+      "source": "95-99",
+      "target": "脑卒中",
+      "value": 87
+    },
+    {
+      "source": "95-99",
+      "target": "骨质疏松",
+      "value": 519
+    },
+    {
+      "source": "95-99",
+      "target": "老年性痴呆",
+      "value": 100
+    },
+    {
+      "source": "95-99",
+      "target": "关节炎",
+      "value": 256
+    },
+    {
+      "source": "95-99",
+      "target": "颈椎病",
+      "value": 590
+    },
+    {
+      "source": "95-99",
+      "target": "腰椎间盘突出",
+      "value": 266
+    },
+    {
+      "source": "95-99",
+      "target": "便秘",
+      "value": 228
+    },
+    {
+      "source": "100-104",
+      "target": "高血压",
+      "value": 66
+    },
+    {
+      "source": "100-104",
+      "target": "糖尿病",
+      "value": 35
+    },
+    {
+      "source": "100-104",
+      "target": "冠心病",
+      "value": 14
+    },
+    {
+      "source": "100-104",
+      "target": "脑卒中",
+      "value": 13
+    },
+    {
+      "source": "100-104",
+      "target": "骨质疏松",
+      "value": 58
+    },
+    {
+      "source": "100-104",
+      "target": "老年性痴呆",
+      "value": 21
+    },
+    {
+      "source": "100-104",
+      "target": "关节炎",
+      "value": 31
+    },
+    {
+      "source": "100-104",
+      "target": "颈椎病",
+      "value": 67
+    },
+    {
+      "source": "100-104",
+      "target": "腰椎间盘突出",
+      "value": 27
+    },
+    {
+      "source": "100-104",
+      "target": "便秘",
+      "value": 33
+    },
+    {
+      "source": "F",
+      "target": "高血压",
+      "value": 28474
+    },
+    {
+      "source": "F",
+      "target": "糖尿病",
+      "value": 16371
+    },
+    {
+      "source": "F",
+      "target": "冠心病",
+      "value": 3469
+    },
+    {
+      "source": "F",
+      "target": "脑卒中",
+      "value": 3440
+    },
+    {
+      "source": "F",
+      "target": "骨质疏松",
+      "value": 32968
+    },
+    {
+      "source": "F",
+      "target": "老年性痴呆",
+      "value": 3852
+    },
+    {
+      "source": "F",
+      "target": "关节炎",
+      "value": 12159
+    },
+    {
+      "source": "F",
+      "target": "颈椎病",
+      "value": 31859
+    },
+    {
+      "source": "F",
+      "target": "腰椎间盘突出",
+      "value": 12613
+    },
+    {
+      "source": "F",
+      "target": "便秘",
+      "value": 11325
+    },
+    {
+      "source": "M",
+      "target": "高血压",
+      "value": 26440
+    },
+    {
+      "source": "M",
+      "target": "糖尿病",
+      "value": 15161
+    },
+    {
+      "source": "M",
+      "target": "冠心病",
+      "value": 3322
+    },
+    {
+      "source": "M",
+      "target": "脑卒中",
+      "value": 3272
+    },
+    {
+      "source": "M",
+      "target": "骨质疏松",
+      "value": 21332
+    },
+    {
+      "source": "M",
+      "target": "老年性痴呆",
+      "value": 3692
+    },
+    {
+      "source": "M",
+      "target": "关节炎",
+      "value": 11530
+    },
+    {
+      "source": "M",
+      "target": "颈椎病",
+      "value": 29806
+    },
+    {
+      "source": "M",
+      "target": "腰椎间盘突出",
+      "value": 12078
+    },
+    {
+      "source": "M",
+      "target": "便秘",
+      "value": 10256
+    },
+    {
+      "source": "urban",
+      "target": "高血压",
+      "value": 29846
+    },
+    {
+      "source": "urban",
+      "target": "糖尿病",
+      "value": 17116
+    },
+    {
+      "source": "urban",
+      "target": "冠心病",
+      "value": 3679
+    },
+    {
+      "source": "urban",
+      "target": "脑卒中",
+      "value": 3610
+    },
+    {
+      "source": "urban",
+      "target": "骨质疏松",
+      "value": 26996
+    },
+    {
+      "source": "urban",
+      "target": "老年性痴呆",
+      "value": 4170
+    },
+    {
+      "source": "urban",
+      "target": "关节炎",
+      "value": 12873
+    },
+    {
+      "source": "urban",
+      "target": "颈椎病",
+      "value": 33480
+    },
+    {
+      "source": "urban",
+      "target": "腰椎间盘突出",
+      "value": 13468
+    },
+    {
+      "source": "urban",
+      "target": "便秘",
+      "value": 11756
+    },
+    {
+      "source": "rural",
+      "target": "高血压",
+      "value": 25068
+    },
+    {
+      "source": "rural",
+      "target": "糖尿病",
+      "value": 14416
+    },
+    {
+      "source": "rural",
+      "target": "冠心病",
+      "value": 3112
+    },
+    {
+      "source": "rural",
+      "target": "脑卒中",
+      "value": 3102
+    },
+    {
+      "source": "rural",
+      "target": "骨质疏松",
+      "value": 27304
+    },
+    {
+      "source": "rural",
+      "target": "老年性痴呆",
+      "value": 3374
+    },
+    {
+      "source": "rural",
+      "target": "关节炎",
+      "value": 10816
+    },
+    {
+      "source": "rural",
+      "target": "颈椎病",
+      "value": 28185
+    },
+    {
+      "source": "rural",
+      "target": "腰椎间盘突出",
+      "value": 11223
+    },
+    {
+      "source": "rural",
+      "target": "便秘",
+      "value": 9825
+    }
+  ]
+}
