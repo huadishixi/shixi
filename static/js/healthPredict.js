@@ -103,6 +103,7 @@ function renderHealthPredictUI() {
       </div>
       <hr class="healthPredict-divider">
       <div id="predictionResult" class="prediction-result"></div>
+      <div id="btn-list"></div>
     `;
 
   renderDiseaseCheckboxes();
@@ -226,9 +227,6 @@ function collectFormData(onlyUserInput = false) {
     alert("该数值不能为负数！");
     return null;
   }
-
-  //  fillMissingValues(data);
-  //  return data;
 
   if (!onlyUserInput) {
     fillMissingValues(data);
@@ -372,14 +370,17 @@ function renderPredictionResults(result) {
       `;
   });
 
-  html += `
-      </div>
-      <div style="margin-top: 15px;">
+  resultDiv.innerHTML = html;
+
+  const btnList = document.getElementById("btn-list");
+  btnList.innerHTML = `
+    <div style="text-align: center;">
+      <div style="margin-top: 15px; display: inline-block;"">
         <button id="generateAdviceBtn" class="btn btn-primary">使用AI生成个性化建议</button>
+        <button id="savePredictionBtn" class="btn btn-primary">保存预测结果</button>
       </div>
     </div>
   `;
-  resultDiv.innerHTML = html;
 
   // === 按钮事件 ===
   document.getElementById("generateAdviceBtn").onclick = async function () {
@@ -441,6 +442,71 @@ function renderPredictionResults(result) {
       alert("发送失败：" + error.message);
     }
   };
+
+  function downloadAsCSV() {
+    const userFormData = collectFormData(true);
+    if (!userFormData) return;
+
+    // 准备CSV内容
+    let csvContent = "类别,项目,数值,说明\n";
+
+    // 1. 添加元数据
+    csvContent += `元数据,生成时间,${new Date().toLocaleString()},\n`;
+    csvContent += `元数据,预测工具,健康风险预测系统,\n\n`;
+
+    // 2. 添加用户输入参数
+    csvContent += "输入参数\n";
+    Object.entries(userFormData).forEach(([key, value]) => {
+      csvContent += `输入,${key},${value},\n`;
+    });
+    csvContent += "\n";
+
+    // 3. 添加预测结果
+    csvContent += "预测结果\n";
+    filtered.forEach((item) => {
+      const probability = (item.相似人群患病率 * 100).toFixed(1) + "%";
+      const riskLevel = getRiskLevel(item.相似人群患病率);
+      const description = getRiskDescription(item.相似人群患病率);
+
+      csvContent += `预测,${item.疾病},${probability},${riskLevel} (${description})\n`;
+    });
+
+    // 辅助函数（保持不变）
+    function getRiskLevel(probability) {
+      if (probability < 0.2) return "低风险";
+      if (probability < 0.5) return "中低风险";
+      if (probability < 0.8) return "中高风险";
+      return "高风险";
+    }
+
+    function getRiskDescription(probability) {
+      if (probability < 0.2) return "建议保持现有健康习惯";
+      if (probability < 0.5) return "建议关注相关指标";
+      if (probability < 0.8) return "建议咨询专业医生";
+      return "建议立即就医检查";
+    }
+
+    // 创建并下载CSV文件
+    const blob = new Blob(["\uFEFF" + csvContent], {
+      type: "text/csv;charset=utf-8;",
+    });
+
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `健康风险评估_${new Date().toISOString().slice(0, 10)}.csv`;
+
+    document.body.appendChild(a);
+    a.click();
+
+    setTimeout(() => {
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }, 100);
+  }
+
+  // 使用这个函数作为保存按钮的点击处理器
+  document.getElementById("savePredictionBtn").onclick = downloadAsCSV;
 }
 
 // 初始化应用

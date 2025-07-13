@@ -350,3 +350,7 @@
     grid-template-columns: 1fr;
   }
 }
+
+.btn-list {
+  text-align: center;
+}
