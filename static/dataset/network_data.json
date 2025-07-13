@@ -2,95 +2,95 @@
   "nodes": [
     {
       "id": "高血压",
-      "group": "disease"
+      "group": "疾病"
     },
     {
       "id": "糖尿病",
-      "group": "disease"
+      "group": "疾病"
     },
     {
       "id": "冠心病",
-      "group": "disease"
+      "group": "疾病"
     },
     {
       "id": "脑卒中",
-      "group": "disease"
+      "group": "疾病"
     },
     {
       "id": "骨质疏松",
-      "group": "disease"
+      "group": "疾病"
     },
     {
       "id": "老年性痴呆",
-      "group": "disease"
+      "group": "疾病"
     },
     {
       "id": "关节炎",
-      "group": "disease"
+      "group": "疾病"
     },
     {
       "id": "颈椎病",
-      "group": "disease"
+      "group": "疾病"
     },
     {
       "id": "腰椎间盘突出",
-      "group": "disease"
+      "group": "疾病"
     },
     {
       "id": "便秘",
-      "group": "disease"
+      "group": "疾病"
     },
     {
       "id": "60-64",
-      "group": "age"
+      "group": "年龄段"
     },
     {
       "id": "65-69",
-      "group": "age"
+      "group": "年龄段"
     },
     {
       "id": "70-74",
-      "group": "age"
+      "group": "年龄段"
     },
     {
       "id": "75-79",
-      "group": "age"
+      "group": "年龄段"
     },
     {
       "id": "80-84",
-      "group": "age"
+      "group": "年龄段"
     },
     {
       "id": "85-89",
-      "group": "age"
+      "group": "年龄段"
     },
     {
       "id": "90-94",
-      "group": "age"
+      "group": "年龄段"
     },
     {
       "id": "95-99",
-      "group": "age"
+      "group": "年龄段"
     },
     {
       "id": "100-104",
-      "group": "age"
+      "group": "年龄段"
     },
     {
-      "id": "F",
-      "group": "gender"
+      "id": "女",
+      "group": "性别"
     },
     {
-      "id": "M",
-      "group": "gender"
+      "id": "男",
+      "group": "性别"
     },
     {
-      "id": "urban",
-      "group": "region"
+      "id": "城市",
+      "group": "区域"
     },
     {
-      "id": "rural",
-      "group": "region"
+      "id": "农村",
+      "group": "区域"
     }
   ],
   "links": [
@@ -770,202 +770,202 @@
       "value": 33
     },
     {
-      "source": "F",
+      "source": "女",
       "target": "高血压",
       "value": 28474
     },
     {
-      "source": "F",
+      "source": "女",
       "target": "糖尿病",
       "value": 16371
     },
     {
-      "source": "F",
+      "source": "女",
       "target": "冠心病",
       "value": 3469
     },
     {
-      "source": "F",
+      "source": "女",
       "target": "脑卒中",
       "value": 3440
     },
     {
-      "source": "F",
+      "source": "女",
       "target": "骨质疏松",
       "value": 32968
     },
     {
-      "source": "F",
+      "source": "女",
       "target": "老年性痴呆",
       "value": 3852
     },
     {
-      "source": "F",
+      "source": "女",
       "target": "关节炎",
       "value": 12159
     },
     {
-      "source": "F",
+      "source": "女",
       "target": "颈椎病",
       "value": 31859
     },
     {
-      "source": "F",
+      "source": "女",
       "target": "腰椎间盘突出",
       "value": 12613
     },
     {
-      "source": "F",
+      "source": "女",
       "target": "便秘",
       "value": 11325
     },
     {
-      "source": "M",
+      "source": "男",
       "target": "高血压",
       "value": 26440
     },
     {
-      "source": "M",
+      "source": "男",
       "target": "糖尿病",
       "value": 15161
     },
     {
-      "source": "M",
+      "source": "男",
       "target": "冠心病",
       "value": 3322
     },
     {
-      "source": "M",
+      "source": "男",
       "target": "脑卒中",
       "value": 3272
     },
     {
-      "source": "M",
+      "source": "男",
       "target": "骨质疏松",
       "value": 21332
     },
     {
-      "source": "M",
+      "source": "男",
       "target": "老年性痴呆",
       "value": 3692
     },
     {
-      "source": "M",
+      "source": "男",
       "target": "关节炎",
       "value": 11530
     },
     {
-      "source": "M",
+      "source": "男",
       "target": "颈椎病",
       "value": 29806
     },
     {
-      "source": "M",
+      "source": "男",
       "target": "腰椎间盘突出",
       "value": 12078
     },
     {
-      "source": "M",
+      "source": "男",
       "target": "便秘",
       "value": 10256
     },
     {
-      "source": "urban",
+      "source": "城市",
       "target": "高血压",
       "value": 29846
     },
     {
-      "source": "urban",
+      "source": "城市",
       "target": "糖尿病",
       "value": 17116
     },
     {
-      "source": "urban",
+      "source": "城市",
       "target": "冠心病",
       "value": 3679
     },
     {
-      "source": "urban",
+      "source": "城市",
       "target": "脑卒中",
       "value": 3610
     },
     {
-      "source": "urban",
+      "source": "城市",
       "target": "骨质疏松",
       "value": 26996
     },
     {
-      "source": "urban",
+      "source": "城市",
       "target": "老年性痴呆",
       "value": 4170
     },
     {
-      "source": "urban",
+      "source": "城市",
       "target": "关节炎",
       "value": 12873
     },
     {
-      "source": "urban",
+      "source": "城市",
       "target": "颈椎病",
       "value": 33480
     },
     {
-      "source": "urban",
+      "source": "城市",
       "target": "腰椎间盘突出",
       "value": 13468
     },
     {
-      "source": "urban",
+      "source": "城市",
       "target": "便秘",
       "value": 11756
     },
     {
-      "source": "rural",
+      "source": "农村",
       "target": "高血压",
       "value": 25068
     },
     {
-      "source": "rural",
+      "source": "农村",
       "target": "糖尿病",
       "value": 14416
     },
     {
-      "source": "rural",
+      "source": "农村",
       "target": "冠心病",
       "value": 3112
     },
     {
-      "source": "rural",
+      "source": "农村",
       "target": "脑卒中",
       "value": 3102
     },
     {
-      "source": "rural",
+      "source": "农村",
       "target": "骨质疏松",
       "value": 27304
     },
     {
-      "source": "rural",
+      "source": "农村",
       "target": "老年性痴呆",
       "value": 3374
     },
     {
-      "source": "rural",
+      "source": "农村",
       "target": "关节炎",
       "value": 10816
     },
     {
-      "source": "rural",
+      "source": "农村",
       "target": "颈椎病",
       "value": 28185
     },
     {
-      "source": "rural",
+      "source": "农村",
       "target": "腰椎间盘突出",
       "value": 11223
     },
     {
-      "source": "rural",
+      "source": "农村",
       "target": "便秘",
       "value": 9825
     }

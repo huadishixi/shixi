@@ -5,10 +5,10 @@ const netObserver = new ResizeObserver(() => {
 (function () {
   netChart = echarts.init(document.getElementById("main2"));
   const colorMap = {
-    disease: "#5470c6",
-    age: "#91cc75",
-    gender: "#fac858",
-    region: "#ee6666",
+    疾病: "#5470c6",
+    年龄段: "#91cc75",
+    性别: "#fac858",
+    区域: "#ee6666",
   };
 
   Promise.all([
@@ -17,7 +17,7 @@ const netObserver = new ResizeObserver(() => {
   ])
     .then(([network, corrData]) => {
       const categories = Object.keys(colorMap);
-      const diseases = corrData.diseases;
+      const diseases = corrData.疾病;
       const matrix = corrData.matrix;
 
       const nodes = network.nodes.map((node) => ({
@@ -40,7 +40,7 @@ const netObserver = new ResizeObserver(() => {
             value: corr,
             lineStyle: {
               width: corr * 8,
-              color: colorMap.disease,
+              color: colorMap.疾病,
               opacity: Math.max(corr, 0.4),
               curveness: 0.2,
             },
@@ -90,10 +90,10 @@ const netObserver = new ResizeObserver(() => {
           orient: "vertical",
           left: "left",
           data: [
-            { name: "disease", icon: "circle", selected: true },
-            { name: "age", icon: "circle" },
-            { name: "gender", icon: "circle" },
-            { name: "region", icon: "circle" },
+            { name: "疾病", icon: "circle", selected: true },
+            { name: "年龄段", icon: "circle" },
+            { name: "性别", icon: "circle" },
+            { name: "区域", icon: "circle" },
           ],
           selectedMode: "multiple",
           tooltip: { show: true },
@@ -130,10 +130,10 @@ const netObserver = new ResizeObserver(() => {
 
       // 禁用 disease 图例按钮点击隐藏
       netChart.on("legendselectchanged", function (params) {
-        if (params.name === "disease" && !params.selected["disease"]) {
+        if (params.name === "疾病" && !params.selected["疾病"]) {
           netChart.setOption({
             legend: {
-              selected: { ...params.selected, disease: true },
+              selected: { ...params.selected, 疾病: true },
             },
           });
         }
