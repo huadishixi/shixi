@@ -324,7 +324,7 @@ function renderPredictionResults(result) {
     document.querySelectorAll("#diseaseCheckboxes input:checked")
   ).map((cb) => cb.value);
 
-//  const filtered = result.filter((r) => selectedDiseases.includes(r.疾病));
+  //  const filtered = result.filter((r) => selectedDiseases.includes(r.疾病));
   // === 强制构建所有用户勾选疾病的显示内容 ===
   const filtered = selectedDiseases.map((disease) => {
     const found = result.find((r) => r.疾病 === disease);
@@ -402,24 +402,21 @@ function renderPredictionResults(result) {
 
     const message = `用户输入：\n${userInputStr}\n\n预测结果：\n${resultStr}\n\n请根据用户输入的健康指标和平台分析出来的疾病风险，给出个性化建议`;
 
-    const messageBox = document.evaluate(
-      "/html/body/div[2]/div[3]/div[2]/div[2]/div/div/div/div[1]",
-      document,
-      null,
-      XPathResult.FIRST_ORDERED_NODE_TYPE,
-      null
-    ).singleNodeValue;
+    // 在预测结果下方创建AI建议区域
+    const aiAdviceContainer = document.createElement("div");
+    aiAdviceContainer.className = "ai-advice-container";
+    aiAdviceContainer.innerHTML = `
+    <h5 class="ai-advice-title">AI健康建议</h5>
+    <div class="ai-advice-loading">正在生成个性化建议...</div>
+  `;
 
-    // === ✅ 第一步：立即显示“数据已发送”提示 ===
-    if (messageBox) {
-      const sentNotice = document.createElement("div");
-      sentNotice.innerText = "数据已发送";
-      sentNotice.style.marginTop = "10px";
-      sentNotice.style.color = "#00cc66";
-      messageBox.appendChild(sentNotice);
-    }
+    // 插入到预测结果后面
+    const predictionResult = document.getElementById("predictionResult");
+    predictionResult.parentNode.insertBefore(
+      aiAdviceContainer,
+      predictionResult.nextSibling
+    );
 
-    // === 第二步：发送请求，并等候 AI 回复 ===
     try {
       const response = await fetch("/chat", {
         method: "POST",
@@ -429,23 +426,38 @@ function renderPredictionResults(result) {
 
       const data = await response.json();
 
-      if (messageBox && data.reply) {
-        const replyDiv = document.createElement("div");
-        replyDiv.className = "chat-message ai";
-        replyDiv.innerHTML = `<strong>AI：</strong>${data.reply.replace(
+      if (data.reply) {
+        // 更新AI建议区域
+        aiAdviceContainer.innerHTML = `
+        <h5 class="ai-advice-title">AI健康建议</h5>
+        <div class="ai-advice-content">${data.reply.replace(
           /\n/g,
           "<br>"
-        )}`;
-        messageBox.appendChild(replyDiv);
+        )}</div>
+      `;
       }
     } catch (error) {
-      alert("发送失败：" + error.message);
+      aiAdviceContainer.innerHTML = `
+      <h5 class="ai-advice-title">AI健康建议</h5>
+      <div class="ai-advice-error">生成建议时出错: ${error.message}</div>
+    `;
     }
   };
 
   function downloadAsCSV() {
     const userFormData = collectFormData(true);
     if (!userFormData) return;
+
+    // 获取AI建议（如果存在）
+    const aiAdviceContainer = document.querySelector(".ai-advice-container");
+    let aiAdvice = "";
+    if (
+      aiAdviceContainer &&
+      !aiAdviceContainer.querySelector(".ai-advice-loading")
+    ) {
+      aiAdvice =
+        aiAdviceContainer.querySelector(".ai-advice-content")?.innerText || "";
+    }
 
     // 准备CSV内容
     let csvContent = "类别,项目,数值,说明\n";
@@ -471,7 +483,19 @@ function renderPredictionResults(result) {
       csvContent += `预测,${item.疾病},${probability},${riskLevel} (${description})\n`;
     });
 
-    // 辅助函数（保持不变）
+    // 4. 添加AI建议（如果有）
+    if (aiAdvice) {
+      csvContent += "\nAI健康建议\n";
+      // 将AI建议按行分割，每行作为一条记录
+      const adviceLines = aiAdvice
+        .split("\n")
+        .filter((line) => line.trim() !== "");
+      adviceLines.forEach((line, index) => {
+        csvContent += `建议,${index + 1},,${line.replace(/,/g, "，")}\n`;
+      });
+    }
+
+    // 辅助函数
     function getRiskLevel(probability) {
       if (probability < 0.2) return "低风险";
       if (probability < 0.5) return "中低风险";

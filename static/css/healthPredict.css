@@ -354,3 +354,33 @@
 .btn-list {
   text-align: center;
 }
+
+/* AI建议区域样式 */
+.ai-advice-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border-left: 4px solid gray;
+}
+
+.ai-advice-title {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.ai-advice-content {
+  line-height: 1.6;
+  color: #fff;
+}
+
+.ai-advice-loading {
+  color: #fff;
+  font-style: italic;
+}
+
+.ai-advice-error {
+  color: #e74a3b;
+}
