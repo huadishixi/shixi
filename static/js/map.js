@@ -71,7 +71,6 @@ const mapObserver = new ResizeObserver(() => {
           min: 0,
           max: maxCount,
           left: "left",
-          bottom: "5%",
           text: ["高", "低"],
           textStyle: {
             color: "#fff",

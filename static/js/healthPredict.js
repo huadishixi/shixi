@@ -1,434 +1,513 @@
 const X_COLS = [
-  "收缩压(mmHg)", "舒张压(mmHg)", "血糖(mmol/L)", "总胆固醇(TC)",
-  "低密度脂蛋白(LDL)", "高密度脂蛋白(HDL)", "甘油三酯(TG)", "肌钙蛋白I(cTnI)",
-  "NIHSS", "mRS", "缺血灶面积(cm²)", "CRP(mg/L)", "ESR(mm/h)", "VAS_关节炎",
-  "颈椎活动角度(°)", "VAS_颈椎", "SLR角度(°)", "VAS_腰椎", "骨密度T值",
-  "MMSE", "排便频率(次/周)", "睡眠质量(1-5)", "BMI"
+  "收缩压(mmHg)",
+  "舒张压(mmHg)",
+  "血糖(mmol/L)",
+  "总胆固醇(TC)",
+  "低密度脂蛋白(LDL)",
+  "高密度脂蛋白(HDL)",
+  "甘油三酯(TG)",
+  "肌钙蛋白I(cTnI)",
+  "NIHSS",
+  "mRS",
+  "缺血灶面积(cm²)",
+  "CRP(mg/L)",
+  "ESR(mm/h)",
+  "VAS_关节炎",
+  "颈椎活动角度(°)",
+  "VAS_颈椎",
+  "SLR角度(°)",
+  "VAS_腰椎",
+  "骨密度T值",
+  "MMSE",
+  "排便频率(次/周)",
+  "睡眠质量(1-5)",
+  "BMI",
 ];
 
 // 前端字段别名 → 后端字段映射
 const aliasToXcols = {
-  "收缩压 (SBP, mmHg)": "收缩压(mmHg)",
-  "舒张压 (DBP, mmHg)": "舒张压(mmHg)",
-  "空腹血糖 (FBG, mmol/L)": "血糖(mmol/L)",
-  "总胆固醇 (TC, mmol/L)": "总胆固醇(TC)",
-  "低密度脂蛋白 (LDL, mmol/L)": "低密度脂蛋白(LDL)",
-  "高密度脂蛋白 (HDL, mmol/L)": "高密度脂蛋白(HDL)",
-  "甘油三酯 (TG, mmol/L)": "甘油三酯(TG)",
+  "收缩压 (mmHg)": "收缩压(mmHg)",
+  "舒张压 (mmHg)": "舒张压(mmHg)",
+  "血糖 (mmol/L)": "血糖(mmol/L)",
+  "总胆固醇 (TC)": "总胆固醇(TC)",
+  "低密度脂蛋白 (LDL)": "低密度脂蛋白(LDL)",
+  "高密度脂蛋白 (HDL)": "高密度脂蛋白(HDL)",
+  "甘油三酯 (TG)": "甘油三酯(TG)",
   "肌钙蛋白 I (cTnI, ng/mL)": "肌钙蛋白I(cTnI)",
-  "NIHSS": "NIHSS",
-  "mRS": "mRS",
+  NIHSS: "NIHSS",
+  mRS: "mRS",
   "缺血灶面积 (cm²)": "缺血灶面积(cm²)",
   "CRP (mg/L)": "CRP(mg/L)",
   "ESR (mm/h)": "ESR(mm/h)",
   "骨密度 T 值": "骨密度T值",
   "BMI (kg/m²)": "BMI",
-  "MMSE": "MMSE",
-  "疼痛 VAS (0–10)": "", // 特殊处理：可根据疾病类型映射到不同字段
+  MMSE: "MMSE",
   "颈椎活动角度 (°)": "颈椎活动角度(°)",
-  "SLR 直腿抬高角度 (°)": "SLR角度(°)",
+  "SLR 角度 (°)": "SLR角度(°)",
   "排便频率 (次/周)": "排便频率(次/周)",
-  "睡眠评分 (1–5)": "睡眠质量(1-5)"
-};
-
-const painVASDiseaseMap = {
-  "关节炎": "VAS_关节炎",
-  "颈椎病": "VAS_颈椎",
-  "腰椎间盘突出症": "VAS_腰椎"
+  "睡眠评分 (1–5)": "睡眠质量(1-5)",
+  "VAS_关节炎 (0–10)": "VAS_关节炎",
+  "VAS_颈椎 (0–10)": "VAS_颈椎",
+  "VAS_腰椎 (0–10)": "VAS_腰椎",
 };
 
 let zhibiaoMap = {};
 
-fetch('/static/dataset/zhibiao.json')
-  .then(res => res.json())
-  .then(data => {
-    zhibiaoMap = data;
-//    renderHealthPredictUI();  // 初始化页面时渲染模块
-  });
+// 初始化应用
+function initApp() {
+  fetch("/static/dataset/zhibiao.json")
+    .then((res) => res.json())
+    .then((data) => {
+      zhibiaoMap = data;
+    })
+    .catch((error) => {
+      console.error("加载指标数据失败:", error);
+    });
 
+  setupEventListeners();
+}
+
+// 设置事件监听器
+function setupEventListeners() {
+  const predictBtn = document.getElementById("openHealthPredictBtn");
+  if (predictBtn) {
+    predictBtn.addEventListener("click", () => {
+      const predictDiv = document.getElementById("healthPredictContainer");
+      const overby = document.querySelector(".modal-overby");
+
+      if (predictDiv) {
+        predictDiv.classList.remove("hidden");
+        overby.classList.remove("hidden");
+        renderHealthPredictUI();
+      }
+    });
+  }
+}
+
+// 渲染健康预测UI
 function renderHealthPredictUI() {
-    // 隐藏原有大屏内容
-    const targetDiv = document.querySelector(".visual_chart_text");
-    if (targetDiv) {
-        targetDiv.style.display = "none";
-    }
-
-    const container = document.getElementById("healthPredictContainer");
-    container.innerHTML = `
-        <h4 class="mb-3 text-light">健康风险预测</h4>
-        <p class="text-light">请选择您关心的疾病，系统将自动提示相关指标并评估健康风险：</p>
-        <div id="diseaseCheckboxes" class="d-flex flex-wrap mb-3"></div>
-        <form id="dynamicHealthForm" class="row g-3"></form>
-        <button class="btn btn-primary mt-3" onclick="submitDynamicPrediction()">提交预测</button>
-        <hr>
-        <div id="predictionResult" class="mt-3"></div>
+  const container = document.getElementById("healthPredictContainer");
+  container.innerHTML = `
+      <div class="healthPredict-header">
+        <h4 class="healthPredict-title">健康风险预测</h4>
+        <button class="healthPredict-close" onclick="closeHealthPredict()">×</button>
+        <p class="healthPredict-subtitle">请选择您关心的疾病，系统将自动提示相关指标并评估健康风险：</p>
+      </div>
+      <div id="diseaseCheckboxes" class="disease-checkboxes"></div>
+      <form id="dynamicHealthForm" class="health-form"></form>
+      <div class="healthPredict-actions">
+        <button class="healthPredict-button" onclick="submitDynamicPrediction()">
+          <span class="button-text">提交预测</span>
+          <span class="button-icon">→</span>
+        </button>
+      </div>
+      <hr class="healthPredict-divider">
+      <div id="predictionResult" class="prediction-result"></div>
+      <div id="btn-list"></div>
     `;
 
-    const diseaseBox = document.getElementById("diseaseCheckboxes");
-    Object.keys(zhibiaoMap).forEach(disease => {
-        const checkbox = document.createElement("div");
-        checkbox.className = "form-check me-4";
-        checkbox.innerHTML = `
-            <input type="checkbox" class="form-check-input" value="${disease}" id="dis-${disease}" onchange="updateHealthInputForm()">
-            <label for="dis-${disease}" class="form-check-label text-light">${disease}</label>
-        `;
-        diseaseBox.appendChild(checkbox);
-    });
+  renderDiseaseCheckboxes();
 }
 
-function updateHealthInputForm() {
-    const selectedDiseases = Array.from(document.querySelectorAll("#diseaseCheckboxes input:checked")).map(cb => cb.value);
-    const form = document.getElementById("dynamicHealthForm");
-    form.innerHTML = "";
-
-    const added = new Set();
-
-    selectedDiseases.forEach(disease => {
-        const indicators = zhibiaoMap[disease];
-        for (const [param, levels] of Object.entries(indicators)) {
-            let mappedKey = aliasToXcols[param] || param;
-
-            // 特殊处理疼痛VAS字段
-            if (param === "疼痛 VAS (0–10)" && painVASDiseaseMap[disease]) {
-                mappedKey = painVASDiseaseMap[disease];
-            }
-
-            if (!mappedKey || added.has(mappedKey)) continue;
-            added.add(mappedKey);
-
-            let normalRange = "";
-            for (const [label, val] of Object.entries(levels)) {
-                if (label.includes("正常")) {
-                    normalRange = val;
-                    break;
-                }
-            }
-
-            const div = document.createElement("div");
-            div.className = "col-md-4";
-            div.innerHTML = `
-                <label class="form-label text-light">${mappedKey}</label>
-                <input type="number" step="0.1" class="form-control" name="${mappedKey}" placeholder="参考范围：${normalRange}">
-            `;
-            form.appendChild(div);
-        }
-    });
-}
-
-function submitDynamicPrediction() {
-    const form = document.getElementById("dynamicHealthForm");
-    const data = {};
-    const allowNegative = "骨密度T值";
-    let hasNegative = false;
-
-    Array.from(form.elements).forEach(el => {
-        if (el.name) {
-            const val = el.value.trim();
-            if (val !== "") {
-                if (parseFloat(val) < 0 && el.name !== allowNegative) {
-                    hasNegative = true;
-                }
-                data[el.name] = parseFloat(val);
-            }
-        }
-    });
-
-    if (hasNegative) {
-        alert("该数值不能为负数！");
-        return;
-    }
-
-    // 自动补全缺失值（默认正常值）
-    const selectedDiseases = Array.from(document.querySelectorAll("#diseaseCheckboxes input:checked")).map(cb => cb.value);
-
-    selectedDiseases.forEach(disease => {
-        const indicators = zhibiaoMap[disease];
-        for (const [param, levels] of Object.entries(indicators)) {
-            let mappedKey = aliasToXcols[param] || param;
-            if (param === "疼痛 VAS (0–10)" && painVASDiseaseMap[disease]) {
-                mappedKey = painVASDiseaseMap[disease];
-            }
-            if (!mappedKey || mappedKey in data) continue;
-
-            for (const [label, val] of Object.entries(levels)) {
-                if (label.includes("正常")) {
-                    const numMatch = val.match(/[\d\.\-]+/g);
-                    if (numMatch) {
-                        data[mappedKey] = parseFloat(numMatch[0]);
-                    }
-                    break;
-                }
-            }
-        }
-    });
-
-    // 填补完整 X_COLS 所需字段
-    X_COLS.forEach(col => {
-        if (!(col in data)) {
-            data[col] = 0;
-        }
-    });
-
-    fetch('/predict', {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify(data)
-    })
-    .then(res => res.json())
-    .then(result => {
-        const filtered = result.filter(r => r["相似人群患病率"] > 0);
-        let html = `<table class="table table-bordered table-striped text-light">
-                      <thead><tr><th>疾病</th><th>状态</th><th>相似人群患病率</th></tr></thead><tbody>`;
-        filtered.forEach(r => {
-            const statusClass = r.状态 === "有风险" ? "text-danger" : "text-success";
-            html += `<tr><td>${r.疾病}</td><td class="${statusClass}">${r.状态}</td><td>${(r.相似人群患病率 * 100).toFixed(1)}%</td></tr>`;
-        });
-        html += "</tbody></table>";
-        document.getElementById("predictionResult").innerHTML = html;
-    });
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  const predictBtn = document.getElementById("openHealthPredictBtn");
-  const defaultDiv = document.getElementById("defaultContent");
+function closeHealthPredict() {
   const predictDiv = document.getElementById("healthPredictContainer");
+  const overby = document.querySelector(".modal-overby");
 
-  predictBtn.addEventListener("click", () => {
-    if (defaultDiv) defaultDiv.style.display = "none";
-    if (predictDiv) {
-      predictDiv.style.display = "block";
-      renderHealthPredictUI();  // 渲染预测UI
+  if (predictDiv) {
+    predictDiv.classList.add("hidden");
+  }
+  if (overby) {
+    overby.classList.add("hidden");
+  }
+}
+
+// 渲染疾病复选框
+function renderDiseaseCheckboxes() {
+  const diseaseBox = document.getElementById("diseaseCheckboxes");
+  diseaseBox.innerHTML = "";
+
+  Object.keys(zhibiaoMap).forEach((disease) => {
+    const checkbox = document.createElement("div");
+    checkbox.className = "disease-option";
+    checkbox.innerHTML = `
+        <input type="checkbox" class="disease-checkbox" value="${disease}" id="dis-${disease}" onchange="updateHealthInputForm()">
+        <label for="dis-${disease}" class="disease-label">${disease}</label>
+      `;
+    diseaseBox.appendChild(checkbox);
+  });
+}
+
+// 更新健康输入表单
+function updateHealthInputForm() {
+  const selectedDiseases = Array.from(
+    document.querySelectorAll("#diseaseCheckboxes input:checked")
+  ).map((cb) => cb.value);
+  const form = document.getElementById("dynamicHealthForm");
+  form.innerHTML = "";
+
+  const added = new Set();
+
+  selectedDiseases.forEach((disease) => {
+    const indicators = zhibiaoMap[disease];
+    for (const [param, levels] of Object.entries(indicators)) {
+      let mappedKey = aliasToXcols[param] || param;
+
+      if (!mappedKey || added.has(mappedKey)) continue;
+      added.add(mappedKey);
+
+      const normalRange = findNormalRange(levels);
+      const unit = getUnitFromKey(mappedKey);
+
+      const div = document.createElement("div");
+      div.className = "form-group";
+      div.innerHTML = `
+          <label class="form-label">${param}</label>
+          <div class="input-container">
+            <input type="number" step="0.1" class="form-input" name="${mappedKey}" placeholder="${normalRange}">
+            <span class="input-unit">${unit}</span>
+          </div>
+        `;
+      form.appendChild(div);
     }
   });
-});
+}
 
+// 查找正常范围
+function findNormalRange(levels) {
+  for (const [label, val] of Object.entries(levels)) {
+    if (label.includes("正常")) {
+      return val;
+    }
+  }
+  return "";
+}
 
-//const diseaseToParams = {
-//    "高血压": ['收缩压(mmHg)', '舒张压(mmHg)'],
-//    "冠心病": ['总胆固醇(TC)', '低密度脂蛋白(LDL)', '高密度脂蛋白(HDL)'，"甘油三酯(TG)"，"肌钙蛋白I(cTnI)"],
-//    "脑卒中": ['NIHSS', 'mRS', '缺血灶面积(cm²)'],
-//    "糖尿病": ['血糖(mmol/L)'],
-//    "骨质疏松": ['骨密度T值'，"BMI"],
-//    "老年性痴呆": ['MMSE'],
-//    "关节炎": ['VAS_关节炎', "CRP(mg/L)", "ESR(mm/h)"],
-//    "颈椎病": ['颈椎活动角度(°)', 'VAS_颈椎'],
-//    "腰椎间盘突出症": ['SLR角度(°)', 'VAS_腰椎'],
-//    "便秘": ['排便频率(次/周)']
-//    "睡眠质量": ['睡眠质量(1-5)']
-//};
-//
-////const X_COLS = [
-////  "收缩压(mmHg)", "舒张压(mmHg)", "血糖(mmol/L)", "总胆固醇(TC)", "低密度脂蛋白(LDL)", "高密度脂蛋白(HDL)",
-////  "甘油三酯(TG)", "肌钙蛋白I(cTnI)", "NIHSS", "mRS", "缺血灶面积(cm²)", "CRP(mg/L)", "ESR(mm/h)",
-////  "VAS_关节炎", "颈椎活动角度(°)", "VAS_颈椎", "SLR角度(°)", "VAS_腰椎", "骨密度T值", "MMSE",
-////  "排便频率(次/周)", "睡眠质量(1-5)", "BMI"
-////];
-//
-//
-//let zhibiaoMap = {};
-//
-//fetch('/static/dataset/zhibiao.json')
-//  .then(res => res.json())
-//  .then(data => {
-//    zhibiaoMap = data;
-//  });
-//
-//
-//function renderHealthPredictUI() {
-//    const container = document.getElementById("healthPredictContainer");
-//    if (!container) {
-//        alert("找不到目标区域 healthPredictContainer！");
-//        return;
-//    }
-//
-//    // 构建模块提示、选择器和输入表单容器
-//    container.innerHTML = `
-//        <h4 class="mb-3">健康风险预测</h4>
-//        <p>请选择您关心的疾病，系统将自动提示相关指标并评估健康风险：</p>
-//        <div id="diseaseCheckboxes" class="form-check form-check-inline mb-3"></div>
-//        <form id="dynamicHealthForm" class="row g-3"></form>
-//        <button class="btn btn-primary mt-3" onclick="submitDynamicPrediction()">提交预测</button>
-//        <hr>
-//        <div id="predictionResult" class="mt-3"></div>
-//    `;
-//
-//    // 生成疾病多选框
-//    const diseaseBox = document.getElementById("diseaseCheckboxes");
-//    Object.keys(diseaseToParams).forEach(disease => {
-//        const label = document.createElement("label");
-//        label.className = "form-check-label me-3";
-//        const input = document.createElement("input");
-//        input.type = "checkbox";
-//        input.className = "form-check-input me-1";
-//        input.value = disease;
-//        input.onchange = updateHealthInputForm;
-//        label.appendChild(input);
-//        label.appendChild(document.createTextNode(disease));
-//        diseaseBox.appendChild(label);
-//    });
-//}
-//
-////function updateHealthInputForm() {
-////    const checkedDiseases = Array.from(document.querySelectorAll("#diseaseCheckboxes input:checked")).map(cb => cb.value);
-////    const form = document.getElementById("dynamicHealthForm");
-////    form.innerHTML = "";
-////
-////    const added = new Set();
-////
-////    checkedDiseases.forEach(disease => {
-////        const indicators = zhibiaoMap[disease];
-////        if (!indicators) return;
-////
-////        for (const [param, levels] of Object.entries(indicators)) {
-////            if (added.has(param)) continue;
-////            added.add(param);
-////
-////            let normalRange = "";
-////            for (const [label, val] of Object.entries(levels)) {
-////                if (label.includes("正常")) {
-////                    normalRange = val;
-////                    break;
-////                }
-////            }
-////
-////            const div = document.createElement("div");
-////            div.className = "col-md-4";
-////            div.innerHTML = `
-////                <label class="form-label">${param}</label>
-////                <input type="number" step="0.1" class="form-control" name="${param}" placeholder="正常值：${normalRange}">
-////                <small class="form-text text-light">正常范围：${normalRange}</small>
-////            `;
-////            form.appendChild(div);
-////        }
-////    });
-////}
-//
-//function submitDynamicPrediction() {
-//    const form = document.getElementById("dynamicHealthForm");
-//    const data = {};
-//    const allowNegative = "骨密度T值";
-//    let hasNegative = false;
-//
-//    const filledFields = new Set();
-//
-//    Array.from(form.elements).forEach(el => {
-//        if (el.name) {
-//            const val = el.value.trim();
-//            if (val !== "") {
-//                if (parseFloat(val) < 0 && el.name !== allowNegative) {
-//                    hasNegative = true;
-//                }
-//                data[el.name] = parseFloat(val);
-//                filledFields.add(el.name);
-//            }
-//        }
-//    });
-//
-//    if (hasNegative) {
-//        alert("该数值不能为负数！");
-//        return;
-//    }
-//
-//    // 自动补全未输入的值（正常范围中的“数字”部分）：
-//    const selectedDiseases = Array.from(document.querySelectorAll("#diseaseCheckboxes input:checked")).map(cb => cb.value);
-//    selectedDiseases.forEach(disease => {
-//        const indicators = zhibiaoMap[disease];
-//        for (const [param, levels] of Object.entries(indicators)) {
-//            if (param in data) continue;
-//
-//            for (const [label, val] of Object.entries(levels)) {
-//                if (label.includes("正常")) {
-//                    const numMatch = val.match(/[\d\.\-]+/g);
-//                    if (numMatch) {
-//                        data[param] = parseFloat(numMatch[0]);  // 默认用范围下限
-//                    }
-//                    break;
-//                }
-//            }
-//        }
-//    });
-//
-//    // 填补 X_cols 中所有字段（模型所需字段）
-//    X_COLS.forEach(col => {
-//        if (!(col in data)) {
-//            data[col] = 0;
-//        }
-//    });
-//
-//    fetch('/predict', {
-//        method: 'POST',
-//        headers: {'Content-Type': 'application/json'},
-//        body: JSON.stringify(data)
-//    })
-//    .then(res => res.json())
-//    .then(result => {
-//        const filtered = result.filter(r => r["相似人群患病率"] > 0);
-//        let html = `<table class="table table-bordered table-striped text-light">
-//                      <thead><tr><th>疾病</th><th>状态</th><th>相似人群患病率</th></tr></thead><tbody>`;
-//        filtered.forEach(r => {
-//            const statusClass = r.状态 === "有风险" ? "text-danger" : "text-success";
-//            html += `<tr><td>${r.疾病}</td><td class="${statusClass}">${r.状态}</td><td>${(r.相似人群患病率 * 100).toFixed(1)}%</td></tr>`;
-//        });
-//        html += "</tbody></table>";
-//        document.getElementById("predictionResult").innerHTML = html;
-//    });
-//}
-//
-//
-//
-//function renderHealthPredictUI() {
-//    // ① 隐藏原来的内容
-//    const targetDiv = document.querySelector(".visual_chart_text");  // 或 document.getElementById("你的容器ID")
-//    if (targetDiv) {
-//        targetDiv.style.display = "none"; // 隐藏原有内容
-//    }
-//
-//    // ② 显示我们自己的健康预测模块（写到 container 中）
-//    const container = document.getElementById("healthPredictContainer");
-//    container.innerHTML = `
-//        <h4 class="mb-3">健康风险预测</h4>
-//        <p>请选择您关心的疾病，系统将自动提示相关指标并评估健康风险：</p>
-//        <div id="diseaseCheckboxes" class="d-flex flex-wrap mb-3"></div>
-//        <form id="dynamicHealthForm" class="row g-3"></form>
-//        <button class="btn btn-primary mt-3" onclick="submitDynamicPrediction()">提交预测</button>
-//        <hr>
-//        <div id="predictionResult" class="mt-3"></div>
-//    `;
-//
-//    // ③ 多选疾病列表
-//    const diseaseBox = document.getElementById("diseaseCheckboxes");
-//    Object.keys(diseaseToParams).forEach(disease => {
-//        const checkbox = document.createElement("div");
-//        checkbox.className = "form-check me-4";
-//        checkbox.innerHTML = `
-//            <input type="checkbox" class="form-check-input" value="${disease}" id="dis-${disease}" onchange="updateHealthInputForm()">
-//            <label for="dis-${disease}" class="form-check-label">${disease}</label>
-//        `;
-//        diseaseBox.appendChild(checkbox);
-//    });
-//}
-//
-//function updateHealthInputForm() {
-//    const checked = Array.from(document.querySelectorAll("#diseaseCheckboxes input:checked"))
-//                         .map(cb => cb.value);
-//    const params = new Set();
-//    checked.forEach(disease => {
-//        diseaseToParams[disease].forEach(param => params.add(param));
-//    });
-//
-//    const form = document.getElementById("dynamicHealthForm");
-//    form.innerHTML = "";
-//
-//    Array.from(params).forEach(param => {
-//        const div = document.createElement("div");
-//        div.className = "col-md-4";
-//        div.innerHTML = `
-//            <label class="form-label">${param}</label>
-//            <input type="number" step="0.1" name="${param}" class="form-control" value="0">
-//        `;
-//        form.appendChild(div);
-//    });
-//}
-//
-//
-//
+// 从键名中提取单位
+function getUnitFromKey(key) {
+  const unitMatch = key.match(/\(([^)]+)\)/);
+  return unitMatch && unitMatch[1] ? unitMatch[1] : "";
+}
+
+// 提交动态预测
+function submitDynamicPrediction() {
+  const formData = collectFormData();
+  if (!formData) return;
+
+  showLoadingState();
+
+  fetch("/predict", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(formData),
+  })
+    .then(handleResponse)
+    .catch(handleError);
+}
+
+// 收集表单数据
+function collectFormData(onlyUserInput = false) {
+  const form = document.getElementById("dynamicHealthForm");
+  let data = {};
+  const allowNegative = "骨密度T值";
+  let hasNegative = false;
+
+  Array.from(form.elements).forEach((el) => {
+    if (el.name) {
+      const val = el.value.trim();
+      if (val !== "") {
+        if (parseFloat(val) < 0 && el.name !== allowNegative) {
+          hasNegative = true;
+        }
+        data[el.name] = parseFloat(val);
+      }
+    }
+  });
+
+  if (hasNegative) {
+    alert("该数值不能为负数！");
+    return null;
+  }
+
+  if (!onlyUserInput) {
+    fillMissingValues(data);
+  }
+
+  return data;
+}
+
+// 填充缺失值
+function fillMissingValues(data) {
+  X_COLS.forEach((col) => {
+    // 如果该字段已有用户输入的值，则跳过
+    if (col in data) return;
+
+    // 查找该字段对应的正常值
+    const normalValue = findNormalValueForColumn(col);
+    data[col] = normalValue;
+  });
+}
+
+// 为特定字段查找正常值
+function findNormalValueForColumn(columnName) {
+  // 在所有疾病指标中查找该字段的正常范围
+  for (const disease in zhibiaoMap) {
+    const indicators = zhibiaoMap[disease];
+    for (const [indicatorParam, levels] of Object.entries(indicators)) {
+      let mappedKey = aliasToXcols[indicatorParam] || indicatorParam;
+
+      if (mappedKey === columnName) {
+        const normalRange = findNormalRange(levels);
+        const defaultValue = getDefaultValueFromRange(normalRange);
+        if (defaultValue !== null) {
+          return defaultValue;
+        }
+      }
+    }
+  }
+
+  return 0;
+}
+
+// 从范围字符串中提取默认值
+function getDefaultValueFromRange(rangeStr) {
+  if (!rangeStr) return null;
+
+  // 尝试匹配各种范围格式
+  const matches = rangeStr.match(/([\d\.\-]+)\s*[-~至]\s*([\d\.\-]+)/);
+  if (matches && matches.length >= 3) {
+    const min = parseFloat(matches[1]);
+    const max = parseFloat(matches[2]);
+    return (min + max) / 2; // 取中间值
+  }
+
+  // 匹配单值
+  const singleMatch = rangeStr.match(/[\d\.\-]+/);
+  if (singleMatch) {
+    return parseFloat(singleMatch[0]);
+  }
+
+  return null;
+}
+
+function findNormalRange(levels) {
+  for (const [label, val] of Object.entries(levels)) {
+    if (label.includes("正常")) {
+      return val;
+    }
+  }
+  return "";
+}
+
+// 显示加载状态
+function showLoadingState() {
+  const resultDiv = document.getElementById("predictionResult");
+  resultDiv.innerHTML = '<div class="loading-spinner">分析中...</div>';
+}
+
+// 处理响应
+function handleResponse(response) {
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+  return response.json().then(renderPredictionResults);
+}
+
+// 处理错误
+function handleError(error) {
+  const resultDiv = document.getElementById("predictionResult");
+  resultDiv.innerHTML = `<div class="error-message">预测失败: ${error.message}</div>`;
+}
+
+// 渲染预测结果
+function renderPredictionResults(result) {
+  const selectedDiseases = Array.from(
+    document.querySelectorAll("#diseaseCheckboxes input:checked")
+  ).map((cb) => cb.value);
+
+//  const filtered = result.filter((r) => selectedDiseases.includes(r.疾病));
+  // === 强制构建所有用户勾选疾病的显示内容 ===
+  const filtered = selectedDiseases.map((disease) => {
+    const found = result.find((r) => r.疾病 === disease);
+    return found || { 疾病: disease, 相似人群患病率: 0, 状态: "未知" };
+  });
+
+  const resultDiv = document.getElementById("predictionResult");
+
+  let html = `
+      <div class="result-container">
+        <h5 class="result-title">预测结果</h5>
+        <div class="result-grid">
+    `;
+
+  filtered.forEach((r) => {
+    const percentage = (r.相似人群患病率 * 100).toFixed(1);
+    let status = "";
+    let riskLevel = "";
+
+    if (percentage >= 0 && percentage < 20) {
+      status = "概率极低";
+      riskLevel = "healthy";
+    } else if (percentage >= 20 && percentage < 50) {
+      status = "概率低";
+      riskLevel = "low";
+    } else if (percentage >= 50 && percentage < 80) {
+      status = "概率高";
+      riskLevel = "high";
+    } else if (percentage >= 80 && percentage <= 100) {
+      status = "概率极高";
+      riskLevel = "bad";
+    }
+
+    html += `
+        <div class="result-card ${riskLevel}">
+          <div class="disease-name">${r.疾病}</div>
+          <div class="risk-status">${status}</div>
+          <div class="risk-meter">
+            <div class="meter-bar" style="width: ${percentage}%"></div>
+            <div class="meter-text">${percentage}%</div>
+          </div>
+        </div>
+      `;
+  });
+
+  resultDiv.innerHTML = html;
+
+  const btnList = document.getElementById("btn-list");
+  btnList.innerHTML = `
+    <div style="text-align: center;">
+      <div style="margin-top: 15px; display: inline-block;"">
+        <button id="generateAdviceBtn" class="btn btn-primary">使用AI生成个性化建议</button>
+        <button id="savePredictionBtn" class="btn btn-primary">保存预测结果</button>
+      </div>
+    </div>
+  `;
+
+  // === 按钮事件 ===
+  document.getElementById("generateAdviceBtn").onclick = async function () {
+    const userFormData = collectFormData(true); // 只取用户实际输入
+    if (!userFormData) return;
+
+    const userInputStr = Object.entries(userFormData)
+      .map(([key, val]) => `${key}: ${val}`)
+      .join("\n");
+
+    const resultStr = filtered
+      .map(
+        (r) =>
+          `疾病：${r.疾病}，状态：${r.状态}，相似人群患病率：${(
+            r.相似人群患病率 * 100
+          ).toFixed(1)}%`
+      )
+      .join("\n");
+
+    const message = `用户输入：\n${userInputStr}\n\n预测结果：\n${resultStr}\n\n请根据用户输入的健康指标和平台分析出来的疾病风险，给出个性化建议`;
+
+    const messageBox = document.evaluate(
+      "/html/body/div[2]/div[3]/div[2]/div[2]/div/div/div/div[1]",
+      document,
+      null,
+      XPathResult.FIRST_ORDERED_NODE_TYPE,
+      null
+    ).singleNodeValue;
+
+    // === ✅ 第一步：立即显示“数据已发送”提示 ===
+    if (messageBox) {
+      const sentNotice = document.createElement("div");
+      sentNotice.innerText = "数据已发送";
+      sentNotice.style.marginTop = "10px";
+      sentNotice.style.color = "#00cc66";
+      messageBox.appendChild(sentNotice);
+    }
+
+    // === 第二步：发送请求，并等候 AI 回复 ===
+    try {
+      const response = await fetch("/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message }),
+      });
+
+      const data = await response.json();
+
+      if (messageBox && data.reply) {
+        const replyDiv = document.createElement("div");
+        replyDiv.className = "chat-message ai";
+        replyDiv.innerHTML = `<strong>AI：</strong>${data.reply.replace(
+          /\n/g,
+          "<br>"
+        )}`;
+        messageBox.appendChild(replyDiv);
+      }
+    } catch (error) {
+      alert("发送失败：" + error.message);
+    }
+  };
+
+  function downloadAsCSV() {
+    const userFormData = collectFormData(true);
+    if (!userFormData) return;
+
+    // 准备CSV内容
+    let csvContent = "类别,项目,数值,说明\n";
+
+    // 1. 添加元数据
+    csvContent += `元数据,生成时间,${new Date().toLocaleString()},\n`;
+    csvContent += `元数据,预测工具,健康风险预测系统,\n\n`;
+
+    // 2. 添加用户输入参数
+    csvContent += "输入参数\n";
+    Object.entries(userFormData).forEach(([key, value]) => {
+      csvContent += `输入,${key},${value},\n`;
+    });
+    csvContent += "\n";
+
+    // 3. 添加预测结果
+    csvContent += "预测结果\n";
+    filtered.forEach((item) => {
+      const probability = (item.相似人群患病率 * 100).toFixed(1) + "%";
+      const riskLevel = getRiskLevel(item.相似人群患病率);
+      const description = getRiskDescription(item.相似人群患病率);
+
+      csvContent += `预测,${item.疾病},${probability},${riskLevel} (${description})\n`;
+    });
+
+    // 辅助函数（保持不变）
+    function getRiskLevel(probability) {
+      if (probability < 0.2) return "低风险";
+      if (probability < 0.5) return "中低风险";
+      if (probability < 0.8) return "中高风险";
+      return "高风险";
+    }
+
+    function getRiskDescription(probability) {
+      if (probability < 0.2) return "建议保持现有健康习惯";
+      if (probability < 0.5) return "建议关注相关指标";
+      if (probability < 0.8) return "建议咨询专业医生";
+      return "建议立即就医检查";
+    }
+
+    // 创建并下载CSV文件
+    const blob = new Blob(["\uFEFF" + csvContent], {
+      type: "text/csv;charset=utf-8;",
+    });
+
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `健康风险评估_${new Date().toISOString().slice(0, 10)}.csv`;
+
+    document.body.appendChild(a);
+    a.click();
+
+    setTimeout(() => {
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }, 100);
+  }
+
+  // 使用这个函数作为保存按钮的点击处理器
+  document.getElementById("savePredictionBtn").onclick = downloadAsCSV;
+}
+
+// 初始化应用
+document.addEventListener("DOMContentLoaded", initApp);

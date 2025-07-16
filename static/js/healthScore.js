@@ -1,5 +1,6 @@
 const hsDOM = document.getElementById("main1");
 let hsChart;
+let chartInterval; // 存储定时器ID
 const hsObserver = new ResizeObserver(() => {
   hsChart.resize();
 });
@@ -27,7 +28,6 @@ fetch("static/dataset/health_scores.json")
         },
       },
       grid: {
-        left: "5%",
         right: "5%",
         bottom: "10%",
         containLabel: true,
@@ -147,8 +147,8 @@ fetch("static/dataset/health_scores.json")
           },
           { name: "标准差", max: 10, color: "white" },
         ],
-        center: ["50%", "60%"],
-        radius: "90%",
+        center: ["50%", "55%"],
+        radius: "80%",
       },
       series: [
         {
@@ -185,6 +185,16 @@ fetch("static/dataset/health_scores.json")
       }, 500);
     }
 
-    // 每隔5秒切换一次（包含动画）
-    setInterval(switchChartWithAnimation, 5000);
+    // 添加鼠标事件监听
+    hsDOM.addEventListener("mouseenter", () => {
+      clearInterval(chartInterval); // 鼠标进入时清除定时器，暂停切换
+    });
+
+    hsDOM.addEventListener("mouseleave", () => {
+      // 鼠标离开时重启定时器
+      chartInterval = setInterval(switchChartWithAnimation, 5000);
+    });
+
+    // 启动初始定时器
+    chartInterval = setInterval(switchChartWithAnimation, 5000);
   });

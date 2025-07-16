@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../static/css/swiper.min.css">
     <link rel="stylesheet" type="text/css" href="../static/css/visual.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/healthPredict.css">
 
     <!-- js -->
     <script src="../static/js/jquery.min.js"></script>
@@ -34,23 +35,23 @@
 
     <div class="visual">
         <div class="visual_left">
-            <div class="visual_box">
+            <div class="visual_box left-top">
                 <div class="visual_title">
                     <span>健康评分</span>
                     <img src="../static/images/ksh33.png">
                 </div>
-                <div class="visual_chart" id="main1" style="width: 100%; height: 100%;"></div>
+                <div class="visual_chart" id="main1" style="width: 100%; height: 100%; overflow: hidden;"></div>
             </div>
 
-            <div class="visual_box">
+            <div class="visual_box left-middle">
                 <div class="visual_title">
-                    <span>待定</span>
+                    <span>共病关系网络</span>
                     <img src="../static/images/ksh33.png">
                 </div>
                 <div class="visual_chart" id="main2"></div>
             </div>
 
-            <div class="visual_box">
+            <div class="visual_box health">
                 <div class="visual_title">
                     <span>健康预测</span>
                     <img src="../static/images/ksh33.png">
@@ -61,15 +62,6 @@
                             <button id="openHealthPredictBtn" class="btn btn-outline-info"
                                 onclick="renderHealthPredictUI()">健康风险预测</button>
                         </div>
-
-                        <!-- 方框 -->
-                        <!-- <div class="sfzcll_box">
-                            <img class="sfzcll_bkJk" src="../static/images/ksh34.png">
-                            <img class="sfzcll_bkJk" src="../static/images/ksh34.png">
-                            <img class="sfzcll_bkJk" src="../static/images/ksh34.png">
-                            <img class="sfzcll_bkJk" src="../static/images/ksh34.png">
-                            <div class="clear"></div>
-                        </div> -->
                     </div>
                 </div>
             </div>
@@ -77,8 +69,6 @@
 
         <div class="visual_con">
             <div class="visual_conBot">
-
-
                 <img class="visual_conBot_l" src="../static/images/ksh42.png">
                 <img class="visual_conBot_2" src="../static/images/ksh43.png">
                 <img class="visual_conBot_3" src="../static/images/ksh44.png">
@@ -87,13 +77,9 @@
                     <h1>地图</h1>
                     <div class="visual_map" id="mapContainer"></div>
                 </div>
-                <div id="healthPredictContainer" class="p-4"
-                    style="background-color:#0d1b2a; color:#fff; border-radius:10px;">
-                    <!-- 点击后动态填充内容 -->
-                </div>
             </div>
 
-            <div class="visual_conTop" style="margin-top: 1%; background-color: rgba(16, 54, 87, 0.5); height: 11vw;">
+            <div class="visual_conTop" style="margin-top: 1%; background-color: rgba(16, 54, 87, 0.5); height: 14vw;">
                 <div class="visual_conBot_bot">
                     <div class="visualSssf_left">
                         <h3>医学资讯<button class="news-reply"><span>&#128472;</span></button></h3>
@@ -130,7 +116,8 @@
                             <!-- 对话框位置 -->
                             <div id="chat-container">
                                 <div id="chat-box" class="chat-box">
-                                    <div class="chat-message ai">AI：您好，我是老年人健康智能助手，致力于解读体检数据、分析慢病风险、提供个性化健康建议。有什么可以帮您？
+                                    <div class="chat-message ai">
+                                        <strong>AI：</strong>您好，我是老年人健康智能助手，致力于解读体检数据、分析疾病风险、提供个性化健康建议。有什么可以帮您？
                                     </div>
                                 </div>
                                 <div class="chat-input-area">
@@ -139,8 +126,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="swiper-slide" id="main41"></div>
                     </div>
                 </div>
             </div>
@@ -149,20 +134,10 @@
         <div class="clear"></div>
     </div>
 
-    <!--    &lt;!&ndash; 新闻列表弹窗 &ndash;&gt;-->
-    <!--    <div class="modal fade" id="word-news-modal" tabindex="-1" aria-labelledby="resultLabel" aria-hidden="true">-->
-    <!--      <div class="modal-dialog modal-lg modal-dialog-centered">-->
-    <!--        <div class="modal-content">-->
-    <!--          <div class="modal-header">-->
-    <!--            <h4 class="modal-title" id="resultLabel">相关新闻</h4>-->
-    <!--            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>-->
-    <!--          </div>-->
-    <!--          <div class="modal-body" id="word-news-body">-->
-    <!--            &lt;!&ndash; 这里放预测结果表格 &ndash;&gt;-->
-    <!--          </div>-->
-    <!--        </div>-->
-    <!--      </div>-->
-    <!--    </div>-->
+    <div class="modal-overby hidden"></div>
+    <div class="healthPredict hidden" id="healthPredictContainer">
+        <!-- 点击后动态填充内容 -->
+    </div>
 
 </body>
 
@@ -172,5 +147,6 @@
 <script src="../static/js/map.js"></script>
 <script src="../static/js/healthScore.js"></script>
 <script src="../static/js/healthPredict.js"></script>
+<script src="../static/js/chart.js"></script>
 
 </html>
